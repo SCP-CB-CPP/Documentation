@@ -471,6 +471,14 @@ CB::Event@ get_First() property;
 CB::Event@ get_Last() property;
 CB::Sound@ LoadSound(CB::Event@ event, string file, int num = 0);
 //! Creates an event.
+/*!
+    \param eventName The name of the event to be created.
+    \param roomName The name of the room the event is to be created in.
+    \param id The event will be created in the id-th instance of the specified room. Only applicable if probability is 0.
+    \param probability The probability that the event will spawn in each instance of the specified room.
+
+    \returns The created event;
+*/
 CB::Event@ Create(string eventName, string roomName, int id, float probability = 0);
 //! Updates an elevator.
 /*!
