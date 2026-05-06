@@ -38,7 +38,7 @@ var annotated_dup =
       [ "Item", "classCB_1_1Item.html", null ],
       [ "ItemTemplate", "classCB_1_1ItemTemplate.html", null ],
       [ "MaintenanceTunnel", "classCB_1_1MaintenanceTunnel.html", null ],
-      [ "NPC", "classCB_1_1NPC.html", null ],
+      [ "NPC", "classCB_1_1NPC.html", "classCB_1_1NPC" ],
       [ "ParticleEmitter", "classCB_1_1ParticleEmitter.html", null ],
       [ "ParticleTemplate", "classCB_1_1ParticleTemplate.html", null ],
       [ "Room", "classCB_1_1Room.html", null ],

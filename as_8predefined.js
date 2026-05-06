@@ -32,7 +32,7 @@ var as_8predefined =
     [ "CB.ParticleEmitter", "classCB_1_1ParticleEmitter.html", null ],
     [ "CB.ParticleTemplate", "classCB_1_1ParticleTemplate.html", null ],
     [ "CB.Waypoint", "classCB_1_1Waypoint.html", null ],
-    [ "CB.NPC", "classCB_1_1NPC.html", null ],
+    [ "CB.NPC", "classCB_1_1NPC.html", "classCB_1_1NPC" ],
     [ "CB.Room", "classCB_1_1Room.html", null ],
     [ "CB.Door", "classCB_1_1Door.html", null ],
     [ "CB.TempTriggerbox", "classCB_1_1TempTriggerbox.html", null ],
@@ -49,5 +49,11 @@ var as_8predefined =
     [ "CB.Inventory", "classCB_1_1Inventory.html", null ],
     [ "CB.Console.Msg", "classCB_1_1Console_1_1Msg.html", null ],
     [ "CB.Event", "classCB_1_1Event.html", null ],
-    [ "CreateMessage", "as_8predefined.html#ac85ce1c9e2b34f03d873594300e252a1", null ]
+    [ "CreateMessage", "as_8predefined.html#ac85ce1c9e2b34f03d873594300e252a1", null ],
+    [ "Bloodloss", "as_8predefined.html#a6eec4f4b57b941e3d6975ee316cc156f", null ],
+    [ "CurrentRoom", "as_8predefined.html#ab6b180720c958fc513ac7fe9513a537b", null ],
+    [ "DeathTimer", "as_8predefined.html#af5b798dc256a40d63012f41731a10c33", null ],
+    [ "Injuries", "as_8predefined.html#af33496bc15124e0646807864f8027f42", null ],
+    [ "Playable", "as_8predefined.html#acfde30e5ce6de55ce612742f801fa5f4", null ],
+    [ "PlayerZone", "as_8predefined.html#aa59712199ef03fac02eaa92c5dbce264", null ]
 ];
