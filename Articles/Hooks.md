@@ -16,6 +16,12 @@ This is where custom image, font, shader and audio resources, as well as custom 
 > [!caution]
 > All entities, brushes and textures are freed when quitting to the main menu. Therefore, these should *NOT* be loaded here.
 
+## void Hook_Shutdown()
+
+Called when your mod is unloaded.
+
+Resources loaded in `Hook_Initialize` should be freed here.
+
 ## void Hook_SaveOptions()
 
 Called when the game's options are being serialized to the `options.ini` file, allowing your mod to serialize its own options with it as well.
@@ -43,6 +49,10 @@ Called before the player's mouse input is translated to the player camera's pitc
 
 Called before the player character would be killed. The player is not killed when overriden.
 
+## bool Hook_ExecuteConsoleCommand(@ref string cmd)
+
+Called when a console command is being executed by the player. Used to implement custom console commands or modify the behavior of existing ones.
+
 ## bool Hook_InitializeEvents()
 
 Called before the events for a newly created save are initialized. Allows initializing custom events via @ref CB::Event::Create.
@@ -59,7 +69,7 @@ Called when a room is created, before it is filled with doors, items and other e
 
 Called when a room is created, after it has been filled with doors, items and other entities. Used to manipulate the entities the room has been filled with.
 
-## bool Hook_LoadRoomTemplateEntity(@ref CB::RoomTemplate \@, int rMeshVersion, @ref B3D::Stream \@, string entityName)
+## bool Hook_LoadRoomTemplateEntity(@ref CB::RoomTemplate \@, int rMeshVersion, @ref B3D::Stream \@, @ref string entityName)
 
 Called before a map entity is loaded from an .rmesh file. Can be used to implement custom map entity types or override how existing entity types are loaded.
 
