@@ -481,7 +481,7 @@ CB::Event@ Create(string eventName, string roomName, int id, float probability =
     \param room2 The pivot the second elevator room should use.
     \param event The event the elevator is associated with.
     \param ignorerotation Whether or not to ignore the rotation of the pivots.
-    \attention Each pivot should sit at the bottom of their respective elevator space roughly 560 x 560 x 560 at roomscale.
+    \attention Each pivot should sit at the center of their respective elevator space of 560 x 560 x 560 at roomscale.
 
     \returns The next elevator state.
     \attention The caller is responsible for maintaining the elevator's state. It is recommended to call this function from \ref Hook_UpdateEvent and store it via one of the event's states.
