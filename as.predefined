@@ -455,6 +455,14 @@ CB::Console::Msg@ get_Last() property;
 }
 
 namespace CB::Console {
+//! Sends a message to the console.
+/*!
+    \param txt The text to send.
+    \param r The red color component of the text.
+    \param g The green color component of the text.
+    \param b The blue color component of the text.
+    \param isCommand Whether or not the text is to be treated as a command.
+*/
 void CreateMessage(string txt, int r = -1, int g = -1, int b = -1, bool isCommand = false);
 }
 
