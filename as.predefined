@@ -2417,7 +2417,7 @@ B3D::Pivot@ Head;
 float KillTimer;
 int KillAnimation;
 float FallTimer;
-//! If set to a value above 0, the player character will die after \ref CB::Player.DeathTimer seconds.
+//! If set to a value above 0, the player character will die after \ref CB::Player::DeathTimer seconds.
 float DeathTimer;
 float Sanity;
 float ForceMove;
