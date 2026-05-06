@@ -159,6 +159,7 @@ var NAVTREEINDEX0 =
 "namespaceCB_1_1Dreamfilter.html":[1,0,1,20],
 "namespaceCB_1_1Event.html":[1,0,1,22],
 "namespaceCB_1_1Event.html#a516feb1e608fd80640c9b79d516b7bda":[1,0,1,22,0],
+"namespaceCB_1_1Event.html#acae652de83551919330f2f0218a745f5":[1,0,1,22,1],
 "namespaceCB_1_1Forest.html":[1,0,1,14],
 "namespaceCB_1_1Input.html":[1,0,1,23],
 "namespaceCB_1_1Inventory.html":[1,0,1,19],

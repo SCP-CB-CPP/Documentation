@@ -23,7 +23,8 @@ var namespaceCB =
     [ "Dreamfilter", "namespaceCB_1_1Dreamfilter.html", null ],
     [ "Console", "namespaceCB_1_1Console.html", "namespaceCB_1_1Console" ],
     [ "Event", "namespaceCB_1_1Event.html", [
-      [ "Create", "namespaceCB_1_1Event.html#a516feb1e608fd80640c9b79d516b7bda", null ]
+      [ "Create", "namespaceCB_1_1Event.html#a516feb1e608fd80640c9b79d516b7bda", null ],
+      [ "UpdateElevator", "namespaceCB_1_1Event.html#acae652de83551919330f2f0218a745f5", null ]
     ] ],
     [ "Input", "namespaceCB_1_1Input.html", null ],
     [ "Player", "namespaceCB_1_1Player.html", [
