@@ -2396,10 +2396,10 @@ bool MouseUp1;
 }
 
 namespace CB::NPC {
-CB::NPC@ Current173;
-CB::NPC@ Current106;
-CB::NPC@ Current096;
-CB::NPC@ Current5131;
+CB::NPC@ Current173; /*!< The current instance of SCP-173. */
+CB::NPC@ Current106; /*!< The current instance of SCP-106. */
+CB::NPC@ Current096; /*!< The current instance of SCP-096. */
+CB::NPC@ Current5131; /*!< The current instance of SCP-513-1. */
 }
 
 namespace CB::Item {
