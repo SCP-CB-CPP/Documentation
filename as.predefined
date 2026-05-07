@@ -1956,6 +1956,13 @@ class NPC {
     bool SeesNPC(CB::NPC@ other);
     bool SeesPlayer(bool disableSoundOnCrouch = false);
     bool PlayerSees096Face();
+    //! Animates an NPC.
+    /*!
+        \param startFrame The first frame of the desired animation.
+        \param endFrame Thie last frame of the desired animation.
+        \param speed The speed of the desired animation.
+        \param loop Whether or not the animation should loop.
+    */
     void Animate(float startFrame, float endFrame, float speed, bool loop = true);
     void SetNPCFrame(float frame);
     void FinishWalking(float startFrame, float endFrame, float speed);
