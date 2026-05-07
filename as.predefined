@@ -1959,8 +1959,8 @@ class NPC {
     //! Animates an NPC.
     /*!
         \param startFrame The first frame of the desired animation.
-        \param endFrame Thie last frame of the desired animation.
-        \param speed The speed of the desired animation.
+        \param endFrame Thie frame after the last frame of the desired animation.
+        \param speed The speed of the desired animation, the speed at which the animation will play is 70fps * speed.
         \param loop Whether or not the animation should loop.
     */
     void Animate(float startFrame, float endFrame, float speed, bool loop = true);
