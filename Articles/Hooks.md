@@ -53,6 +53,10 @@ Called before the player character would be killed. The player is not killed whe
 
 Called when a console command is being executed by the player. Used to implement custom console commands or modify the behavior of existing ones.
 
+## bool Hook_LoadEntities()
+
+Called when the game transitions from the main menu to loading a save. Can be both an existing or new save. Can be used to load static resources like textures, entities and brushes that are needed in-game.
+
 ## bool Hook_InitializeEvents()
 
 Called before the events for a newly created save are initialized. Allows initializing custom events via @ref CB::Event::Create.
@@ -75,6 +79,10 @@ Called before a map entity is loaded from an .rmesh file. Can be used to impleme
 
 > [!tip]
 > When implementing a custom map entity type, include a version byte in order to support backwards compatibility.
+
+## void Hook_PostLoad()
+
+Called when loading is finished and control is about to be handed to the player. Called after the player has pressed any key to continue.
 
 ## bool Hook_UpdateItem(@ref CB::Item \@)
 
@@ -107,6 +115,10 @@ Called before an NPC is initialized according to its @ref CB::NPC::Type.
 ## void Hook_PostCreateNPC(@ref CB::NPC \@)
 
 Called after an NPC is initialized.
+
+## bool Hook_RemoveNPC(@ref CB::NPC \@)
+
+Called before an NPC is about to be removed. Can be used to prevent an NPC from being removed. There is no danger of persisting NPCs when transitioning to the main menu, as they are deleted separately then.
 
 ## bool Hook_UpdateNPC(@ref CB::NPC \@)
 
