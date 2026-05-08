@@ -172,6 +172,7 @@ var NAVTREEINDEX0 =
 "namespaceB3D_1_1Texture.html":[1,0,0,5],
 "namespaceB3D_1_1Timer.html":[1,0,0,16],
 "namespaceCB.html":[1,0,1],
+"namespaceCB.html#a76153fe3957f7bfe46a9bbfc454520d6":[1,0,1,60],
 "namespaceCB_1_1Console.html":[1,0,1,22],
 "namespaceCB_1_1Console.html#ac85ce1c9e2b34f03d873594300e252a1":[1,0,1,22,2],
 "namespaceCB_1_1Console_1_1Msg.html":[1,0,1,22,0],
