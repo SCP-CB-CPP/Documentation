@@ -1,6 +1,7 @@
 var as_8predefined =
 [
     [ "array&lt; T &gt;", "classarray-1-g.html", null ],
+    [ "cstr", "classcstr.html", null ],
     [ "string", "classstring.html", null ],
     [ "carray&lt; T &gt;", "classcarray-1-g.html", null ],
     [ "B3D.Stream", "classB3D_1_1Stream.html", null ],
@@ -49,6 +50,12 @@ var as_8predefined =
     [ "CB.Inventory", "classCB_1_1Inventory.html", null ],
     [ "CB.Console.Msg", "classCB_1_1Console_1_1Msg.html", null ],
     [ "CB.Event", "classCB_1_1Event.html", null ],
+    [ "CB.SubtitleBox", "classCB_1_1SubtitleBox.html", null ],
+    [ "CB.SubtitleColor", "classCB_1_1SubtitleColor.html", null ],
+    [ "CB.SubtitleEntry", "classCB_1_1SubtitleEntry.html", null ],
+    [ "CB.SubtitleToken", "classCB_1_1SubtitleToken.html", null ],
+    [ "CB.QueuedSubtitleMsg", "classCB_1_1QueuedSubtitleMsg.html", null ],
+    [ "CB.SubtitleMsg", "classCB_1_1SubtitleMsg.html", null ],
     [ "CB.Event.Create", "namespaceCB_1_1Event.html#a516feb1e608fd80640c9b79d516b7bda", null ],
     [ "CB.Console.CreateMessage", "namespaceCB_1_1Console.html#ac85ce1c9e2b34f03d873594300e252a1", null ],
     [ "CB.Event.UpdateElevator", "namespaceCB_1_1Event.html#acae652de83551919330f2f0218a745f5", null ],

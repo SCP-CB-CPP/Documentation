@@ -50,9 +50,16 @@ var annotated_dup =
       [ "ItemTemplate", "classCB_1_1ItemTemplate.html", null ],
       [ "Item", "classCB_1_1Item.html", null ],
       [ "Inventory", "classCB_1_1Inventory.html", null ],
-      [ "Event", "classCB_1_1Event.html", null ]
+      [ "Event", "classCB_1_1Event.html", null ],
+      [ "SubtitleBox", "classCB_1_1SubtitleBox.html", null ],
+      [ "SubtitleColor", "classCB_1_1SubtitleColor.html", null ],
+      [ "SubtitleEntry", "classCB_1_1SubtitleEntry.html", null ],
+      [ "SubtitleToken", "classCB_1_1SubtitleToken.html", null ],
+      [ "QueuedSubtitleMsg", "classCB_1_1QueuedSubtitleMsg.html", null ],
+      [ "SubtitleMsg", "classCB_1_1SubtitleMsg.html", null ]
     ] ],
     [ "array&lt; T &gt;", "classarray-1-g.html", null ],
     [ "carray&lt; T &gt;", "classcarray-1-g.html", null ],
+    [ "cstr", "classcstr.html", null ],
     [ "string", "classstring.html", null ]
 ];

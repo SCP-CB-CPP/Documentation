@@ -1,5 +1,6 @@
 var namespaceCB =
 [
+    [ "Menu", "namespaceCB_1_1Menu.html", null ],
     [ "Options", "namespaceCB_1_1Options.html", null ],
     [ "Sound", "namespaceCB_1_1Sound.html", null ],
     [ "Music", "namespaceCB_1_1Music.html", null ],
@@ -26,6 +27,13 @@ var namespaceCB =
       [ "Create", "namespaceCB_1_1Event.html#a516feb1e608fd80640c9b79d516b7bda", null ],
       [ "UpdateElevator", "namespaceCB_1_1Event.html#acae652de83551919330f2f0218a745f5", null ]
     ] ],
+    [ "SubtitleBox", "namespaceCB_1_1SubtitleBox.html", null ],
+    [ "SubtitleColor", "namespaceCB_1_1SubtitleColor.html", null ],
+    [ "SubtitleEntry", "namespaceCB_1_1SubtitleEntry.html", null ],
+    [ "SubtitleToken", "namespaceCB_1_1SubtitleToken.html", null ],
+    [ "QueuedSubtitleMsg", "namespaceCB_1_1QueuedSubtitleMsg.html", null ],
+    [ "SubtitleMsg", "namespaceCB_1_1SubtitleMsg.html", null ],
+    [ "Subtitles", "namespaceCB_1_1Subtitles.html", null ],
     [ "Input", "namespaceCB_1_1Input.html", null ],
     [ "Player", "namespaceCB_1_1Player.html", [
       [ "Bloodloss", "namespaceCB_1_1Player.html#a6eec4f4b57b941e3d6975ee316cc156f", null ],
@@ -55,5 +63,11 @@ var namespaceCB =
     [ "ItemTemplate", "classCB_1_1ItemTemplate.html", null ],
     [ "Item", "classCB_1_1Item.html", null ],
     [ "Inventory", "classCB_1_1Inventory.html", null ],
-    [ "Event", "classCB_1_1Event.html", null ]
+    [ "Event", "classCB_1_1Event.html", null ],
+    [ "SubtitleBox", "classCB_1_1SubtitleBox.html", null ],
+    [ "SubtitleColor", "classCB_1_1SubtitleColor.html", null ],
+    [ "SubtitleEntry", "classCB_1_1SubtitleEntry.html", null ],
+    [ "SubtitleToken", "classCB_1_1SubtitleToken.html", null ],
+    [ "QueuedSubtitleMsg", "classCB_1_1QueuedSubtitleMsg.html", null ],
+    [ "SubtitleMsg", "classCB_1_1SubtitleMsg.html", null ]
 ];
