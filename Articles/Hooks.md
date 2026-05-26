@@ -84,6 +84,10 @@ Called before a map entity is loaded from an .rmesh file. Can be used to impleme
 
 Called when loading is finished and control is about to be handed to the player. Called after the player has pressed any key to continue.
 
+## bool Hook_CreateItem(@ref CB::Item \@)
+
+Called when an item is created. Handles initialization of inventories for inventory items like wallet and clipboard unless overriden.
+
 ## bool Hook_UpdateItem(@ref CB::Item \@)
 
 Called for every item every frame. Can be used for custom item logic. Handles gravity, reachability calculations for being picked up by the player and item-push behavior unless overriden.
