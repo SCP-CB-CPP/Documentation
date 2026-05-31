@@ -35,6 +35,7 @@ var namespaceCB =
     [ "SubtitleMsg", "namespaceCB_1_1SubtitleMsg.html", null ],
     [ "Subtitles", "namespaceCB_1_1Subtitles.html", null ],
     [ "Input", "namespaceCB_1_1Input.html", null ],
+    [ "Map", "namespaceCB_1_1Map.html", null ],
     [ "Player", "namespaceCB_1_1Player.html", [
       [ "Bloodloss", "namespaceCB_1_1Player.html#a6eec4f4b57b941e3d6975ee316cc156f", null ],
       [ "CurrentRoom", "namespaceCB_1_1Player.html#ab6b180720c958fc513ac7fe9513a537b", null ],

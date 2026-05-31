@@ -61,5 +61,8 @@ var annotated_dup =
     [ "array&lt; T &gt;", "classarray-1-g.html", null ],
     [ "carray&lt; T &gt;", "classcarray-1-g.html", null ],
     [ "cstr", "classcstr.html", null ],
+    [ "dim1&lt; T &gt;", "classdim1-1-g.html", null ],
+    [ "dim2&lt; T &gt;", "classdim2-1-g.html", null ],
+    [ "dim3&lt; T &gt;", "classdim3-1-g.html", null ],
     [ "string", "classstring.html", null ]
 ];
