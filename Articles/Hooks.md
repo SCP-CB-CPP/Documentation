@@ -61,19 +61,19 @@ Called when the game transitions from the main menu to loading a save. Can be bo
 
 Called before the events for a newly created save are initialized. Allows initializing custom events via @ref CB::Event::Create.
 
-## bool Hook_UpdateEvent(@ref CB::Event \@)
+## bool Hook_UpdateEvent(@ref CB::Event)
 
 Called for every event every frame. Used to add behavior to custom events or modify the behavior of existing events.
 
-## bool Hook_FillRoom(@ref CB::Room \@)
+## bool Hook_FillRoom(@ref CB::Room)
 
 Called when a room is created, before it is filled with doors, items and other entities. Used to add entities to custom rooms or modify the entities found in existing rooms.
 
-## void Hook_PostFillRoom(@ref CB::Room \@)
+## void Hook_PostFillRoom(@ref CB::Room)
 
 Called when a room is created, after it has been filled with doors, items and other entities. Used to manipulate the entities the room has been filled with.
 
-## bool Hook_LoadRoomTemplateEntity(@ref CB::RoomTemplate \@, int rMeshVersion, @ref B3D::Stream \@, @ref string entityName)
+## bool Hook_LoadRoomTemplateEntity(@ref CB::RoomTemplate, int rMeshVersion, @ref B3D::Stream, @ref string entityName)
 
 Called before a map entity is loaded from an .rmesh file. Can be used to implement custom map entity types or override how existing entity types are loaded.
 
@@ -84,47 +84,47 @@ Called before a map entity is loaded from an .rmesh file. Can be used to impleme
 
 Called when loading is finished and control is about to be handed to the player. Called after the player has pressed any key to continue.
 
-## bool Hook_CreateItem(@ref CB::Item \@)
+## bool Hook_CreateItem(@ref CB::Item)
 
 Called when an item is created. Handles initialization of inventories for inventory items like wallet and clipboard unless overriden.
 
-## bool Hook_UpdateItem(@ref CB::Item \@)
+## bool Hook_UpdateItem(@ref CB::Item)
 
 Called for every item every frame. Can be used for custom item logic. Handles gravity, reachability calculations for being picked up by the player and item-push behavior unless overriden.
 
-## void Hook_RemoveItem(@ref CB::Item \@)
+## void Hook_RemoveItem(@ref CB::Item)
 
 Called when an item is removed from the world and freed.
 
-## bool Hook_PickItem(@ref CB::Item \@)
+## bool Hook_PickItem(@ref CB::Item)
 
 Called when the player tries to pick up an item with sufficient inventory space remaining. The item is not added to the player's inventory when this function is overriden.
 
-## bool Hook_DropItem(@ref CB::Item \@)
+## bool Hook_DropItem(@ref CB::Item)
 
 Called after the player dropped an item from their inventory.
 
-## void Hook_SelectItem(@ref CB::Item \@)
+## void Hook_SelectItem(@ref CB::Item)
 
 Called when the player uses an item from their inventory.
 
-## void Hook_CombineItems(@ref CB::Item \@ draggedItem, @ref CB::Item \@ draggedOntoItem)
+## void Hook_CombineItems(@ref CB::Item draggedItem, @ref CB::Item draggedOntoItem)
 
 Called when the player tries to combine two items.
 
-## void Hook_CreateNPC(@ref CB::NPC \@)
+## void Hook_CreateNPC(@ref CB::NPC)
 
 Called before an NPC is initialized according to its @ref CB::NPC::Type.
 
-## void Hook_PostCreateNPC(@ref CB::NPC \@)
+## void Hook_PostCreateNPC(@ref CB::NPC)
 
 Called after an NPC is initialized.
 
-## bool Hook_RemoveNPC(@ref CB::NPC \@)
+## bool Hook_RemoveNPC(@ref CB::NPC)
 
 Called before an NPC is about to be removed. Can be used to prevent an NPC from being removed. There is no danger of persisting NPCs when transitioning to the main menu, as they are deleted separately then.
 
-## bool Hook_UpdateNPC(@ref CB::NPC \@)
+## bool Hook_UpdateNPC(@ref CB::NPC)
 
 Called for every NPC every frame. Used to add behavior to custom NPCs or modify the behavior of existing NPCs.
 
@@ -161,7 +161,7 @@ Returning `-1` will delegate responsibility to lower-priority mods and the base 
 Must only be overriden when implementations for `Hook_EnableNPC` and `Hook_DisableNPC` are provided for an NPC type, which is supported in the base game, in which case `1` must be returned.
 Returning `0` will indicate that the NPC cannot be enabled/disabled (the default for custom NPCs).
 
-## bool Hook_EnableNPC(@ref CB::NPC \@)
+## bool Hook_EnableNPC(@ref CB::NPC)
 
 Called when an NPC is to be enabled.
 
@@ -173,7 +173,7 @@ Called when an NPC is to be enabled.
 > `Hook_ConsoleCheckCanToggleNPC` must be overriden to allow for this hook to be called.
 > `Hook_DisableNPC` must also be overriden to actually do the disabling, which this hook undoes.
 
-## bool Hook_DisableNPC(@ref CB::NPC \@)
+## bool Hook_DisableNPC(@ref CB::NPC)
 
 Called when an NPC is to be disabled.
 
