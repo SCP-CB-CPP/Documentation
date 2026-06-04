@@ -57,7 +57,7 @@ Called before the player's mouse input is translated to the player camera's pitc
 
 ## bool Hook_KillPlayer()
 
-Called before the player character would be killed. The player is not killed when overriden.
+Called before the player character would be killed. The player is not killed when overridden.
 
 ## bool Hook_ExecuteConsoleCommand(@ref string cmd)
 
@@ -66,6 +66,44 @@ Called when a console command is being executed by the player. Used to implement
 ## bool Hook_LoadEntities()
 
 Called when the game transitions from the main menu to loading a save. Can be both an existing or new save. Can be used to load static resources like textures, entities and brushes that are needed in-game.
+
+## bool Hook_MapInitializeDimensions()
+
+Called after @ref Map::Width and @ref Map::Height have been initialized from `Data/map.ini`.
+Should only be overridden when the map dimensions are configured dynamically in-game.
+
+## bool Hook_MapCreateLayout()
+
+Called before the map's layout is initialized in @ref Map::Temporary.
+Can be overridden to replace the vanilla generation.
+Regular rooms are initialized to 1, while checkpoints are initialized to 255.
+
+## bool Hook_MapForceRooms()
+
+Called before the minimum number of rooms per type as specified in `Data/map.ini` is attempted to be forced onto the map grid.
+When hooking into this, care must be taken to maintain the correct values within @ref Map::Temporary and @ref Map::RoomAmounts.
+
+## bool Hook_MapSetRooms()
+
+Called before the hardcoded rooms, as well as the rooms with a `set room` property from `Data/rooms.ini` are being added to @ref Map::Room.
+@ref Map::MinPositions and @ref Map::MaxPositions delimit the array by room type and zone (in that order).
+
+## bool Hook_MapCreateRooms(int loadingStart, float loadingCount)
+
+Called before rooms are instantiated from @ref Map::Temporary, @ref Map::Room and `Data/rooms.ini`.
+The arguments are intended to be used to convey the method progress via @ref DrawLoading.
+
+## bool Hook_MapPreventRoomOverlaps()
+
+Called before room overlaps are detected amd attempted to be resolved.
+
+## bool Hook_MapCreateDoors()
+
+Called before doors between rooms are instantiated.
+
+## bool Hook_MapConnectAdjacentRooms()
+
+Called before adjacent rooms are connected to each other and the doors that connect them via @ref Room::Adjacent and @ref Room::AdjacentDoor.
 
 ## bool Hook_InitializeEvents()
 
@@ -120,11 +158,11 @@ Called when loading is finished and control is about to be handed to the player.
 
 ## bool Hook_CreateItem(@ref CB::Item)
 
-Called when an item is created. Handles initialization of inventories for inventory items like wallet and clipboard unless overriden.
+Called when an item is created. Handles initialization of inventories for inventory items like wallet and clipboard unless overridden.
 
 ## bool Hook_UpdateItem(@ref CB::Item)
 
-Called for every item every frame. Can be used for custom item logic. Handles gravity, reachability calculations for being picked up by the player and item-push behavior unless overriden.
+Called for every item every frame. Can be used for custom item logic. Handles gravity, reachability calculations for being picked up by the player and item-push behavior unless overridden.
 
 ## void Hook_RemoveItem(@ref CB::Item)
 
@@ -132,7 +170,7 @@ Called when an item is removed from the world and freed.
 
 ## bool Hook_PickItem(@ref CB::Item)
 
-Called when the player tries to pick up an item with sufficient inventory space remaining. The item is not added to the player's inventory when this function is overriden.
+Called when the player tries to pick up an item with sufficient inventory space remaining. The item is not added to the player's inventory when this function is overridden.
 
 ## bool Hook_DropItem(@ref CB::Item)
 
@@ -177,22 +215,22 @@ Returning `""` will delegate responsibility to lower-priority mods and the base 
 Called when an NPC is to be spawned from the console.
 Returning `-1` will delegate responsibility to lower-priority mods and the base game.
 Returning `0` will disallow the NPC from being spawned via the console.
-Should only be overriden for custom NPCs when specific changes are necessary to make the NPC function correctly upon creation, in which case `1` must be returned.
+Should only be overridden for custom NPCs when specific changes are necessary to make the NPC function correctly upon creation, in which case `1` must be returned.
 By default, NPCs are created 0.2 units above the player collider's position.
 
 ## int Hook_ConsoleCheckCanChangeNPCSpeed(CB::NPC::Type type)
 
 Called when an NPC's speed is about to be changed via the console.
 Returning `-1` will delegate responsibility to lower-priority mods and the base game.
-Should only be overriden for custom NPCs to indicate that it is unaffected by the @ref NPC::Speed value by returning `0`.
+Should only be overridden for custom NPCs to indicate that it is unaffected by the @ref NPC::Speed value by returning `0`.
 Returning `1` will indicate that the NPCs speed can be changed (the default for custom NPCs).
-Can also be overriden to indicate that a script modification to a base game NPC will allow it to be affected by the @ref NPC::Speed value.
+Can also be overridden to indicate that a script modification to a base game NPC will allow it to be affected by the @ref NPC::Speed value.
 
 ## int Hook_ConsoleCheckCanToggleNPC(CB::NPC::Type type)
 
 Called when an NPC is about to be enabled/disabled.
 Returning `-1` will delegate responsibility to lower-priority mods and the base game.
-Must only be overriden when implementations for `Hook_EnableNPC` and `Hook_DisableNPC` are provided for an NPC type, which is supported in the base game, in which case `1` must be returned.
+Must only be overridden when implementations for `Hook_EnableNPC` and `Hook_DisableNPC` are provided for an NPC type, which is supported in the base game, in which case `1` must be returned.
 Returning `0` will indicate that the NPC cannot be enabled/disabled (the default for custom NPCs).
 
 ## bool Hook_EnableNPC(@ref CB::NPC)
@@ -204,8 +242,8 @@ Called when an NPC is to be enabled.
 > This hook may be called on already enabled NPCs.
 
 > [!IMPORTANT]
-> `Hook_ConsoleCheckCanToggleNPC` must be overriden to allow for this hook to be called.
-> `Hook_DisableNPC` must also be overriden to actually do the disabling, which this hook undoes.
+> `Hook_ConsoleCheckCanToggleNPC` must be overridden to allow for this hook to be called.
+> `Hook_DisableNPC` must also be overridden to actually do the disabling, which this hook undoes.
 
 ## bool Hook_DisableNPC(@ref CB::NPC)
 
@@ -216,5 +254,5 @@ Called when an NPC is to be disabled.
 > This hook may be called on already disabled NPCs.
 
 > [!IMPORTANT]
-> `Hook_ConsoleCheckCanToggleNPC` must be overriden to allow for this hook to be called.
-> `Hook_EnableNPC` must also be overriden to undo the disabling.
+> `Hook_ConsoleCheckCanToggleNPC` must be overridden to allow for this hook to be called.
+> `Hook_EnableNPC` must also be overridden to undo the disabling.
