@@ -161,6 +161,7 @@ bool Hook_FillRoom(<a class="el" href="classCB_1_1Room.html" title="CB.Room">CB.
 </div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md15"></a>
 void Hook_PostFillRoom(<a class="el" href="classCB_1_1Room.html" title="CB.Room">CB.Room</a>)</h1>
 <p>Called when a room is created, after it has been filled with doors, items and other entities. Used to manipulate the entities the room has been filled with.</p>
+<dl class="section remark"><dt>Remarks</dt><dd>When seeking to move already placed entities, keep in mind that they are already parented to the room's pivot entity, which is already scaled with the room scale. This means newly specified local positions must not be manually scaled with the room scale. DO: <span class="tt">r.Objects[0].Position(1144.0, -448.0, 704.0);</span>; DON'T: <span class="tt">r.Objects[0].Position(1144.0 / 256.0, -448.0 / 256.0, 704.0 / 256.0);</span></dd></dl>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
 bool Hook_LoadRoomTemplateEntity(<a class="el" href="classCB_1_1RoomTemplate.html" title="CB.RoomTemplate">CB.RoomTemplate</a>, int rMeshVersion, <a class="el" href="classB3D_1_1Stream.html" title="B3D.Stream">B3D.Stream</a>, <a class="el" href="classstring.html" title="string">string</a> entityName)</h1>
 <p>Called before a map entity is loaded from an .rmesh file. Can be used to implement custom map entity types or override how existing entity types are loaded.</p>
