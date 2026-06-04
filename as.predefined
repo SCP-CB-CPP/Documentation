@@ -2141,7 +2141,7 @@ class NPC {
     //! Animates an NPC.
     /*!
         \param startFrame The first frame of the desired animation.
-        \param endFrame Thie frame after the last frame of the desired animation.
+        \param endFrame The frame after the last frame of the desired animation.
         \param speed The speed of the desired animation, the speed at which the animation will play is 70fps * speed.
         \param loop Whether or not the animation should loop.
     */
@@ -2625,7 +2625,7 @@ class SubtitleMsg {
     void InsertAfter(CB::SubtitleMsg@);
     void InsertBefore(CB::SubtitleMsg@);
 }
-//! The amount of seconds elapsed since the last frame multipled by 70. Capped at a maximum value of 5.
+//! The amount of seconds elapsed since the last frame multiplied by 70. Capped at a maximum value of 5.
 float FPSFactor;
 bool HasNumericSeed;
 string RandomSeed;
