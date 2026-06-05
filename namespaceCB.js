@@ -72,5 +72,8 @@ var namespaceCB =
     [ "SubtitleEntry", "classCB_1_1SubtitleEntry.html", null ],
     [ "SubtitleToken", "classCB_1_1SubtitleToken.html", null ],
     [ "QueuedSubtitleMsg", "classCB_1_1QueuedSubtitleMsg.html", null ],
-    [ "SubtitleMsg", "classCB_1_1SubtitleMsg.html", null ]
+    [ "SubtitleMsg", "classCB_1_1SubtitleMsg.html", null ],
+    [ "Achievement", "classCB_1_1Achievement.html", null ],
+    [ "AchievementMessage", "classCB_1_1AchievementMessage.html", null ],
+    [ "FPSFactor", "namespaceCB.html#a76153fe3957f7bfe46a9bbfc454520d6", null ]
 ];

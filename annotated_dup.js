@@ -56,7 +56,9 @@ var annotated_dup =
       [ "SubtitleEntry", "classCB_1_1SubtitleEntry.html", null ],
       [ "SubtitleToken", "classCB_1_1SubtitleToken.html", null ],
       [ "QueuedSubtitleMsg", "classCB_1_1QueuedSubtitleMsg.html", null ],
-      [ "SubtitleMsg", "classCB_1_1SubtitleMsg.html", null ]
+      [ "SubtitleMsg", "classCB_1_1SubtitleMsg.html", null ],
+      [ "Achievement", "classCB_1_1Achievement.html", null ],
+      [ "AchievementMessage", "classCB_1_1AchievementMessage.html", null ]
     ] ],
     [ "array&lt; T &gt;", "classarray-1-g.html", null ],
     [ "carray&lt; T &gt;", "classcarray-1-g.html", null ],
