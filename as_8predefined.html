@@ -144,6 +144,7 @@ Classes</h2></td></tr>
 <tr class="memitem:CB_2ETriggerbox" id="r_CB_2ETriggerbox"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Triggerbox.html">CB.Triggerbox</a></td></tr>
 <tr class="memitem:CB_2EMaintenanceTunnel" id="r_CB_2EMaintenanceTunnel"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1MaintenanceTunnel.html">CB.MaintenanceTunnel</a></td></tr>
 <tr class="memitem:CB_2EDecal" id="r_CB_2EDecal"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Decal.html">CB.Decal</a></td></tr>
+<tr class="memitem:CB_2ESkybox" id="r_CB_2ESkybox"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Skybox.html">CB.Skybox</a></td></tr>
 <tr class="memitem:CB_2EItemTemplate" id="r_CB_2EItemTemplate"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1ItemTemplate.html">CB.ItemTemplate</a></td></tr>
 <tr class="memitem:CB_2EItem" id="r_CB_2EItem"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Item.html">CB.Item</a></td></tr>
 <tr class="memitem:CB_2EInventory" id="r_CB_2EInventory"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Inventory.html">CB.Inventory</a></td></tr>
@@ -194,6 +195,15 @@ Enumerations</h2></td></tr>
 &#160;&#160;<b>Credits</b>
 , <b>AfterCredits</b>
 , <b>Invalid</b>
+<br />
+ }</td></tr>
+<tr class="memitem:ad274b3654b9c36b3114f5b64acd27c2c" id="r_ad274b3654b9c36b3114f5b64acd27c2c"><td class="memItemLeft"><a id="ad274b3654b9c36b3114f5b64acd27c2c" name="ad274b3654b9c36b3114f5b64acd27c2c"></a>enum &#160;</td><td class="memItemRight"><b>Setting</b> { <br />
+&#160;&#160;<b>Rough</b>
+, <b>Coarse</b>
+, <b>OneToOne</b>
+, <b>Fine</b>
+, <br />
+&#160;&#160;<b>VeryFine</b>
 <br />
  }</td></tr>
 </table><table class="memberdecls">
@@ -877,6 +887,8 @@ void&#160;</td><td class="memItemRight"><b>CB.Map.SetupTriggerBoxes</b> (<a clas
 <a class="el" href="classCB_1_1Decal.html">CB::Decal</a>&#160;</td><td class="memItemRight"><b>CB.Decal.get_Last</b> () property</td></tr>
 <tr class="memitem:a8ec2e94fe4a72eb167102dd17288455f" id="r_a8ec2e94fe4a72eb167102dd17288455f"><td class="memItemLeft"><a id="a8ec2e94fe4a72eb167102dd17288455f" name="a8ec2e94fe4a72eb167102dd17288455f"></a>
 <a class="el" href="classCB_1_1Decal.html">CB::Decal</a>&#160;</td><td class="memItemRight"><b>CB.Decal.Create</b> (int id, float x, float y, float z, float pitch, float yaw, float roll)</td></tr>
+<tr class="memitem:ae4bc4993d86b4c817ebe2f304796af78" id="r_ae4bc4993d86b4c817ebe2f304796af78"><td class="memItemLeft"><a id="ae4bc4993d86b4c817ebe2f304796af78" name="ae4bc4993d86b4c817ebe2f304796af78"></a>
+<a class="el" href="classCB_1_1Skybox.html">CB::Skybox</a>&#160;</td><td class="memItemRight"><b>CB.Skybox.Create</b> (<a class="el" href="classstring.html">string</a> filename, <a class="el" href="classB3D_1_1Entity.html">B3D::Entity</a>@ parent=null)</td></tr>
 <tr class="memitem:a72ef283afc339671dd63b9a543c8136e" id="r_a72ef283afc339671dd63b9a543c8136e"><td class="memItemLeft"><a id="a72ef283afc339671dd63b9a543c8136e" name="a72ef283afc339671dd63b9a543c8136e"></a>
 <a class="el" href="classCB_1_1ItemTemplate.html">CB::ItemTemplate</a>&#160;</td><td class="memItemRight"><b>CB.ItemTemplate.get_First</b> () property</td></tr>
 <tr class="memitem:aa4ae66f63e266f6b9093d2c2eaaceda0" id="r_aa4ae66f63e266f6b9093d2c2eaaceda0"><td class="memItemLeft"><a id="aa4ae66f63e266f6b9093d2c2eaaceda0" name="aa4ae66f63e266f6b9093d2c2eaaceda0"></a>
@@ -1045,6 +1057,8 @@ void&#160;</td><td class="memItemRight"><b>CB.Subtitles.CleanupColors</b> ()</td
 <a class="el" href="classCB_1_1Achievement.html">CB::Achievement</a>&#160;</td><td class="memItemRight"><b>CB.Achievement.Create</b> (<a class="el" href="classstring.html">string</a> name, bool isSCP=false)</td></tr>
 <tr class="memitem:ae33d99a8906c4e093d8d41fa777ef9b9" id="r_ae33d99a8906c4e093d8d41fa777ef9b9"><td class="memItemLeft"><a id="ae33d99a8906c4e093d8d41fa777ef9b9" name="ae33d99a8906c4e093d8d41fa777ef9b9"></a>
 void&#160;</td><td class="memItemRight"><b>CB.Achievement.UpdateMessages</b> ()</td></tr>
+<tr class="memitem:a52415fbdef1f0f0f41aac43de368ef63" id="r_a52415fbdef1f0f0f41aac43de368ef63"><td class="memItemLeft"><a id="a52415fbdef1f0f0f41aac43de368ef63" name="a52415fbdef1f0f0f41aac43de368ef63"></a>
+void&#160;</td><td class="memItemRight"><b>CB.SCP914.Use</b> (<a class="el" href="classCB_1_1Item.html">CB::Item</a>@ item, Setting setting, float x, float y, float z)</td></tr>
 <tr class="memitem:a41c1fb564976419fc4fd78afc3e7b4f2" id="r_a41c1fb564976419fc4fd78afc3e7b4f2"><td class="memItemLeft"><a id="a41c1fb564976419fc4fd78afc3e7b4f2" name="a41c1fb564976419fc4fd78afc3e7b4f2"></a>
 bool&#160;</td><td class="memItemRight"><b>Steam.Init</b> ()</td></tr>
 <tr class="memitem:afc97614e647e6fa2f1d970f9605abbfd" id="r_afc97614e647e6fa2f1d970f9605abbfd"><td class="memItemLeft"><a id="afc97614e647e6fa2f1d970f9605abbfd" name="afc97614e647e6fa2f1d970f9605abbfd"></a>
@@ -1513,6 +1527,8 @@ bool&#160;</td><td class="memItemRight"><b>CB.Subtitles.Initialized</b></td></tr
 <a class="el" href="classB3D_1_1Font.html">B3D::Font</a>&#160;</td><td class="memItemRight"><b>CB.Subtitles.Font1BoldItalic</b></td></tr>
 <tr class="memitem:abcc11facf91f47a4f70b7926ea06cc19" id="r_abcc11facf91f47a4f70b7926ea06cc19"><td class="memItemLeft"><a id="abcc11facf91f47a4f70b7926ea06cc19" name="abcc11facf91f47a4f70b7926ea06cc19"></a>
 <a class="el" href="classCB_1_1SubtitleBox.html">CB::SubtitleBox</a>&#160;</td><td class="memItemRight"><b>CB.Subtitles.Box</b></td></tr>
+<tr class="memitem:a684619e9a7789efe9248ae96d3cb02a4" id="r_a684619e9a7789efe9248ae96d3cb02a4"><td class="memItemLeft"><a id="a684619e9a7789efe9248ae96d3cb02a4" name="a684619e9a7789efe9248ae96d3cb02a4"></a>
+int&#160;</td><td class="memItemRight"><b>CB.SCP914.RefinedItems</b></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

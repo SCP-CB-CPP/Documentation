@@ -47,6 +47,7 @@ var annotated_dup =
       [ "Triggerbox", "classCB_1_1Triggerbox.html", null ],
       [ "MaintenanceTunnel", "classCB_1_1MaintenanceTunnel.html", null ],
       [ "Decal", "classCB_1_1Decal.html", null ],
+      [ "Skybox", "classCB_1_1Skybox.html", null ],
       [ "ItemTemplate", "classCB_1_1ItemTemplate.html", null ],
       [ "Item", "classCB_1_1Item.html", null ],
       [ "Inventory", "classCB_1_1Inventory.html", null ],

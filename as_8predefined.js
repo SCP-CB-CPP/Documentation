@@ -48,6 +48,7 @@ var as_8predefined =
     [ "CB.Triggerbox", "classCB_1_1Triggerbox.html", null ],
     [ "CB.MaintenanceTunnel", "classCB_1_1MaintenanceTunnel.html", null ],
     [ "CB.Decal", "classCB_1_1Decal.html", null ],
+    [ "CB.Skybox", "classCB_1_1Skybox.html", null ],
     [ "CB.ItemTemplate", "classCB_1_1ItemTemplate.html", null ],
     [ "CB.Item", "classCB_1_1Item.html", null ],
     [ "CB.Inventory", "classCB_1_1Inventory.html", null ],
