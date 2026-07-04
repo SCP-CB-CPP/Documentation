@@ -67,6 +67,15 @@ Called when a console command is being executed by the player. Used to implement
 
 Called when the game transitions from the main menu to loading a save. Can be both an existing or new save. Can be used to load static resources like textures, entities and brushes that are needed in-game.
 
+## void Hook_NullGame()
+
+Called when the game quits to the main menu, after all vanilla resources have been freed.
+Can be used to free certain mod-specific resources.
+
+> [!NOTE]
+> All entities, brushes and textures are cleared via @ref B3D::ClearWorld before this hook is called.
+> This means they do not have to be freed, but resetting a dangling reference held in a mod to null may be desirable.
+
 ## bool Hook_MapInitializeDimensions()
 
 Called after @ref Map::Width and @ref Map::Height have been initialized from `Data/map.ini`.
@@ -256,3 +265,8 @@ Called when an NPC is to be disabled.
 > [!IMPORTANT]
 > `Hook_ConsoleCheckCanToggleNPC` must be overridden to allow for this hook to be called.
 > `Hook_EnableNPC` must also be overridden to undo the disabling.
+
+## bool Hook_Use914(@ref CB::Item, @ref CB::SCP914::Setting, float x, float y, float z)
+
+Called when an item is being refined via SCP-914.
+The coordinates x, y and z specify the world position at which the resulting object should be spawned.
