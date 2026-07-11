@@ -266,6 +266,19 @@ Called when an NPC is to be disabled.
 > `Hook_ConsoleCheckCanToggleNPC` must be overridden to allow for this hook to be called.
 > `Hook_EnableNPC` must also be overridden to undo the disabling.
 
+## bool Hook_CanUseDoor(@ref CB::Door, bool showMsg, bool playSFX)
+
+Called before a door is opened.
+Returning `-1` will delegate responsibility to lower-priority mods and the base game.
+Returning `0` will indicate that the door cannot be used.
+Returning `1` will indicate that the door can be used.
+
+## bool Hook_UseDoor(@ref CB::Door, bool showMsg, bool playSFX)
+
+Called when a door is being opened, either by a player, NPC or event.
+Whether the door can be opened is determined beforehand via @ref Door::CanUse (which can be hooked into using `Hook_CanUseDoor`).
+This hook will only be called if the door can be opened.
+
 ## bool Hook_Use914(@ref CB::Item, @ref CB::SCP914::Setting, float x, float y, float z)
 
 Called when an item is being refined via SCP-914.
