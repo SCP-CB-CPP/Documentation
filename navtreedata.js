@@ -100,7 +100,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"namespaceCB_1_1TempDoor.html"
+"namespaceCB_1_1Subtitles.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

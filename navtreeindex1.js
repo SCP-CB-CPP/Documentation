@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"namespaceCB_1_1Subtitles.html":[1,0,1,34],
 "namespaceCB_1_1TempDoor.html":[1,0,1,12],
 "namespaceCB_1_1TempItem.html":[1,0,1,11],
 "namespaceCB_1_1TempTriggerbox.html":[1,0,1,10],

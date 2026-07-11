@@ -47,6 +47,7 @@ var namespaceCB =
     [ "AchievementMessage", "namespaceCB_1_1AchievementMessage.html", null ],
     [ "SCP914", "namespaceCB_1_1SCP914.html", null ],
     [ "Input", "namespaceCB_1_1Input.html", null ],
+    [ "Ending", "namespaceCB_1_1Ending.html", null ],
     [ "Sound", "classCB_1_1Sound.html", null ],
     [ "Stream", "classCB_1_1Stream.html", null ],
     [ "ParticleEmitter", "classCB_1_1ParticleEmitter.html", null ],
