@@ -405,6 +405,10 @@ namespace CB::Door {
 CB::Door@ get_First() property;
 CB::Door@ get_Last() property;
 CB::Door@ Create(int lvl, float x, float y, float z, float yawAngle, CB::Room@ room, bool startOpen = false, int big = 0, int keycard = 0, string code = "", bool useCollisionMesh = false);
+void ActivateKeyCardMessageCooldown();
+void HasKeyCardMessage();
+void ActivateScannerMessageCooldown();
+void HasScannerMessage();
 }
 
 namespace CB::TempTriggerbox {
@@ -509,6 +513,11 @@ CB::ItemTemplate@ FindTemplate(string name);
 namespace CB::Player {
 void MoveToPocketDimension();
 bool IsInReachableRoom(bool is049ChamberReachable = false);
+}
+
+namespace CB::Difficulty {
+CB::Difficulty@ get_First() property;
+CB::Difficulty@ get_Last() property;
 }
 
 namespace CB::Dreamfilter {
@@ -932,6 +941,8 @@ class Matrix {
 
 class Texture {
     void Free();
+    void PinTexture();
+    void UnpinTexture();
     void SetBlend(int blend);
     void SetCoords(int coords);
     void SetBumpEnvMat(int x, int y, float envmat);
@@ -1074,6 +1085,8 @@ class Entity {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -1172,6 +1185,8 @@ class Model {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -1279,6 +1294,8 @@ class Mesh {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -1403,6 +1420,8 @@ class Camera {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -1505,6 +1524,8 @@ class Light {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -1587,6 +1608,8 @@ class Pivot {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -1665,6 +1688,8 @@ class Sprite {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -1768,6 +1793,8 @@ class Plane {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -1867,6 +1894,8 @@ class Terrain {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -1974,6 +2003,8 @@ class Listener {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -2074,6 +2105,8 @@ class ParticleEmitter {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -2343,6 +2376,9 @@ class Door {
     CB::Door@ get_Previous() const property;
     void InsertAfter(CB::Door@);
     void InsertBefore(CB::Door@);
+    void Remove();
+    bool CanUse(bool showMsg = true, bool playSFX = true);
+    void Use(bool showMsg = true, bool playSFX = true);
 }
 
 class TempTriggerbox {
@@ -2582,6 +2618,8 @@ class Skybox {
     int get_IsHidden() const property;
     int get_Exists() const property;
     void Free();
+    void PinEntity();
+    void UnpinEntity();
     void set_Name(string name) property;
     string get_Name() const property;
     string get_Filename() const property;
@@ -2704,6 +2742,25 @@ class Inventory {
     CB::Inventory@ get_Previous() const property;
     void InsertAfter(CB::Inventory@);
     void InsertBefore(CB::Inventory@);
+}
+
+class Difficulty {
+    string Name;
+    string LocalName;
+    string Description;
+    bool PermaDeath;
+    bool AggressiveNPCs;
+    CB::Difficulty::SaveType Save;
+    CB::Difficulty::OtherFactors Other;
+    int R;
+    int G;
+    int B;
+    bool Customizable;
+    void Delete();
+    CB::Difficulty@ get_Next() const property;
+    CB::Difficulty@ get_Previous() const property;
+    void InsertAfter(CB::Difficulty@);
+    void InsertBefore(CB::Difficulty@);
 }
 }
 
@@ -2971,6 +3028,13 @@ CB::NPC@ Current096;
 CB::NPC@ Current5131;
 }
 
+namespace CB::Door {
+//! Avoid using directly in favor of \ref CB::Door::ActivateKeyCardMessageCooldown and \ref CB::Door::HasKeyCardMessage.
+int KeyCardMessageCooldownUntilMillis;
+//! Avoid using directly in favor of \ref CB::Door::ActivateScannerMessageCooldown and \ref CB::Door::HasScannerMessage.
+int ScannerMessageCooldownUntilMillis;
+}
+
 namespace CB::Map {
 int Width;
 int Height;
@@ -3047,9 +3111,13 @@ float UserCameraPitch;
 float Side;
 bool Crouch;
 float CrouchState;
+<<<<<<< Documentation\as.predefined
 //! The zone the player character is currently occupying.
 int PlayerZone;
 //! The room the player character is currently occupying.
+=======
+int CurrentZone;
+>>>>>>> Mods\as.predefined
 CB::Room@ CurrentRoom;
 int GrabbedEntity;
 bool GodMode;
@@ -3065,6 +3133,14 @@ CB::Item@ OpenInventoryItem;
 float MessageTimer;
 string Message;
 string DeathMessage;
+}
+
+namespace CB::Difficulty {
+CB::Difficulty@ Current;
+CB::Difficulty@ Safe;
+CB::Difficulty@ Euclid;
+CB::Difficulty@ Keter;
+CB::Difficulty@ Custom;
 }
 
 namespace CB::Dreamfilter {
@@ -3203,6 +3279,19 @@ enum Type {
     SCP1499,
     SCP008,
     Clerk
+}
+}
+
+namespace CB::Difficulty {
+enum SaveType {
+    Anywhere,
+    OnQuit,
+    OnScreens
+}
+enum OtherFactors {
+    Easy,
+    Normal,
+    Hard
 }
 }
 
