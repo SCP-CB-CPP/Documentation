@@ -403,7 +403,7 @@ namespace CB::Door {
 CB::Door@ get_First() property;
 CB::Door@ get_Last() property;
 CB::Door@ Create(int lvl, float x, float y, float z, float yawAngle, CB::Room@ room, bool startOpen = false, int big = 0, int keycard = 0, string code = "", bool useCollisionMesh = false);
-void ActivateKeyCardMessageMessageCooldown();
+void ActivateKeyCardMessageCooldown();
 void HasKeyCardMessage();
 void ActivateScannerMessageCooldown();
 void HasScannerMessage();
@@ -3165,6 +3165,11 @@ int CurrentAchievementMessageID;
 
 namespace CB::SCP914 {
 int RefinedItems;
+}
+
+namespace CB::Ending {
+float Timer;
+string Selected;
 }
 
 namespace CB {
