@@ -5,5 +5,6 @@ var searchData=
   ['pivot_2',['Pivot',['../classB3D_1_1Pivot.html',1,'B3D']]],
   ['plane_3',['Plane',['../classB3D_1_1Plane.html',1,'B3D']]],
   ['playable_4',['Playable',['../namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4',1,'CB::Player']]],
-  ['playerzone_5',['PlayerZone',['../namespaceCB_1_1Player.html#aa59712199ef03fac02eaa92c5dbce264',1,'CB::Player']]]
+  ['playerzone_5',['PlayerZone',['../namespaceCB_1_1Player.html#aa59712199ef03fac02eaa92c5dbce264',1,'CB::Player']]],
+  ['playsfx_6',['playSFX',['../md_Articles_2Hooks.html#autotoc_md45',1,'bool Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)'],['../md_Articles_2Hooks.html#autotoc_md46',1,'bool Hook_UseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)']]]
 ];
