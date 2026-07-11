@@ -25,12 +25,11 @@ var namespaceCB =
     [ "Inventory", "namespaceCB_1_1Inventory.html", null ],
     [ "Player", "namespaceCB_1_1Player.html", [
       [ "Bloodloss", "namespaceCB_1_1Player.html#a6eec4f4b57b941e3d6975ee316cc156f", null ],
-      [ "CurrentRoom", "namespaceCB_1_1Player.html#ab6b180720c958fc513ac7fe9513a537b", null ],
       [ "DeathTimer", "namespaceCB_1_1Player.html#af5b798dc256a40d63012f41731a10c33", null ],
       [ "Injuries", "namespaceCB_1_1Player.html#af33496bc15124e0646807864f8027f42", null ],
-      [ "Playable", "namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4", null ],
-      [ "PlayerZone", "namespaceCB_1_1Player.html#aa59712199ef03fac02eaa92c5dbce264", null ]
+      [ "Playable", "namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4", null ]
     ] ],
+    [ "Difficulty", "namespaceCB_1_1Difficulty.html", null ],
     [ "Dreamfilter", "namespaceCB_1_1Dreamfilter.html", null ],
     [ "Console", "namespaceCB_1_1Console.html", "namespaceCB_1_1Console" ],
     [ "Event", "namespaceCB_1_1Event.html", [
@@ -56,7 +55,7 @@ var namespaceCB =
     [ "Forest", "classCB_1_1Forest.html", null ],
     [ "NPC", "classCB_1_1NPC.html", "classCB_1_1NPC" ],
     [ "Room", "classCB_1_1Room.html", null ],
-    [ "Door", "classCB_1_1Door.html", null ],
+    [ "Door", "classCB_1_1Door.html", "classCB_1_1Door" ],
     [ "TempTriggerbox", "classCB_1_1TempTriggerbox.html", null ],
     [ "TempItem", "classCB_1_1TempItem.html", null ],
     [ "TempDoor", "classCB_1_1TempDoor.html", null ],
@@ -69,6 +68,7 @@ var namespaceCB =
     [ "ItemTemplate", "classCB_1_1ItemTemplate.html", null ],
     [ "Item", "classCB_1_1Item.html", null ],
     [ "Inventory", "classCB_1_1Inventory.html", null ],
+    [ "Difficulty", "classCB_1_1Difficulty.html", null ],
     [ "Event", "classCB_1_1Event.html", null ],
     [ "SubtitleBox", "classCB_1_1SubtitleBox.html", null ],
     [ "SubtitleColor", "classCB_1_1SubtitleColor.html", null ],

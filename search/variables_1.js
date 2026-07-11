@@ -3,6 +3,5 @@ var searchData=
   ['current096_0',['Current096',['../classCB_1_1NPC.html#a15bfa4204bdb382ff5ac38ee879958a4',1,'CB::NPC']]],
   ['current106_1',['Current106',['../classCB_1_1NPC.html#a60f67757f176405122f108a7c02f4d9e',1,'CB::NPC']]],
   ['current173_2',['Current173',['../classCB_1_1NPC.html#afaa32cd320b6bcc5c1269fe4f1bcaa6d',1,'CB::NPC']]],
-  ['current5131_3',['Current5131',['../classCB_1_1NPC.html#a781cd1d69dfa817bfc6535bc6747a04b',1,'CB::NPC']]],
-  ['currentroom_4',['CurrentRoom',['../namespaceCB_1_1Player.html#ab6b180720c958fc513ac7fe9513a537b',1,'CB::Player']]]
+  ['current5131_3',['Current5131',['../classCB_1_1NPC.html#a781cd1d69dfa817bfc6535bc6747a04b',1,'CB::NPC']]]
 ];
