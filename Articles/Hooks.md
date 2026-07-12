@@ -73,8 +73,22 @@ Called when the game quits to the main menu, after all vanilla resources have be
 Can be used to free certain mod-specific resources.
 
 > [!NOTE]
-> All entities, brushes and textures are cleared via @ref B3D::ClearWorld before this hook is called.
+> All entities, brushes and textures (so neither images nor sounds!) are cleared via @ref B3D::ClearWorld before this hook is called.
 > This means they do not have to be freed, but resetting a dangling reference held in a mod to null may be desirable.
+
+## bool Hook_DrawLoading(int percentage, bool isShortLoading)
+
+Called every time the loading screen percentage is updated and the loading screen is drawn.
+Can be overridden to implement a completely custom loading screen.
+
+A `percentage` of 0 indicates that a loading sequence is being started and a specific loading screen is selected (@ref CB::LoadingScreen::Selected).
+This hook is called after the base game has selected a loading screen, allowing the hook to potentially override this selection.
+
+When overridden, at a `percentage` of 100, the loading screen should be continuously drawn until the user proceeds via pressing a key or mouse button (the base game uses `B3D::GetKey() != 0 || B3D::MouseHit(1) > 0`).
+When not overridden, at a `percentage` of 100, this hook is called within the base game's drawing loop, which allows drawing additional loading screen elements without extra effort.
+
+`isShortLoading` is `true` for the loading sequences at initial game startup and the elevator transitions to the gates.
+When `isShortLoading` is `true`, the base game does not play the audio associated with the CWM loading screen.
 
 ## bool Hook_MapInitializeDimensions()
 
