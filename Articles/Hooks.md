@@ -266,7 +266,7 @@ Called when an NPC is to be disabled.
 > `Hook_ConsoleCheckCanToggleNPC` must be overridden to allow for this hook to be called.
 > `Hook_EnableNPC` must also be overridden to undo the disabling.
 
-## bool Hook_CanUseDoor(@ref CB::Door, bool showMsg, bool playSFX)
+## int Hook_CanUseDoor(@ref CB::Door, bool showMsg, bool playSFX)
 
 Called before a door is opened.
 Returning `-1` will delegate responsibility to lower-priority mods and the base game.
