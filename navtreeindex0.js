@@ -184,6 +184,7 @@ var NAVTREEINDEX0 =
 "md_Articles_2Hooks.html#autotoc_md45":[0,44],
 "md_Articles_2Hooks.html#autotoc_md46":[0,45],
 "md_Articles_2Hooks.html#autotoc_md47":[0,46],
+"md_Articles_2Hooks.html#autotoc_md48":[0,47],
 "md_Articles_2Hooks.html#autotoc_md5":[0,4],
 "md_Articles_2Hooks.html#autotoc_md6":[0,5],
 "md_Articles_2Hooks.html#autotoc_md7":[0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "namespaceCB_1_1SubtitleBox.html":[1,0,1,28],
 "namespaceCB_1_1SubtitleColor.html":[1,0,1,29],
 "namespaceCB_1_1SubtitleEntry.html":[1,0,1,30],
-"namespaceCB_1_1SubtitleMsg.html":[1,0,1,33],
-"namespaceCB_1_1SubtitleToken.html":[1,0,1,31]
+"namespaceCB_1_1SubtitleMsg.html":[1,0,1,33]
 };
