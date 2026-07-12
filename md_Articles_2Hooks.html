@@ -141,11 +141,11 @@ void Hook_NullGame()</h1>
 <p>Called when the game quits to the main menu, after all vanilla resources have been freed. Can be used to free certain mod-specific resources.</p>
 <dl class="section note"><dt>Note</dt><dd>All entities, brushes and textures (so neither images nor sounds!) are cleared via B3D::ClearWorld before this hook is called. This means they do not have to be freed, but resetting a dangling reference held in a mod to null may be desirable.</dd></dl>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md13"></a>
-bool Hook_DrawLoading(int percentage, bool shortLoading)</h1>
+bool Hook_DrawLoading(int percentage, bool isShortLoading)</h1>
 <p>Called every time the loading screen percentage is updated and the loading screen is drawn. Can be overridden to implement a completely custom loading screen.</p>
 <p>A <span class="tt">percentage</span> of 0 indicates that a loading sequence is being started and a specific loading screen is selected (CB::LoadingScreen::Selected). This hook is called after the base game has selected a loading screen, allowing the hook to potentially override this selection.</p>
 <p>When overridden, at a <span class="tt">percentage</span> of 100, the loading screen should be continuously drawn until the user proceeds via pressing a key or mouse button (the base game uses <span class="tt">B3D::GetKey() != 0 || B3D::MouseHit(1) &gt; 0</span>). When not overridden, at a <span class="tt">percentage</span> of 100, this hook is called within the base game's drawing loop, which allows drawing additional loading screen elements without extra effort.</p>
-<p><span class="tt">shortLoading</span> is <span class="tt">true</span> for the loading sequences at initial game startup and the elevator transitions to the gates. When <span class="tt">shortloading</span> is <span class="tt">true</span>, the base game does not play the audio associated with the CWM loading screen.</p>
+<p><span class="tt">isShortLoading</span> is <span class="tt">true</span> for the loading sequences at initial game startup and the elevator transitions to the gates. When <span class="tt">isShortLoading</span> is <span class="tt">true</span>, the base game does not play the audio associated with the CWM loading screen.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
 bool Hook_MapInitializeDimensions()</h1>
 <p>Called after Map::Width and Map::Height have been initialized from <span class="tt">Data/map.ini</span>. Should only be overridden when the map dimensions are configured dynamically in-game.</p>

@@ -11,7 +11,7 @@ var searchData=
   ['hook_5fcreatenpc_20cb_3a_3anpc_8',['void Hook_CreateNPC(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1NPC.html&quot; title=&quot;CB::NPC&quot;&gt;CB::NPC&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md35',1,'']]],
   ['hook_5fdisablenpc_20cb_3a_3anpc_9',['bool Hook_DisableNPC(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1NPC.html&quot; title=&quot;CB::NPC&quot;&gt;CB::NPC&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md45',1,'']]],
   ['hook_5fdrawhud_10',['bool Hook_DrawHUD()',['../md_Articles_2Hooks.html#autotoc_md6',1,'']]],
-  ['hook_5fdrawloading_20int_20percentage_20bool_20shortloading_11',['bool Hook_DrawLoading(int percentage, bool shortLoading)',['../md_Articles_2Hooks.html#autotoc_md13',1,'']]],
+  ['hook_5fdrawloading_20int_20percentage_20bool_20isshortloading_11',['bool Hook_DrawLoading(int percentage, bool isShortLoading)',['../md_Articles_2Hooks.html#autotoc_md13',1,'']]],
   ['hook_5fdropitem_20cb_3a_3aitem_12',['bool Hook_DropItem(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Item.html&quot; title=&quot;CB::Item&quot;&gt;CB::Item&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md32',1,'']]],
   ['hook_5fenablenpc_20cb_3a_3anpc_13',['bool Hook_EnableNPC(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1NPC.html&quot; title=&quot;CB::NPC&quot;&gt;CB::NPC&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md44',1,'']]],
   ['hook_5fexecuteconsolecommand_20string_20cmd_14',['bool Hook_ExecuteConsoleCommand(&lt;a class=&quot;el&quot; href=&quot;classstring.html&quot; title=&quot;string&quot;&gt;string&lt;/a&gt; cmd)',['../md_Articles_2Hooks.html#autotoc_md10',1,'']]],

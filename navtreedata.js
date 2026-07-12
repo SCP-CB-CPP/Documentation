@@ -38,7 +38,7 @@ var NAVTREE =
       [ "bool Hook_ExecuteConsoleCommand(<a class=\"el\" href=\"classstring.html\" title=\"string\">string</a> cmd)", "md_Articles_2Hooks.html#autotoc_md10", null ],
       [ "bool Hook_LoadEntities()", "md_Articles_2Hooks.html#autotoc_md11", null ],
       [ "void Hook_NullGame()", "md_Articles_2Hooks.html#autotoc_md12", null ],
-      [ "bool Hook_DrawLoading(int percentage, bool shortLoading)", "md_Articles_2Hooks.html#autotoc_md13", null ],
+      [ "bool Hook_DrawLoading(int percentage, bool isShortLoading)", "md_Articles_2Hooks.html#autotoc_md13", null ],
       [ "bool Hook_MapInitializeDimensions()", "md_Articles_2Hooks.html#autotoc_md14", null ],
       [ "bool Hook_MapCreateLayout()", "md_Articles_2Hooks.html#autotoc_md15", null ],
       [ "bool Hook_MapForceRooms()", "md_Articles_2Hooks.html#autotoc_md16", null ],
