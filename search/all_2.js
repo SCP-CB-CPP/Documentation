@@ -10,7 +10,7 @@ var searchData=
   ['cb_3a_3adecal_7',['Decal',['../namespaceCB_1_1Decal.html',1,'CB']]],
   ['cb_3a_3adifficulty_8',['Difficulty',['../namespaceCB_1_1Difficulty.html',1,'CB']]],
   ['cb_3a_3adoor_9',['Door',['../namespaceCB_1_1Door.html',1,'CB']]],
-  ['cb_3a_3adoor_20bool_20showmsg_20bool_20playsfx_10',['CB::Door bool showMsg bool playSFX',['../md_Articles_2Hooks.html#autotoc_md45',1,'bool Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)'],['../md_Articles_2Hooks.html#autotoc_md46',1,'bool Hook_UseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)']]],
+  ['cb_3a_3adoor_20bool_20showmsg_20bool_20playsfx_10',['CB::Door bool showMsg bool playSFX',['../md_Articles_2Hooks.html#autotoc_md46',1,'bool Hook_UseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)'],['../md_Articles_2Hooks.html#autotoc_md45',1,'int Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)']]],
   ['cb_3a_3adreamfilter_11',['Dreamfilter',['../namespaceCB_1_1Dreamfilter.html',1,'CB']]],
   ['cb_3a_3aending_12',['Ending',['../namespaceCB_1_1Ending.html',1,'CB']]],
   ['cb_3a_3aevent_13',['CB::Event',['../md_Articles_2Hooks.html#autotoc_md22',1,'bool Hook_UpdateEvent(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Event.html&quot; title=&quot;CB::Event&quot;&gt;CB::Event&lt;/a&gt;)'],['../namespaceCB_1_1Event.html',1,'CB.Event']]],

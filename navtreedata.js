@@ -70,7 +70,7 @@ var NAVTREE =
       [ "int Hook_ConsoleCheckCanToggleNPC(CB::NPC::Type type)", "md_Articles_2Hooks.html#autotoc_md42", null ],
       [ "bool Hook_EnableNPC(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>)", "md_Articles_2Hooks.html#autotoc_md43", null ],
       [ "bool Hook_DisableNPC(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>)", "md_Articles_2Hooks.html#autotoc_md44", null ],
-      [ "bool Hook_CanUseDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, bool showMsg, bool playSFX)", "md_Articles_2Hooks.html#autotoc_md45", null ],
+      [ "int Hook_CanUseDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, bool showMsg, bool playSFX)", "md_Articles_2Hooks.html#autotoc_md45", null ],
       [ "bool Hook_UseDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, bool showMsg, bool playSFX)", "md_Articles_2Hooks.html#autotoc_md46", null ],
       [ "bool Hook_Use914(<a class=\"el\" href=\"classCB_1_1Item.html\" title=\"CB::Item\">CB::Item</a>, CB::SCP914::Setting, float x, float y, float z)", "md_Articles_2Hooks.html#autotoc_md47", null ]
     ] ],

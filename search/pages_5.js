@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['hook_5fcanusedoor_20cb_3a_3adoor_20bool_20showmsg_20bool_20playsfx_0',['bool Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)',['../md_Articles_2Hooks.html#autotoc_md45',1,'']]],
+  ['hook_5fcanusedoor_20cb_3a_3adoor_20bool_20showmsg_20bool_20playsfx_0',['int Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)',['../md_Articles_2Hooks.html#autotoc_md45',1,'']]],
   ['hook_5fcombineitems_20cb_3a_3aitem_20draggeditem_20cb_3a_3aitem_20draggedontoitem_1',['void Hook_CombineItems(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Item.html&quot; title=&quot;CB::Item&quot;&gt;CB::Item&lt;/a&gt; draggedItem, &lt;a class=&quot;el&quot; href=&quot;classCB_1_1Item.html&quot; title=&quot;CB::Item&quot;&gt;CB::Item&lt;/a&gt; draggedOntoItem)',['../md_Articles_2Hooks.html#autotoc_md33',1,'']]],
   ['hook_5fconsolecheckcanchangenpcspeed_20cb_3a_3anpc_3a_3atype_20type_2',['int Hook_ConsoleCheckCanChangeNPCSpeed(CB::NPC::Type type)',['../md_Articles_2Hooks.html#autotoc_md41',1,'']]],
   ['hook_5fconsolecheckcantogglenpc_20cb_3a_3anpc_3a_3atype_20type_3',['int Hook_ConsoleCheckCanToggleNPC(CB::NPC::Type type)',['../md_Articles_2Hooks.html#autotoc_md42',1,'']]],

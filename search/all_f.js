@@ -1,7 +1,7 @@
 var searchData=
 [
   ['scannermessagecooldownuntilmillis_0',['ScannerMessageCooldownUntilMillis',['../classCB_1_1Door.html#ac8c81c4557a07c43bd2aeb12b11789c7',1,'CB::Door']]],
-  ['showmsg_20bool_20playsfx_1',['showMsg bool playSFX',['../md_Articles_2Hooks.html#autotoc_md45',1,'bool Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)'],['../md_Articles_2Hooks.html#autotoc_md46',1,'bool Hook_UseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)']]],
+  ['showmsg_20bool_20playsfx_1',['showMsg bool playSFX',['../md_Articles_2Hooks.html#autotoc_md46',1,'bool Hook_UseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)'],['../md_Articles_2Hooks.html#autotoc_md45',1,'int Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)']]],
   ['skybox_2',['Skybox',['../classCB_1_1Skybox.html',1,'CB']]],
   ['sound_3',['Sound',['../classB3D_1_1Sound.html',1,'B3D.Sound'],['../classCB_1_1Sound.html',1,'CB.Sound']]],
   ['sprite_4',['Sprite',['../classB3D_1_1Sprite.html',1,'B3D']]],

@@ -256,7 +256,7 @@ bool Hook_DisableNPC(<a class="el" href="classCB_1_1NPC.html" title="CB.NPC">CB.
 <dl class="section note"><dt>Note</dt><dd>It is not guaranteed, that the NPC has previously been enabled. This hook may be called on already disabled NPCs.</dd></dl>
 <dl class="section important"><dt>Important</dt><dd><span class="tt">Hook_ConsoleCheckCanToggleNPC</span> must be overridden to allow for this hook to be called. <span class="tt">Hook_EnableNPC</span> must also be overridden to undo the disabling.</dd></dl>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
-bool Hook_CanUseDoor(<a class="el" href="classCB_1_1Door.html" title="CB.Door">CB.Door</a>, bool showMsg, bool playSFX)</h1>
+int Hook_CanUseDoor(<a class="el" href="classCB_1_1Door.html" title="CB.Door">CB.Door</a>, bool showMsg, bool playSFX)</h1>
 <p>Called before a door is opened. Returning <span class="tt">-1</span> will delegate responsibility to lower-priority mods and the base game. Returning <span class="tt">0</span> will indicate that the door cannot be used. Returning <span class="tt">1</span> will indicate that the door can be used.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md46"></a>
 bool Hook_UseDoor(<a class="el" href="classCB_1_1Door.html" title="CB.Door">CB.Door</a>, bool showMsg, bool playSFX)</h1>
