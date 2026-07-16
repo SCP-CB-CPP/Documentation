@@ -25,6 +25,8 @@ var namespaceCB =
     [ "Inventory", "namespaceCB_1_1Inventory.html", null ],
     [ "Player", "namespaceCB_1_1Player.html", [
       [ "Bloodloss", "namespaceCB_1_1Player.html#a6eec4f4b57b941e3d6975ee316cc156f", null ],
+      [ "CurrentRoom", "namespaceCB_1_1Player.html#ab6b180720c958fc513ac7fe9513a537b", null ],
+      [ "CurrentZone", "namespaceCB_1_1Player.html#a0d0fe2f973ca20596b9efcb1bab8b8b6", null ],
       [ "DeathTimer", "namespaceCB_1_1Player.html#af5b798dc256a40d63012f41731a10c33", null ],
       [ "Injuries", "namespaceCB_1_1Player.html#af33496bc15124e0646807864f8027f42", null ],
       [ "Playable", "namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4", null ]

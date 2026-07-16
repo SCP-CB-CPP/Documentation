@@ -67,6 +67,8 @@ var as_8predefined =
     [ "CB.Console.CreateMessage", "namespaceCB_1_1Console.html#ac85ce1c9e2b34f03d873594300e252a1", null ],
     [ "CB.Event.UpdateElevator", "namespaceCB_1_1Event.html#acae652de83551919330f2f0218a745f5", null ],
     [ "CB.Player.Bloodloss", "namespaceCB_1_1Player.html#a6eec4f4b57b941e3d6975ee316cc156f", null ],
+    [ "CB.Player.CurrentRoom", "namespaceCB_1_1Player.html#ab6b180720c958fc513ac7fe9513a537b", null ],
+    [ "CB.Player.CurrentZone", "namespaceCB_1_1Player.html#a0d0fe2f973ca20596b9efcb1bab8b8b6", null ],
     [ "CB.Player.DeathTimer", "namespaceCB_1_1Player.html#af5b798dc256a40d63012f41731a10c33", null ],
     [ "CB.FPSFactor", "namespaceCB.html#a76153fe3957f7bfe46a9bbfc454520d6", null ],
     [ "CB.Player.Injuries", "namespaceCB_1_1Player.html#af33496bc15124e0646807864f8027f42", null ],

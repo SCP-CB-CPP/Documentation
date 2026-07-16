@@ -236,10 +236,12 @@ var NAVTREEINDEX0 =
 "namespaceCB_1_1Options.html":[1,0,1,1],
 "namespaceCB_1_1Particles.html":[1,0,1,4],
 "namespaceCB_1_1Player.html":[1,0,1,23],
+"namespaceCB_1_1Player.html#a0d0fe2f973ca20596b9efcb1bab8b8b6":[1,0,1,23,2],
 "namespaceCB_1_1Player.html#a6eec4f4b57b941e3d6975ee316cc156f":[1,0,1,23,0],
-"namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4":[1,0,1,23,3],
-"namespaceCB_1_1Player.html#af33496bc15124e0646807864f8027f42":[1,0,1,23,2],
-"namespaceCB_1_1Player.html#af5b798dc256a40d63012f41731a10c33":[1,0,1,23,1],
+"namespaceCB_1_1Player.html#ab6b180720c958fc513ac7fe9513a537b":[1,0,1,23,1],
+"namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4":[1,0,1,23,5],
+"namespaceCB_1_1Player.html#af33496bc15124e0646807864f8027f42":[1,0,1,23,4],
+"namespaceCB_1_1Player.html#af5b798dc256a40d63012f41731a10c33":[1,0,1,23,3],
 "namespaceCB_1_1QueuedSubtitleMsg.html":[1,0,1,32],
 "namespaceCB_1_1Room.html":[1,0,1,8],
 "namespaceCB_1_1RoomTemplate.html":[1,0,1,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "namespaceCB_1_1Skybox.html":[1,0,1,19],
 "namespaceCB_1_1Sound.html":[1,0,1,2],
 "namespaceCB_1_1SubtitleBox.html":[1,0,1,28],
-"namespaceCB_1_1SubtitleColor.html":[1,0,1,29],
-"namespaceCB_1_1SubtitleEntry.html":[1,0,1,30],
-"namespaceCB_1_1SubtitleMsg.html":[1,0,1,33]
+"namespaceCB_1_1SubtitleColor.html":[1,0,1,29]
 };
