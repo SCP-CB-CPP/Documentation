@@ -280,6 +280,21 @@ Called when an NPC is to be disabled.
 > `Hook_ConsoleCheckCanToggleNPC` must be overridden to allow for this hook to be called.
 > `Hook_EnableNPC` must also be overridden to undo the disabling.
 
+## bool Hook_CreateDoor(@ref CB::Door, float x, float y, float z, bool useCollisionMesh)
+
+Called before a door is created, after the object's data fields have been initialized.
+Can be used to implement custom door types.
+
+## void Hook_PostCreateDoor(@ref CB::Door)
+
+Called after a door has been created.
+
+## bool Hook_UpdateDoor(@ref CB::Door)
+
+Called for every door every frame.
+When overridden, responsible for updating @ref CB::Door::Closest, @ref CB::Door::ClosestButton, managing @ref CB::Door::OpenState, positions of @ref CB::Door::Object and @ref CB::Door::Object2, as well as the alpha of the @ref CB::Door::HitObject.
+Can be used to implement custom door types.
+
 ## int Hook_CanUseDoor(@ref CB::Door, bool showMsg, bool playSFX)
 
 Called before a door is opened.
