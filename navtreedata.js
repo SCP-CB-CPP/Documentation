@@ -71,9 +71,12 @@ var NAVTREE =
       [ "int Hook_ConsoleCheckCanToggleNPC(CB::NPC::Type type)", "md_Articles_2Hooks.html#autotoc_md43", null ],
       [ "bool Hook_EnableNPC(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>)", "md_Articles_2Hooks.html#autotoc_md44", null ],
       [ "bool Hook_DisableNPC(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>)", "md_Articles_2Hooks.html#autotoc_md45", null ],
-      [ "int Hook_CanUseDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, bool showMsg, bool playSFX)", "md_Articles_2Hooks.html#autotoc_md46", null ],
-      [ "bool Hook_UseDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, bool showMsg, bool playSFX)", "md_Articles_2Hooks.html#autotoc_md47", null ],
-      [ "bool Hook_Use914(<a class=\"el\" href=\"classCB_1_1Item.html\" title=\"CB::Item\">CB::Item</a>, CB::SCP914::Setting, float x, float y, float z)", "md_Articles_2Hooks.html#autotoc_md48", null ]
+      [ "bool Hook_CreateDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, float x, float y, float z, bool useCollisionMesh)", "md_Articles_2Hooks.html#autotoc_md46", null ],
+      [ "void Hook_PostCreateDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>)", "md_Articles_2Hooks.html#autotoc_md47", null ],
+      [ "bool Hook_UpdateDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>)", "md_Articles_2Hooks.html#autotoc_md48", null ],
+      [ "int Hook_CanUseDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, bool showMsg, bool playSFX)", "md_Articles_2Hooks.html#autotoc_md49", null ],
+      [ "bool Hook_UseDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, bool showMsg, bool playSFX)", "md_Articles_2Hooks.html#autotoc_md50", null ],
+      [ "bool Hook_Use914(<a class=\"el\" href=\"classCB_1_1Item.html\" title=\"CB::Item\">CB::Item</a>, CB::SCP914::Setting, float x, float y, float z)", "md_Articles_2Hooks.html#autotoc_md51", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -101,7 +104,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"namespaceCB_1_1SubtitleEntry.html"
+"namespaceCB_1_1Sound.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['int_20hook_5fcanusedoor_20cb_3a_3adoor_20bool_20showmsg_20bool_20playsfx_0',['int Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)',['../md_Articles_2Hooks.html#autotoc_md46',1,'']]],
+  ['int_20hook_5fcanusedoor_20cb_3a_3adoor_20bool_20showmsg_20bool_20playsfx_0',['int Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)',['../md_Articles_2Hooks.html#autotoc_md49',1,'']]],
   ['int_20hook_5fconsolecheckcanchangenpcspeed_20cb_3a_3anpc_3a_3atype_20type_1',['int Hook_ConsoleCheckCanChangeNPCSpeed(CB::NPC::Type type)',['../md_Articles_2Hooks.html#autotoc_md42',1,'']]],
   ['int_20hook_5fconsolecheckcantogglenpc_20cb_3a_3anpc_3a_3atype_20type_2',['int Hook_ConsoleCheckCanToggleNPC(CB::NPC::Type type)',['../md_Articles_2Hooks.html#autotoc_md43',1,'']]],
   ['int_20hook_5fconsolespawnnpc_20cb_3a_3anpc_3a_3atype_20type_3',['int Hook_ConsoleSpawnNPC(CB::NPC::Type type)',['../md_Articles_2Hooks.html#autotoc_md41',1,'']]],

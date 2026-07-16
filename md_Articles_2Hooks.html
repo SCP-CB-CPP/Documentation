@@ -262,12 +262,21 @@ bool Hook_DisableNPC(<a class="el" href="classCB_1_1NPC.html" title="CB.NPC">CB.
 <dl class="section note"><dt>Note</dt><dd>It is not guaranteed, that the NPC has previously been enabled. This hook may be called on already disabled NPCs.</dd></dl>
 <dl class="section important"><dt>Important</dt><dd><span class="tt">Hook_ConsoleCheckCanToggleNPC</span> must be overridden to allow for this hook to be called. <span class="tt">Hook_EnableNPC</span> must also be overridden to undo the disabling.</dd></dl>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md46"></a>
+bool Hook_CreateDoor(<a class="el" href="classCB_1_1Door.html" title="CB.Door">CB.Door</a>, float x, float y, float z, bool useCollisionMesh)</h1>
+<p>Called before a door is created, after the object's data fields have been initialized. Can be used to implement custom door types.</p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md47"></a>
+void Hook_PostCreateDoor(<a class="el" href="classCB_1_1Door.html" title="CB.Door">CB.Door</a>)</h1>
+<p>Called after a door has been created.</p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md48"></a>
+bool Hook_UpdateDoor(<a class="el" href="classCB_1_1Door.html" title="CB.Door">CB.Door</a>)</h1>
+<p>Called for every door every frame. When overridden, responsible for updating CB::Door::Closest, CB::Door::ClosestButton, managing CB::Door::OpenState, positions of CB::Door::Object and CB::Door::Object2, as well as the alpha of the CB::Door::HitObject. Can be used to implement custom door types.</p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md49"></a>
 int Hook_CanUseDoor(<a class="el" href="classCB_1_1Door.html" title="CB.Door">CB.Door</a>, bool showMsg, bool playSFX)</h1>
 <p>Called before a door is opened. Returning <span class="tt">-1</span> will delegate responsibility to lower-priority mods and the base game. Returning <span class="tt">0</span> will indicate that the door cannot be used. Returning <span class="tt">1</span> will indicate that the door can be used.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md47"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md50"></a>
 bool Hook_UseDoor(<a class="el" href="classCB_1_1Door.html" title="CB.Door">CB.Door</a>, bool showMsg, bool playSFX)</h1>
 <p>Called when a door is being opened, either by a player, NPC or event. Whether the door can be opened is determined beforehand via Door::CanUse (which can be hooked into using <span class="tt">Hook_CanUseDoor</span>). This hook will only be called if the door can be opened.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md48"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md51"></a>
 bool Hook_Use914(<a class="el" href="classCB_1_1Item.html" title="CB.Item">CB.Item</a>, CB::SCP914::Setting, float x, float y, float z)</h1>
 <p>Called when an item is being refined via SCP-914. The coordinates x, y and z specify the world position at which the resulting object should be spawned. </p>
 </div></div><!-- contents -->
