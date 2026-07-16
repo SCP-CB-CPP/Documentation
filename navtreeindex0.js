@@ -189,6 +189,7 @@ var NAVTREEINDEX0 =
 "md_Articles_2Hooks.html#autotoc_md5":[0,4],
 "md_Articles_2Hooks.html#autotoc_md50":[0,49],
 "md_Articles_2Hooks.html#autotoc_md51":[0,50],
+"md_Articles_2Hooks.html#autotoc_md52":[0,51],
 "md_Articles_2Hooks.html#autotoc_md6":[0,5],
 "md_Articles_2Hooks.html#autotoc_md7":[0,6],
 "md_Articles_2Hooks.html#autotoc_md8":[0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "namespaceCB_1_1QueuedSubtitleMsg.html":[1,0,1,32],
 "namespaceCB_1_1Room.html":[1,0,1,8],
 "namespaceCB_1_1RoomTemplate.html":[1,0,1,13],
-"namespaceCB_1_1SCP914.html":[1,0,1,37],
-"namespaceCB_1_1Skybox.html":[1,0,1,19]
+"namespaceCB_1_1SCP914.html":[1,0,1,37]
 };
