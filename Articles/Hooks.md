@@ -90,6 +90,10 @@ When not overridden, at a `percentage` of 100, this hook is called within the ba
 `isShortLoading` is `true` for the loading sequences at initial game startup and the elevator transitions to the gates.
 When `isShortLoading` is `true`, the base game does not play the audio associated with the CWM loading screen.
 
+## bool Hook_UpdateMusic()
+
+Called every frame.
+
 ## bool Hook_MapInitializeDimensions()
 
 Called after @ref Map::Width and @ref Map::Height have been initialized from `Data/map.ini`.
