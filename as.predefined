@@ -3111,13 +3111,9 @@ float UserCameraPitch;
 float Side;
 bool Crouch;
 float CrouchState;
-<<<<<<< Documentation\as.predefined
 //! The zone the player character is currently occupying.
-int PlayerZone;
-//! The room the player character is currently occupying.
-=======
 int CurrentZone;
->>>>>>> Mods\as.predefined
+//! The room the player character is currently occupying.
 CB::Room@ CurrentRoom;
 int GrabbedEntity;
 bool GodMode;
