@@ -127,6 +127,7 @@ Classes</h2></td></tr>
 <tr class="memitem:B3D_2ETerrain" id="r_B3D_2ETerrain"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classB3D_1_1Terrain.html">B3D.Terrain</a></td></tr>
 <tr class="memitem:B3D_2EListener" id="r_B3D_2EListener"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classB3D_1_1Listener.html">B3D.Listener</a></td></tr>
 <tr class="memitem:B3D_2ETimer" id="r_B3D_2ETimer"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classB3D_1_1Timer.html">B3D.Timer</a></td></tr>
+<tr class="memitem:CB_2ELoadingScreen" id="r_CB_2ELoadingScreen"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1LoadingScreen.html">CB.LoadingScreen</a></td></tr>
 <tr class="memitem:CB_2ESound" id="r_CB_2ESound"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Sound.html">CB.Sound</a></td></tr>
 <tr class="memitem:CB_2EStream" id="r_CB_2EStream"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Stream.html">CB.Stream</a></td></tr>
 <tr class="memitem:CB_2EParticleEmitter" id="r_CB_2EParticleEmitter"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1ParticleEmitter.html">CB.ParticleEmitter</a></td></tr>
@@ -732,6 +733,8 @@ void&#160;</td><td class="memItemRight"><b>B3D.DebugLog</b> (<a class="el" href=
 bool&#160;</td><td class="memItemRight"><b>CB.IsPaused</b> ()</td></tr>
 <tr class="memitem:a4c1f86398e78d34fe797d38278c0faa1" id="r_a4c1f86398e78d34fe797d38278c0faa1"><td class="memItemLeft"><a id="a4c1f86398e78d34fe797d38278c0faa1" name="a4c1f86398e78d34fe797d38278c0faa1"></a>
 <a class="el" href="classstring.html">string</a>&#160;</td><td class="memItemRight"><b>CB.FormatDuration</b> (int ms, bool highPrecision=true)</td></tr>
+<tr class="memitem:a20182bae96fbe5eb394a1513b10341b9" id="r_a20182bae96fbe5eb394a1513b10341b9"><td class="memItemLeft"><a id="a20182bae96fbe5eb394a1513b10341b9" name="a20182bae96fbe5eb394a1513b10341b9"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Menu.DrawTiledImageRect</b> (<a class="el" href="classB3D_1_1Image.html">B3D::Image</a>@ img, int srcX, int srcY, float srcWidth, float srcHeight, int x, int y, int width, int height)</td></tr>
 <tr class="memitem:a84e79e7030b128b91d0b3616267ed2f7" id="r_a84e79e7030b128b91d0b3616267ed2f7"><td class="memItemLeft"><a id="a84e79e7030b128b91d0b3616267ed2f7" name="a84e79e7030b128b91d0b3616267ed2f7"></a>
 <a class="el" href="classstring.html">string</a>&#160;</td><td class="memItemRight"><b>CB.Menu.InputBox</b> (int x, int y, int width, int height, <a class="el" href="classstring.html">string</a> text, int id=0, int virtualKeyboardMode=0)</td></tr>
 <tr class="memitem:a4859b10d3a3221c078f1d337ce2636e9" id="r_a4859b10d3a3221c078f1d337ce2636e9"><td class="memItemLeft"><a id="a4859b10d3a3221c078f1d337ce2636e9" name="a4859b10d3a3221c078f1d337ce2636e9"></a>
@@ -740,10 +743,24 @@ void&#160;</td><td class="memItemRight"><b>CB.Menu.DrawFrame</b> (int x, int y, 
 bool&#160;</td><td class="memItemRight"><b>CB.Menu.DrawButton</b> (int x, int y, int width, int height, <a class="el" href="classstring.html">string</a> text, bool bigFont=true, bool waitForMouseUp=false, bool disabled=false)</td></tr>
 <tr class="memitem:af2df3e74bfd5d6a72a445927167d8fcc" id="r_af2df3e74bfd5d6a72a445927167d8fcc"><td class="memItemLeft"><a id="af2df3e74bfd5d6a72a445927167d8fcc" name="af2df3e74bfd5d6a72a445927167d8fcc"></a>
 bool&#160;</td><td class="memItemRight"><b>CB.Menu.DrawTick</b> (int x, int y, bool selected, bool locked=false)</td></tr>
+<tr class="memitem:ac3b679e8a74076ee67363e88c01e3f62" id="r_ac3b679e8a74076ee67363e88c01e3f62"><td class="memItemLeft"><a id="ac3b679e8a74076ee67363e88c01e3f62" name="ac3b679e8a74076ee67363e88c01e3f62"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Menu.DrawBar</b> (<a class="el" href="classB3D_1_1Image.html">B3D::Image</a>@ img, int x, int y, int width, float filled, bool centerX=false)</td></tr>
 <tr class="memitem:a06fae7feab79136b948f372ab5324ece" id="r_a06fae7feab79136b948f372ab5324ece"><td class="memItemLeft"><a id="a06fae7feab79136b948f372ab5324ece" name="a06fae7feab79136b948f372ab5324ece"></a>
 bool&#160;</td><td class="memItemRight"><b>CB.Menu.IsAnyOpen</b> ()</td></tr>
 <tr class="memitem:ab0807783ba807a2d4a376ba667b3a5db" id="r_ab0807783ba807a2d4a376ba667b3a5db"><td class="memItemLeft"><a id="ab0807783ba807a2d4a376ba667b3a5db" name="ab0807783ba807a2d4a376ba667b3a5db"></a>
 void&#160;</td><td class="memItemRight"><b>CB.Menu.StartNewGame</b> ()</td></tr>
+<tr class="memitem:a8200fc3f7d59c63d74b7c359ac72c8d6" id="r_a8200fc3f7d59c63d74b7c359ac72c8d6"><td class="memItemLeft"><a id="a8200fc3f7d59c63d74b7c359ac72c8d6" name="a8200fc3f7d59c63d74b7c359ac72c8d6"></a>
+<a class="el" href="classCB_1_1LoadingScreen.html">CB::LoadingScreen</a>&#160;</td><td class="memItemRight"><b>CB.LoadingScreen.get_First</b> () property</td></tr>
+<tr class="memitem:ad5e2e2ae0dc6598423c974eb93533812" id="r_ad5e2e2ae0dc6598423c974eb93533812"><td class="memItemLeft"><a id="ad5e2e2ae0dc6598423c974eb93533812" name="ad5e2e2ae0dc6598423c974eb93533812"></a>
+<a class="el" href="classCB_1_1LoadingScreen.html">CB::LoadingScreen</a>&#160;</td><td class="memItemRight"><b>CB.LoadingScreen.get_Last</b> () property</td></tr>
+<tr class="memitem:a13391c5d82b37104f5b96a101602a464" id="r_a13391c5d82b37104f5b96a101602a464"><td class="memItemLeft"><a id="a13391c5d82b37104f5b96a101602a464" name="a13391c5d82b37104f5b96a101602a464"></a>
+void&#160;</td><td class="memItemRight"><b>CB.LoadingScreen.Initialize</b> ()</td></tr>
+<tr class="memitem:a8f8403dde0b0ac5051fc8df0a106a2d1" id="r_a8f8403dde0b0ac5051fc8df0a106a2d1"><td class="memItemLeft"><a id="a8f8403dde0b0ac5051fc8df0a106a2d1" name="a8f8403dde0b0ac5051fc8df0a106a2d1"></a>
+void&#160;</td><td class="memItemRight"><b>CB.LoadingScreen.LoadFromFile</b> (<a class="el" href="classstring.html">string</a> file)</td></tr>
+<tr class="memitem:a3a5672332c13045d2e19e69af2d32e4f" id="r_a3a5672332c13045d2e19e69af2d32e4f"><td class="memItemLeft"><a id="a3a5672332c13045d2e19e69af2d32e4f" name="a3a5672332c13045d2e19e69af2d32e4f"></a>
+void&#160;</td><td class="memItemRight"><b>CB.LoadingScreen.Draw</b> (int percent, bool shortLoading=false)</td></tr>
+<tr class="memitem:a74e3ac8fb98f6ffef5287072f4184840" id="r_a74e3ac8fb98f6ffef5287072f4184840"><td class="memItemLeft"><a id="a74e3ac8fb98f6ffef5287072f4184840" name="a74e3ac8fb98f6ffef5287072f4184840"></a>
+<a class="el" href="classstring.html">string</a>&#160;</td><td class="memItemRight"><b>CB.LoadingScreen.GetRandomDefaultWidthCharacter</b> (int minCharCode, int maxCharCode, <a class="el" href="classstring.html">string</a> def)</td></tr>
 <tr class="memitem:afb050422bef79e47449714f2e3d6520f" id="r_afb050422bef79e47449714f2e3d6520f"><td class="memItemLeft"><a id="afb050422bef79e47449714f2e3d6520f" name="afb050422bef79e47449714f2e3d6520f"></a>
 int&#160;</td><td class="memItemRight"><b>CB.Options.GetInt</b> (<a class="el" href="classstring.html">string</a> section, <a class="el" href="classstring.html">string</a> key)</td></tr>
 <tr class="memitem:a169496360de56aa5a20d2bc09612de61" id="r_a169496360de56aa5a20d2bc09612de61"><td class="memItemLeft"><a id="a169496360de56aa5a20d2bc09612de61" name="a169496360de56aa5a20d2bc09612de61"></a>
@@ -776,6 +793,21 @@ bool&#160;</td><td class="memItemRight"><b>CB.Options.PutINIValue</b> (<a class=
 <a class="el" href="classCB_1_1Stream.html">CB::Stream</a>&#160;</td><td class="memItemRight"><b>CB.Sound.Stream</b> (<a class="el" href="classstring.html">string</a> file, float volume=1, int customMode=2)</td></tr>
 <tr class="memitem:aad40395fdf321cfbdf352f2525ab8a7d" id="r_aad40395fdf321cfbdf352f2525ab8a7d"><td class="memItemLeft"><a id="aad40395fdf321cfbdf352f2525ab8a7d" name="aad40395fdf321cfbdf352f2525ab8a7d"></a>
 <a class="el" href="namespaceCB_1_1Music.html">CB::Music</a>&#160;</td><td class="memItemRight"><b>CB.Music.RegisterCustom</b> (<a class="el" href="classstring.html">string</a> file)</td></tr>
+<tr class="memitem:aaf50aad431da7986eeac158b304b3666" id="r_aaf50aad431da7986eeac158b304b3666"><td class="memItemLeft"><a id="aaf50aad431da7986eeac158b304b3666" name="aaf50aad431da7986eeac158b304b3666"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.Initialize</b> ()</td></tr>
+<tr class="memitem:acfe5b4e41c64838426dc270997dfde12" id="r_acfe5b4e41c64838426dc270997dfde12"><td class="memItemLeft"><a id="acfe5b4e41c64838426dc270997dfde12" name="acfe5b4e41c64838426dc270997dfde12"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.Update</b> ()</td></tr>
+<tr class="memitem:a75cb1d8149364d1a80fa5faf55e3cce5" id="r_a75cb1d8149364d1a80fa5faf55e3cce5"><td class="memItemLeft"><a id="a75cb1d8149364d1a80fa5faf55e3cce5" name="a75cb1d8149364d1a80fa5faf55e3cce5"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.ProcessGamma</b> (float gamma)</td></tr>
+<tr class="memitem:afbe703b584e3007739f66fbd3d100e13" id="r_afbe703b584e3007739f66fbd3d100e13"><td class="memItemLeft"><a id="afbe703b584e3007739f66fbd3d100e13" name="afbe703b584e3007739f66fbd3d100e13"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.ProcessFXAA</b> ()</td></tr>
+<tr class="memitem:a9307ddba50c8679a20c2f759ad8d0b28" id="r_a9307ddba50c8679a20c2f759ad8d0b28"><td class="memItemLeft"><a id="a9307ddba50c8679a20c2f759ad8d0b28" name="a9307ddba50c8679a20c2f759ad8d0b28"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.SetQuadEffect</b> (<a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>@ effect)</td></tr>
+<tr class="memitem:a36d8ef535e8f1e22c5b5788373d239a9" id="r_a36d8ef535e8f1e22c5b5788373d239a9"><td class="memItemLeft"><a id="a36d8ef535e8f1e22c5b5788373d239a9" name="a36d8ef535e8f1e22c5b5788373d239a9"></a>
+<a class="el" href="classB3D_1_1Sprite.html">B3D::Sprite</a>&#160;</td><td class="memItemRight"><b>CB.Effect.CreateFullscreenQuad</b> (<a class="el" href="classB3D_1_1Entity.html">B3D::Entity</a>@ parent=null)</td></tr>
+<tr class="memitem:a5814415f3f8f61908c1f72f771dc574a" id="r_a5814415f3f8f61908c1f72f771dc574a"><td class="memItemLeft"><a id="a5814415f3f8f61908c1f72f771dc574a" name="a5814415f3f8f61908c1f72f771dc574a"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.RenderQuad</b> (<a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>@ effect, <a class="el" href="classB3D_1_1Texture.html">B3D::Texture</a>@ buffer, <a class="el" href="classstring.html">string</a> technique, int blend=0)</td></tr>
+<tr class="memdesc:a5814415f3f8f61908c1f72f771dc574a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility method to apply a post-process effect to the back buffer and render it into a buffer (which can also be the back buffer). <br /></td></tr>
 <tr class="memitem:af5237e6d56c4cbe3d9ef9b0e0c715117" id="r_af5237e6d56c4cbe3d9ef9b0e0c715117"><td class="memItemLeft"><a id="af5237e6d56c4cbe3d9ef9b0e0c715117" name="af5237e6d56c4cbe3d9ef9b0e0c715117"></a>
 void&#160;</td><td class="memItemRight"><b>CB.Particles.Initialize</b> (<a class="el" href="classB3D_1_1Camera.html">B3D::Camera</a>@ camera)</td></tr>
 <tr class="memitem:aae23727f0cec340df0a1c0ad68eff838" id="r_aae23727f0cec340df0a1c0ad68eff838"><td class="memItemLeft"><a id="aae23727f0cec340df0a1c0ad68eff838" name="aae23727f0cec340df0a1c0ad68eff838"></a>
@@ -818,6 +850,8 @@ float&#160;</td><td class="memItemRight"><b>CB.NPC.ChangeAngleValueForCorrectBon
 <a class="el" href="classCB_1_1Door.html">CB::Door</a>&#160;</td><td class="memItemRight"><b>CB.Door.get_Last</b> () property</td></tr>
 <tr class="memitem:a5b5e724f01588bf092412b72aa716935" id="r_a5b5e724f01588bf092412b72aa716935"><td class="memItemLeft"><a id="a5b5e724f01588bf092412b72aa716935" name="a5b5e724f01588bf092412b72aa716935"></a>
 <a class="el" href="classCB_1_1Door.html">CB::Door</a>&#160;</td><td class="memItemRight"><b>CB.Door.Create</b> (int lvl, float x, float y, float z, float yawAngle, <a class="el" href="classCB_1_1Room.html">CB::Room</a>@ room, bool startOpen=false, int big=0, int keycard=0, <a class="el" href="classstring.html">string</a> code=&quot;&quot;, bool useCollisionMesh=false)</td></tr>
+<tr class="memitem:a54fb94bb036eacac9439c6ad60354968" id="r_a54fb94bb036eacac9439c6ad60354968"><td class="memItemLeft"><a id="a54fb94bb036eacac9439c6ad60354968" name="a54fb94bb036eacac9439c6ad60354968"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Door.UpdateAll</b> ()</td></tr>
 <tr class="memitem:a95b41521a48d5293c7ebd3c6989a7f4e" id="r_a95b41521a48d5293c7ebd3c6989a7f4e"><td class="memItemLeft"><a id="a95b41521a48d5293c7ebd3c6989a7f4e" name="a95b41521a48d5293c7ebd3c6989a7f4e"></a>
 void&#160;</td><td class="memItemRight"><b>CB.Door.ActivateKeyCardMessageCooldown</b> ()</td></tr>
 <tr class="memitem:a1b4cd485253599a5392d6c79ed780c53" id="r_a1b4cd485253599a5392d6c79ed780c53"><td class="memItemLeft"><a id="a1b4cd485253599a5392d6c79ed780c53" name="a1b4cd485253599a5392d6c79ed780c53"></a>
@@ -1206,6 +1240,8 @@ int&#160;</td><td class="memItemRight"><b>CB.TimerStopped</b></td></tr>
 int&#160;</td><td class="memItemRight"><b>CB.PlayTime</b></td></tr>
 <tr class="memitem:aa1237769b1664abec779f9e520f72890" id="r_aa1237769b1664abec779f9e520f72890"><td class="memItemLeft"><a id="aa1237769b1664abec779f9e520f72890" name="aa1237769b1664abec779f9e520f72890"></a>
 float&#160;</td><td class="memItemRight"><b>CB.Menu.Scale</b></td></tr>
+<tr class="memitem:a9e91c1aa7d11012bf099f94ed01a1bf5" id="r_a9e91c1aa7d11012bf099f94ed01a1bf5"><td class="memItemLeft"><a id="a9e91c1aa7d11012bf099f94ed01a1bf5" name="a9e91c1aa7d11012bf099f94ed01a1bf5"></a>
+float&#160;</td><td class="memItemRight"><b>CB.Menu.HUDScale</b></td></tr>
 <tr class="memitem:a0621011abdad78c0af6d1ab07eaa10c4" id="r_a0621011abdad78c0af6d1ab07eaa10c4"><td class="memItemLeft"><a id="a0621011abdad78c0af6d1ab07eaa10c4" name="a0621011abdad78c0af6d1ab07eaa10c4"></a>
 bool&#160;</td><td class="memItemRight"><b>CB.Menu.IsMainMenuOpen</b></td></tr>
 <tr class="memitem:a915b3e75b1debd1ae71ebd7198ebf412" id="r_a915b3e75b1debd1ae71ebd7198ebf412"><td class="memItemLeft"><a id="a915b3e75b1debd1ae71ebd7198ebf412" name="a915b3e75b1debd1ae71ebd7198ebf412"></a>
@@ -1324,6 +1360,10 @@ int&#160;</td><td class="memItemRight"><b>CB.Options.ParticleAmount</b></td></tr
 <a class="el" href="namespaceCB_1_1Music.html">CB::Music</a>&#160;</td><td class="memItemRight"><b>CB.Music.NowPlaying</b></td></tr>
 <tr class="memitem:ad62ff2ca34683166295b00ca8936b92c" id="r_ad62ff2ca34683166295b00ca8936b92c"><td class="memItemLeft"><a id="ad62ff2ca34683166295b00ca8936b92c" name="ad62ff2ca34683166295b00ca8936b92c"></a>
 <a class="el" href="namespaceCB_1_1Music.html">CB::Music</a>&#160;</td><td class="memItemRight"><b>CB.Music.ShouldPlay</b></td></tr>
+<tr class="memitem:a9403e53917ba26626a6a73796c35ac11" id="r_a9403e53917ba26626a6a73796c35ac11"><td class="memItemLeft"><a id="a9403e53917ba26626a6a73796c35ac11" name="a9403e53917ba26626a6a73796c35ac11"></a>
+float&#160;</td><td class="memItemRight"><b>CB.Music.CurrentVolume</b></td></tr>
+<tr class="memitem:a086cdec5e82662eb3bf6772c7cbb9b3b" id="r_a086cdec5e82662eb3bf6772c7cbb9b3b"><td class="memItemLeft"><a id="a086cdec5e82662eb3bf6772c7cbb9b3b" name="a086cdec5e82662eb3bf6772c7cbb9b3b"></a>
+<a class="el" href="classCB_1_1Stream.html">CB::Stream</a>&#160;</td><td class="memItemRight"><b>CB.Music.Channel</b></td></tr>
 <tr class="memitem:aafa41091dce6150020ea97f48a8e8049" id="r_aafa41091dce6150020ea97f48a8e8049"><td class="memItemLeft"><a id="aafa41091dce6150020ea97f48a8e8049" name="aafa41091dce6150020ea97f48a8e8049"></a>
 int&#160;</td><td class="memItemRight"><b>CB.Input.MouseHit1</b></td></tr>
 <tr class="memitem:a44c0a6542f29dd63a64278381081e858" id="r_a44c0a6542f29dd63a64278381081e858"><td class="memItemLeft"><a id="a44c0a6542f29dd63a64278381081e858" name="a44c0a6542f29dd63a64278381081e858"></a>
@@ -1340,6 +1380,22 @@ int&#160;</td><td class="memItemRight"><b>CB.Input.LastMouseHit1X</b></td></tr>
 int&#160;</td><td class="memItemRight"><b>CB.Input.LastMouseHit1Y</b></td></tr>
 <tr class="memitem:a9bdbc47e9d370e7d0e9713b0ffd4b5d2" id="r_a9bdbc47e9d370e7d0e9713b0ffd4b5d2"><td class="memItemLeft"><a id="a9bdbc47e9d370e7d0e9713b0ffd4b5d2" name="a9bdbc47e9d370e7d0e9713b0ffd4b5d2"></a>
 bool&#160;</td><td class="memItemRight"><b>CB.Input.MouseUp1</b></td></tr>
+<tr class="memitem:ac0de925433159479d055686cf29dd097" id="r_ac0de925433159479d055686cf29dd097"><td class="memItemLeft"><a id="ac0de925433159479d055686cf29dd097" name="ac0de925433159479d055686cf29dd097"></a>
+<a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Gamma</b></td></tr>
+<tr class="memitem:a16dbe40f14dba2e6fa59d2a6c92841da" id="r_a16dbe40f14dba2e6fa59d2a6c92841da"><td class="memItemLeft"><a id="a16dbe40f14dba2e6fa59d2a6c92841da" name="a16dbe40f14dba2e6fa59d2a6c92841da"></a>
+<a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>&#160;</td><td class="memItemRight"><b>CB.Effect.FXAA</b></td></tr>
+<tr class="memitem:a052410cbc605860eb3d26d6690e6402c" id="r_a052410cbc605860eb3d26d6690e6402c"><td class="memItemLeft"><a id="a052410cbc605860eb3d26d6690e6402c" name="a052410cbc605860eb3d26d6690e6402c"></a>
+<a class="el" href="classB3D_1_1Camera.html">B3D::Camera</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Camera</b></td></tr>
+<tr class="memitem:a9d874df6827ef164564e6a87a573aa0e" id="r_a9d874df6827ef164564e6a87a573aa0e"><td class="memItemLeft"><a id="a9d874df6827ef164564e6a87a573aa0e" name="a9d874df6827ef164564e6a87a573aa0e"></a>
+<a class="el" href="classB3D_1_1Sprite.html">B3D::Sprite</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Quad</b></td></tr>
+<tr class="memitem:a6af815d0cc89f61845fcb67fb43b6f63" id="r_a6af815d0cc89f61845fcb67fb43b6f63"><td class="memItemLeft"><a id="a6af815d0cc89f61845fcb67fb43b6f63" name="a6af815d0cc89f61845fcb67fb43b6f63"></a>
+<a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Active</b></td></tr>
+<tr class="memitem:a2ea9b150d152cce147c72a9aa23b7f47" id="r_a2ea9b150d152cce147c72a9aa23b7f47"><td class="memItemLeft"><a id="a2ea9b150d152cce147c72a9aa23b7f47" name="a2ea9b150d152cce147c72a9aa23b7f47"></a>
+<a class="el" href="classB3D_1_1Texture.html">B3D::Texture</a>&#160;</td><td class="memItemRight"><b>CB.Effect.ScreenTexture</b></td></tr>
+<tr class="memitem:ad4b24ae8211cda8deb1396b9a250acac" id="r_ad4b24ae8211cda8deb1396b9a250acac"><td class="memItemLeft"><a id="ad4b24ae8211cda8deb1396b9a250acac" name="ad4b24ae8211cda8deb1396b9a250acac"></a>
+int&#160;</td><td class="memItemRight"><b>CB.Effect.PixelWidth</b></td></tr>
+<tr class="memitem:ab70718da6e83aef1d7785ac40edb1544" id="r_ab70718da6e83aef1d7785ac40edb1544"><td class="memItemLeft"><a id="ab70718da6e83aef1d7785ac40edb1544" name="ab70718da6e83aef1d7785ac40edb1544"></a>
+int&#160;</td><td class="memItemRight"><b>CB.Effect.PixelHeight</b></td></tr>
 <tr class="memitem:a93eb917d482e8f9e4a905af54eac202d" id="r_a93eb917d482e8f9e4a905af54eac202d"><td class="memItemLeft"><a id="a93eb917d482e8f9e4a905af54eac202d" name="a93eb917d482e8f9e4a905af54eac202d"></a>
 int&#160;</td><td class="memItemRight"><b>CB.Map.Width</b></td></tr>
 <tr class="memitem:a00144ba6f7d2c6fad6e110e6828b246c" id="r_a00144ba6f7d2c6fad6e110e6828b246c"><td class="memItemLeft"><a id="a00144ba6f7d2c6fad6e110e6828b246c" name="a00144ba6f7d2c6fad6e110e6828b246c"></a>
@@ -1468,8 +1524,12 @@ int&#160;</td><td class="memItemRight"><b>CB.Player.CurrentZone</b></td></tr>
 <tr class="memitem:ab6b180720c958fc513ac7fe9513a537b" id="r_ab6b180720c958fc513ac7fe9513a537b"><td class="memItemLeft"><a id="ab6b180720c958fc513ac7fe9513a537b" name="ab6b180720c958fc513ac7fe9513a537b"></a>
 <a class="el" href="classCB_1_1Room.html">CB::Room</a>&#160;</td><td class="memItemRight"><b>CB.Player.CurrentRoom</b></td></tr>
 <tr class="memdesc:ab6b180720c958fc513ac7fe9513a537b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The room the player character is currently occupying. <br /></td></tr>
-<tr class="memitem:a5c8131b88715829d46ace70e7e4820d0" id="r_a5c8131b88715829d46ace70e7e4820d0"><td class="memItemLeft"><a id="a5c8131b88715829d46ace70e7e4820d0" name="a5c8131b88715829d46ace70e7e4820d0"></a>
-int&#160;</td><td class="memItemRight"><b>CB.Player.GrabbedEntity</b></td></tr>
+<tr class="memitem:a68f8658bf36909d1beea65ea928fe82d" id="r_a68f8658bf36909d1beea65ea928fe82d"><td class="memItemLeft"><a id="a68f8658bf36909d1beea65ea928fe82d" name="a68f8658bf36909d1beea65ea928fe82d"></a>
+<a class="el" href="classB3D_1_1Entity.html">B3D::Entity</a>&#160;</td><td class="memItemRight"><b>CB.Player.GrabbedEntity</b></td></tr>
+<tr class="memitem:ac34cf4ed76dbad3b96e01faf02851066" id="r_ac34cf4ed76dbad3b96e01faf02851066"><td class="memItemLeft"><a id="ac34cf4ed76dbad3b96e01faf02851066" name="ac34cf4ed76dbad3b96e01faf02851066"></a>
+<a class="el" href="classCB_1_1Door.html">CB::Door</a>&#160;</td><td class="memItemRight"><b>CB.Player.ClosestDoor</b></td></tr>
+<tr class="memitem:aedd29c595e0904e8a6008b6c1c6f85ee" id="r_aedd29c595e0904e8a6008b6c1c6f85ee"><td class="memItemLeft"><a id="aedd29c595e0904e8a6008b6c1c6f85ee" name="aedd29c595e0904e8a6008b6c1c6f85ee"></a>
+<a class="el" href="classB3D_1_1Mesh.html">B3D::Mesh</a>&#160;</td><td class="memItemRight"><b>CB.Player.ClosestButton</b></td></tr>
 <tr class="memitem:a76b17b73b0871bfd94dee575082a18f3" id="r_a76b17b73b0871bfd94dee575082a18f3"><td class="memItemLeft"><a id="a76b17b73b0871bfd94dee575082a18f3" name="a76b17b73b0871bfd94dee575082a18f3"></a>
 bool&#160;</td><td class="memItemRight"><b>CB.Player.GodMode</b></td></tr>
 <tr class="memitem:a722948319b858648f7adb5dfaca2d7c7" id="r_a722948319b858648f7adb5dfaca2d7c7"><td class="memItemLeft"><a id="a722948319b858648f7adb5dfaca2d7c7" name="a722948319b858648f7adb5dfaca2d7c7"></a>
@@ -1496,6 +1556,10 @@ float&#160;</td><td class="memItemRight"><b>CB.Player.MessageTimer</b></td></tr>
 <a class="el" href="classstring.html">string</a>&#160;</td><td class="memItemRight"><b>CB.Player.Message</b></td></tr>
 <tr class="memitem:a353e2e740c058348aef9a945434c68e0" id="r_a353e2e740c058348aef9a945434c68e0"><td class="memItemLeft"><a id="a353e2e740c058348aef9a945434c68e0" name="a353e2e740c058348aef9a945434c68e0"></a>
 <a class="el" href="classstring.html">string</a>&#160;</td><td class="memItemRight"><b>CB.Player.DeathMessage</b></td></tr>
+<tr class="memitem:aca0fc422d2ea1b81c9fbddb5ed6f290b" id="r_aca0fc422d2ea1b81c9fbddb5ed6f290b"><td class="memItemLeft"><a id="aca0fc422d2ea1b81c9fbddb5ed6f290b" name="aca0fc422d2ea1b81c9fbddb5ed6f290b"></a>
+bool&#160;</td><td class="memItemRight"><b>CB.Player.GameSaved</b></td></tr>
+<tr class="memitem:a27f9ba6d8981d8b00ced5c24c962adef" id="r_a27f9ba6d8981d8b00ced5c24c962adef"><td class="memItemLeft"><a id="a27f9ba6d8981d8b00ced5c24c962adef" name="a27f9ba6d8981d8b00ced5c24c962adef"></a>
+bool&#160;</td><td class="memItemRight"><b>CB.Player.CanSave</b></td></tr>
 <tr class="memitem:a8892369e54c4433defb2642f7c59dc5e" id="r_a8892369e54c4433defb2642f7c59dc5e"><td class="memItemLeft"><a id="a8892369e54c4433defb2642f7c59dc5e" name="a8892369e54c4433defb2642f7c59dc5e"></a>
 <a class="el" href="classB3D_1_1Texture.html">B3D::Texture</a>&#160;</td><td class="memItemRight"><b>CB.Dreamfilter.Texture</b></td></tr>
 <tr class="memitem:af5daf8ef3416631ca40f4a9870dfe714" id="r_af5daf8ef3416631ca40f4a9870dfe714"><td class="memItemLeft"><a id="af5daf8ef3416631ca40f4a9870dfe714" name="af5daf8ef3416631ca40f4a9870dfe714"></a>

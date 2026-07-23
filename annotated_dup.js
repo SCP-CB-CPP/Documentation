@@ -30,6 +30,7 @@ var annotated_dup =
       [ "Console", "namespaceCB_1_1Console.html", [
         [ "Msg", "classCB_1_1Console_1_1Msg.html", null ]
       ] ],
+      [ "LoadingScreen", "classCB_1_1LoadingScreen.html", null ],
       [ "Sound", "classCB_1_1Sound.html", null ],
       [ "Stream", "classCB_1_1Stream.html", null ],
       [ "ParticleEmitter", "classCB_1_1ParticleEmitter.html", null ],

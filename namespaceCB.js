@@ -1,9 +1,13 @@
 var namespaceCB =
 [
     [ "Menu", "namespaceCB_1_1Menu.html", null ],
+    [ "LoadingScreen", "namespaceCB_1_1LoadingScreen.html", null ],
     [ "Options", "namespaceCB_1_1Options.html", null ],
     [ "Sound", "namespaceCB_1_1Sound.html", null ],
     [ "Music", "namespaceCB_1_1Music.html", null ],
+    [ "Effect", "namespaceCB_1_1Effect.html", [
+      [ "RenderQuad", "namespaceCB_1_1Effect.html#a5814415f3f8f61908c1f72f771dc574a", null ]
+    ] ],
     [ "Particles", "namespaceCB_1_1Particles.html", null ],
     [ "Waypoint", "namespaceCB_1_1Waypoint.html", null ],
     [ "Forest", "namespaceCB_1_1Forest.html", null ],
@@ -50,6 +54,7 @@ var namespaceCB =
     [ "SCP914", "namespaceCB_1_1SCP914.html", null ],
     [ "Input", "namespaceCB_1_1Input.html", null ],
     [ "Ending", "namespaceCB_1_1Ending.html", null ],
+    [ "LoadingScreen", "classCB_1_1LoadingScreen.html", null ],
     [ "Sound", "classCB_1_1Sound.html", null ],
     [ "Stream", "classCB_1_1Stream.html", null ],
     [ "ParticleEmitter", "classCB_1_1ParticleEmitter.html", null ],
