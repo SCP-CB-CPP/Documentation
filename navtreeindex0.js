@@ -190,6 +190,8 @@ var NAVTREEINDEX0 =
 "md_Articles_2Hooks.html#autotoc_md50":[0,49],
 "md_Articles_2Hooks.html#autotoc_md51":[0,50],
 "md_Articles_2Hooks.html#autotoc_md52":[0,51],
+"md_Articles_2Hooks.html#autotoc_md53":[0,52],
+"md_Articles_2Hooks.html#autotoc_md54":[0,53],
 "md_Articles_2Hooks.html#autotoc_md6":[0,5],
 "md_Articles_2Hooks.html#autotoc_md7":[0,6],
 "md_Articles_2Hooks.html#autotoc_md8":[0,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "namespaceCB_1_1Player.html#af33496bc15124e0646807864f8027f42":[1,0,1,23,4],
 "namespaceCB_1_1Player.html#af5b798dc256a40d63012f41731a10c33":[1,0,1,23,3],
 "namespaceCB_1_1QueuedSubtitleMsg.html":[1,0,1,32],
-"namespaceCB_1_1Room.html":[1,0,1,8],
-"namespaceCB_1_1RoomTemplate.html":[1,0,1,13],
-"namespaceCB_1_1SCP914.html":[1,0,1,37]
+"namespaceCB_1_1Room.html":[1,0,1,8]
 };

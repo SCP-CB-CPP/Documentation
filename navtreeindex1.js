@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"namespaceCB_1_1RoomTemplate.html":[1,0,1,13],
+"namespaceCB_1_1SCP914.html":[1,0,1,37],
 "namespaceCB_1_1Skybox.html":[1,0,1,19],
 "namespaceCB_1_1Sound.html":[1,0,1,2],
 "namespaceCB_1_1SubtitleBox.html":[1,0,1,28],
