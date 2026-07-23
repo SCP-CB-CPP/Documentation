@@ -296,7 +296,7 @@ Called after a door has been created.
 ## bool Hook_UpdateDoor(@ref CB::Door)
 
 Called for every door every frame.
-When overridden, responsible for updating @ref CB::Door::Closest, @ref CB::Door::ClosestButton, managing @ref CB::Door::OpenState, positions of @ref CB::Door::Object and @ref CB::Door::Object2, as well as the alpha of the @ref CB::Door::HitObject.
+When overridden, responsible for updating @ref CB::Player::ClosestDoor, @ref CB::Player::ClosestButton, managing @ref CB::Door::OpenState, positions of @ref CB::Door::Object and @ref CB::Door::Object2, as well as the alpha of the @ref CB::Door::HitObject.
 Can be used to implement custom door types.
 
 ## int Hook_CanUseDoor(@ref CB::Door, bool showMsg, bool playSFX)
