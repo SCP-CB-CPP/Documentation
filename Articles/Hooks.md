@@ -47,6 +47,15 @@ Called once per frame after the game has finished its processing and rendering, 
 
 Called before the HUD is drawn.
 
+## bool Hook_IsAnyMenuOpen()
+
+Allows for implementing custom menus that automatically implement certain behaviors, like showing a mouse cursor and pausing the game.
+Examples include SCP-294's interface and the inventory.
+
+## bool Hook_IsPaused()
+
+Allows for manually pausing the game.
+
 ## bool Hook_MovePlayer()
 
 Called before the player character is moved according to the current game states and the player's inputs.
