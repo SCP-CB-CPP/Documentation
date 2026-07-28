@@ -1,5 +1,16 @@
 var NAVTREEINDEX1 =
 {
+"namespaceCB_1_1NPC.html":[1,0,1,9],
+"namespaceCB_1_1Options.html":[1,0,1,2],
+"namespaceCB_1_1Particles.html":[1,0,1,6],
+"namespaceCB_1_1Particles_1_1Internal.html":[1,0,1,6,0],
+"namespaceCB_1_1Particles_1_1Internal_1_1Emitter.html":[1,0,1,6,0,1],
+"namespaceCB_1_1Particles_1_1Internal_1_1Particle.html":[1,0,1,6,0,2],
+"namespaceCB_1_1Particles_1_1Internal_1_1Template.html":[1,0,1,6,0,0],
+"namespaceCB_1_1Player.html":[1,0,1,25],
+"namespaceCB_1_1Player.html#a0d0fe2f973ca20596b9efcb1bab8b8b6":[1,0,1,25,2],
+"namespaceCB_1_1Player.html#a6eec4f4b57b941e3d6975ee316cc156f":[1,0,1,25,0],
+"namespaceCB_1_1Player.html#ab6b180720c958fc513ac7fe9513a537b":[1,0,1,25,1],
 "namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4":[1,0,1,25,5],
 "namespaceCB_1_1Player.html#af33496bc15124e0646807864f8027f42":[1,0,1,25,4],
 "namespaceCB_1_1Player.html#af5b798dc256a40d63012f41731a10c33":[1,0,1,25,3],

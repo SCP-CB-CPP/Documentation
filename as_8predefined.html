@@ -132,6 +132,9 @@ Classes</h2></td></tr>
 <tr class="memitem:CB_2EStream" id="r_CB_2EStream"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Stream.html">CB.Stream</a></td></tr>
 <tr class="memitem:CB_2EParticleEmitter" id="r_CB_2EParticleEmitter"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1ParticleEmitter.html">CB.ParticleEmitter</a></td></tr>
 <tr class="memitem:CB_2EParticleTemplate" id="r_CB_2EParticleTemplate"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1ParticleTemplate.html">CB.ParticleTemplate</a></td></tr>
+<tr class="memitem:CB_2EParticles_2EInternal_2ETemplate" id="r_CB_2EParticles_2EInternal_2ETemplate"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Particles_1_1Internal_1_1Template.html">CB.Particles.Internal.Template</a></td></tr>
+<tr class="memitem:CB_2EParticles_2EInternal_2EEmitter" id="r_CB_2EParticles_2EInternal_2EEmitter"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Particles_1_1Internal_1_1Emitter.html">CB.Particles.Internal.Emitter</a></td></tr>
+<tr class="memitem:CB_2EParticles_2EInternal_2EParticle" id="r_CB_2EParticles_2EInternal_2EParticle"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Particles_1_1Internal_1_1Particle.html">CB.Particles.Internal.Particle</a></td></tr>
 <tr class="memitem:CB_2EWaypoint" id="r_CB_2EWaypoint"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Waypoint.html">CB.Waypoint</a></td></tr>
 <tr class="memitem:CB_2EForest" id="r_CB_2EForest"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1Forest.html">CB.Forest</a></td></tr>
 <tr class="memitem:CB_2ENPC" id="r_CB_2ENPC"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="classCB_1_1NPC.html">CB.NPC</a></td></tr>
@@ -771,6 +774,8 @@ float&#160;</td><td class="memItemRight"><b>CB.Options.GetFloat</b> (<a class="e
 bool&#160;</td><td class="memItemRight"><b>CB.Options.PutINIValue</b> (<a class="el" href="classstring.html">string</a> section, <a class="el" href="classstring.html">string</a> key, <a class="el" href="classstring.html">string</a> value)</td></tr>
 <tr class="memitem:a59a23f019d12d49d90f1277478c7b8c8" id="r_a59a23f019d12d49d90f1277478c7b8c8"><td class="memItemLeft"><a id="a59a23f019d12d49d90f1277478c7b8c8" name="a59a23f019d12d49d90f1277478c7b8c8"></a>
 <a class="el" href="classB3D_1_1Image.html">B3D::Image</a>&#160;</td><td class="memItemRight"><b>CB.LoadImage</b> (<a class="el" href="classstring.html">string</a> file, float scale=0, int flags=0)</td></tr>
+<tr class="memitem:aa37cf08b7bf37dc16b39c336633270c6" id="r_aa37cf08b7bf37dc16b39c336633270c6"><td class="memItemLeft"><a id="aa37cf08b7bf37dc16b39c336633270c6" name="aa37cf08b7bf37dc16b39c336633270c6"></a>
+<a class="el" href="classB3D_1_1Image.html">B3D::Image</a>&#160;</td><td class="memItemRight"><b>CB.LoadImageHUDScaled</b> (<a class="el" href="classstring.html">string</a> file, int fixedSizeX=0, int fixedSizeY=0)</td></tr>
 <tr class="memitem:aa9a5986def4b09a4e184eb86b9adf0d4" id="r_aa9a5986def4b09a4e184eb86b9adf0d4"><td class="memItemLeft"><a id="aa9a5986def4b09a4e184eb86b9adf0d4" name="aa9a5986def4b09a4e184eb86b9adf0d4"></a>
 <a class="el" href="classB3D_1_1Mesh.html">B3D::Mesh</a>&#160;</td><td class="memItemRight"><b>CB.LoadMesh</b> (<a class="el" href="classstring.html">string</a> file, <a class="el" href="classB3D_1_1Entity.html">B3D::Entity</a>@ parent)</td></tr>
 <tr class="memitem:adcbf21f13d9648448e3daf8e76f5d6fe" id="r_adcbf21f13d9648448e3daf8e76f5d6fe"><td class="memItemLeft"><a id="adcbf21f13d9648448e3daf8e76f5d6fe" name="adcbf21f13d9648448e3daf8e76f5d6fe"></a>
@@ -793,27 +798,38 @@ bool&#160;</td><td class="memItemRight"><b>CB.Options.PutINIValue</b> (<a class=
 <a class="el" href="classCB_1_1Stream.html">CB::Stream</a>&#160;</td><td class="memItemRight"><b>CB.Sound.Stream</b> (<a class="el" href="classstring.html">string</a> file, float volume=1, int customMode=2)</td></tr>
 <tr class="memitem:aad40395fdf321cfbdf352f2525ab8a7d" id="r_aad40395fdf321cfbdf352f2525ab8a7d"><td class="memItemLeft"><a id="aad40395fdf321cfbdf352f2525ab8a7d" name="aad40395fdf321cfbdf352f2525ab8a7d"></a>
 <a class="el" href="namespaceCB_1_1Music.html">CB::Music</a>&#160;</td><td class="memItemRight"><b>CB.Music.RegisterCustom</b> (<a class="el" href="classstring.html">string</a> file)</td></tr>
-<tr class="memitem:aaf50aad431da7986eeac158b304b3666" id="r_aaf50aad431da7986eeac158b304b3666"><td class="memItemLeft"><a id="aaf50aad431da7986eeac158b304b3666" name="aaf50aad431da7986eeac158b304b3666"></a>
-void&#160;</td><td class="memItemRight"><b>CB.Effect.Initialize</b> ()</td></tr>
-<tr class="memitem:acfe5b4e41c64838426dc270997dfde12" id="r_acfe5b4e41c64838426dc270997dfde12"><td class="memItemLeft"><a id="acfe5b4e41c64838426dc270997dfde12" name="acfe5b4e41c64838426dc270997dfde12"></a>
-void&#160;</td><td class="memItemRight"><b>CB.Effect.Update</b> ()</td></tr>
-<tr class="memitem:a75cb1d8149364d1a80fa5faf55e3cce5" id="r_a75cb1d8149364d1a80fa5faf55e3cce5"><td class="memItemLeft"><a id="a75cb1d8149364d1a80fa5faf55e3cce5" name="a75cb1d8149364d1a80fa5faf55e3cce5"></a>
-void&#160;</td><td class="memItemRight"><b>CB.Effect.ProcessGamma</b> (float gamma)</td></tr>
-<tr class="memitem:afbe703b584e3007739f66fbd3d100e13" id="r_afbe703b584e3007739f66fbd3d100e13"><td class="memItemLeft"><a id="afbe703b584e3007739f66fbd3d100e13" name="afbe703b584e3007739f66fbd3d100e13"></a>
-void&#160;</td><td class="memItemRight"><b>CB.Effect.ProcessFXAA</b> ()</td></tr>
-<tr class="memitem:a9307ddba50c8679a20c2f759ad8d0b28" id="r_a9307ddba50c8679a20c2f759ad8d0b28"><td class="memItemLeft"><a id="a9307ddba50c8679a20c2f759ad8d0b28" name="a9307ddba50c8679a20c2f759ad8d0b28"></a>
-void&#160;</td><td class="memItemRight"><b>CB.Effect.SetQuadEffect</b> (<a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>@ effect)</td></tr>
-<tr class="memitem:a36d8ef535e8f1e22c5b5788373d239a9" id="r_a36d8ef535e8f1e22c5b5788373d239a9"><td class="memItemLeft"><a id="a36d8ef535e8f1e22c5b5788373d239a9" name="a36d8ef535e8f1e22c5b5788373d239a9"></a>
-<a class="el" href="classB3D_1_1Sprite.html">B3D::Sprite</a>&#160;</td><td class="memItemRight"><b>CB.Effect.CreateFullscreenQuad</b> (<a class="el" href="classB3D_1_1Entity.html">B3D::Entity</a>@ parent=null)</td></tr>
-<tr class="memitem:a5814415f3f8f61908c1f72f771dc574a" id="r_a5814415f3f8f61908c1f72f771dc574a"><td class="memItemLeft"><a id="a5814415f3f8f61908c1f72f771dc574a" name="a5814415f3f8f61908c1f72f771dc574a"></a>
-void&#160;</td><td class="memItemRight"><b>CB.Effect.RenderQuad</b> (<a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>@ effect, <a class="el" href="classB3D_1_1Texture.html">B3D::Texture</a>@ buffer, <a class="el" href="classstring.html">string</a> technique, int blend=0)</td></tr>
-<tr class="memdesc:a5814415f3f8f61908c1f72f771dc574a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility method to apply a post-process effect to the back buffer and render it into a buffer (which can also be the back buffer). <br /></td></tr>
+<tr class="memitem:a2f34d29c83122e152d5c04e50a8e2529" id="r_a2f34d29c83122e152d5c04e50a8e2529"><td class="memItemLeft"><a id="a2f34d29c83122e152d5c04e50a8e2529" name="a2f34d29c83122e152d5c04e50a8e2529"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.RenderQuad</b> (<a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>@ effect, <a class="el" href="classB3D_1_1Buffer.html">B3D::Buffer</a>@ buffer, <a class="el" href="classstring.html">string</a> technique, int blend=0)</td></tr>
+<tr class="memitem:a0fa7cf9c42cf3bcf8efed7341999ca6d" id="r_a0fa7cf9c42cf3bcf8efed7341999ca6d"><td class="memItemLeft"><a id="a0fa7cf9c42cf3bcf8efed7341999ca6d" name="a0fa7cf9c42cf3bcf8efed7341999ca6d"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.Initialize</b> ()</td></tr>
+<tr class="memitem:a4c52f909bf521c39a8a9ff9822ca1f43" id="r_a4c52f909bf521c39a8a9ff9822ca1f43"><td class="memItemLeft"><a id="a4c52f909bf521c39a8a9ff9822ca1f43" name="a4c52f909bf521c39a8a9ff9822ca1f43"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.Update</b> ()</td></tr>
+<tr class="memitem:acc8622a222d7a27522044bb2e610cffb" id="r_acc8622a222d7a27522044bb2e610cffb"><td class="memItemLeft"><a id="acc8622a222d7a27522044bb2e610cffb" name="acc8622a222d7a27522044bb2e610cffb"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.ProcessGamma</b> (float gamma)</td></tr>
+<tr class="memitem:a26c65c157b792de8b090df3442789711" id="r_a26c65c157b792de8b090df3442789711"><td class="memItemLeft"><a id="a26c65c157b792de8b090df3442789711" name="a26c65c157b792de8b090df3442789711"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.ProcessFXAA</b> ()</td></tr>
+<tr class="memitem:a26eb6d9cd268dbf09026332447fb40f8" id="r_a26eb6d9cd268dbf09026332447fb40f8"><td class="memItemLeft"><a id="a26eb6d9cd268dbf09026332447fb40f8" name="a26eb6d9cd268dbf09026332447fb40f8"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.SetQuadEffect</b> (<a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>@ effect)</td></tr>
+<tr class="memitem:a3ec526fa61de0e52a7ee2273324923d2" id="r_a3ec526fa61de0e52a7ee2273324923d2"><td class="memItemLeft"><a id="a3ec526fa61de0e52a7ee2273324923d2" name="a3ec526fa61de0e52a7ee2273324923d2"></a>
+<a class="el" href="classB3D_1_1Sprite.html">B3D::Sprite</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.CreateFullscreenQuad</b> (<a class="el" href="classB3D_1_1Entity.html">B3D::Entity</a>@ parent=null)</td></tr>
 <tr class="memitem:af5237e6d56c4cbe3d9ef9b0e0c715117" id="r_af5237e6d56c4cbe3d9ef9b0e0c715117"><td class="memItemLeft"><a id="af5237e6d56c4cbe3d9ef9b0e0c715117" name="af5237e6d56c4cbe3d9ef9b0e0c715117"></a>
 void&#160;</td><td class="memItemRight"><b>CB.Particles.Initialize</b> (<a class="el" href="classB3D_1_1Camera.html">B3D::Camera</a>@ camera)</td></tr>
 <tr class="memitem:aae23727f0cec340df0a1c0ad68eff838" id="r_aae23727f0cec340df0a1c0ad68eff838"><td class="memItemLeft"><a id="aae23727f0cec340df0a1c0ad68eff838" name="aae23727f0cec340df0a1c0ad68eff838"></a>
 void&#160;</td><td class="memItemRight"><b>CB.Particles.Update</b> ()</td></tr>
 <tr class="memitem:a48c089f330b57e4dce63f8b2425ea258" id="r_a48c089f330b57e4dce63f8b2425ea258"><td class="memItemLeft"><a id="a48c089f330b57e4dce63f8b2425ea258" name="a48c089f330b57e4dce63f8b2425ea258"></a>
 void&#160;</td><td class="memItemRight"><b>CB.Particles.FreeAll</b> ()</td></tr>
+<tr class="memitem:acc40f10f558fdc400350418219c30dda" id="r_acc40f10f558fdc400350418219c30dda"><td class="memItemLeft"><a id="acc40f10f558fdc400350418219c30dda" name="acc40f10f558fdc400350418219c30dda"></a>
+<a class="el" href="classCB_1_1Particles_1_1Internal_1_1Template.html">CB::Particles::Internal::Template</a>&#160;</td><td class="memItemRight"><b>CB.Particles.Internal.Template.get_First</b> () property</td></tr>
+<tr class="memitem:a778a66ea46be10f0ada1f90a7ea60d1d" id="r_a778a66ea46be10f0ada1f90a7ea60d1d"><td class="memItemLeft"><a id="a778a66ea46be10f0ada1f90a7ea60d1d" name="a778a66ea46be10f0ada1f90a7ea60d1d"></a>
+<a class="el" href="classCB_1_1Particles_1_1Internal_1_1Template.html">CB::Particles::Internal::Template</a>&#160;</td><td class="memItemRight"><b>CB.Particles.Internal.Template.get_Last</b> () property</td></tr>
+<tr class="memitem:ac23ea7283316e618099c8d087586ae66" id="r_ac23ea7283316e618099c8d087586ae66"><td class="memItemLeft"><a id="ac23ea7283316e618099c8d087586ae66" name="ac23ea7283316e618099c8d087586ae66"></a>
+<a class="el" href="classCB_1_1Particles_1_1Internal_1_1Emitter.html">CB::Particles::Internal::Emitter</a>&#160;</td><td class="memItemRight"><b>CB.Particles.Internal.Emitter.get_First</b> () property</td></tr>
+<tr class="memitem:acf301a233a0e2fe0a713388b3619419c" id="r_acf301a233a0e2fe0a713388b3619419c"><td class="memItemLeft"><a id="acf301a233a0e2fe0a713388b3619419c" name="acf301a233a0e2fe0a713388b3619419c"></a>
+<a class="el" href="classCB_1_1Particles_1_1Internal_1_1Emitter.html">CB::Particles::Internal::Emitter</a>&#160;</td><td class="memItemRight"><b>CB.Particles.Internal.Emitter.get_Last</b> () property</td></tr>
+<tr class="memitem:a1ddf48e36f570fc47d9bd385b107817e" id="r_a1ddf48e36f570fc47d9bd385b107817e"><td class="memItemLeft"><a id="a1ddf48e36f570fc47d9bd385b107817e" name="a1ddf48e36f570fc47d9bd385b107817e"></a>
+<a class="el" href="classCB_1_1Particles_1_1Internal_1_1Particle.html">CB::Particles::Internal::Particle</a>&#160;</td><td class="memItemRight"><b>CB.Particles.Internal.Particle.get_First</b> () property</td></tr>
+<tr class="memitem:a5bb37cbe52fdaaa91118e361a30e9fe4" id="r_a5bb37cbe52fdaaa91118e361a30e9fe4"><td class="memItemLeft"><a id="a5bb37cbe52fdaaa91118e361a30e9fe4" name="a5bb37cbe52fdaaa91118e361a30e9fe4"></a>
+<a class="el" href="classCB_1_1Particles_1_1Internal_1_1Particle.html">CB::Particles::Internal::Particle</a>&#160;</td><td class="memItemRight"><b>CB.Particles.Internal.Particle.get_Last</b> () property</td></tr>
 <tr class="memitem:a0c4940f43429144c15ea39a00620d255" id="r_a0c4940f43429144c15ea39a00620d255"><td class="memItemLeft"><a id="a0c4940f43429144c15ea39a00620d255" name="a0c4940f43429144c15ea39a00620d255"></a>
 <a class="el" href="classCB_1_1Waypoint.html">CB::Waypoint</a>&#160;</td><td class="memItemRight"><b>CB.Waypoint.get_First</b> () property</td></tr>
 <tr class="memitem:aec02681a0407257d14b366c8f52896ad" id="r_aec02681a0407257d14b366c8f52896ad"><td class="memItemLeft"><a id="aec02681a0407257d14b366c8f52896ad" name="aec02681a0407257d14b366c8f52896ad"></a>
@@ -1188,8 +1204,8 @@ int&#160;</td><td class="memItemRight"><b>Steam.GetSenderIDUpper</b> ()</td></tr
 int&#160;</td><td class="memItemRight"><b>Steam.GetSenderIDLower</b> ()</td></tr>
 <tr class="memitem:a5e33e4791e8c495e54fe5984d3d573d9" id="r_a5e33e4791e8c495e54fe5984d3d573d9"><td class="memItemLeft"><a id="a5e33e4791e8c495e54fe5984d3d573d9" name="a5e33e4791e8c495e54fe5984d3d573d9"></a>
 int&#160;</td><td class="memItemRight"><b>Steam.LoadPacket</b> ()</td></tr>
-<tr class="memitem:a1f57ade02783d18525fdeb2b9bc776f8" id="r_a1f57ade02783d18525fdeb2b9bc776f8"><td class="memItemLeft"><a id="a1f57ade02783d18525fdeb2b9bc776f8" name="a1f57ade02783d18525fdeb2b9bc776f8"></a>
-bool&#160;</td><td class="memItemRight"><b>Steam.SendPacketToUser</b> (int upperID, int lowerID)</td></tr>
+<tr class="memitem:af1416df4f1e8b3a2688fede739612ee1" id="r_af1416df4f1e8b3a2688fede739612ee1"><td class="memItemLeft"><a id="af1416df4f1e8b3a2688fede739612ee1" name="af1416df4f1e8b3a2688fede739612ee1"></a>
+bool&#160;</td><td class="memItemRight"><b>Steam.SendPacketToUser</b> (int upperID, int lowerID, bool reliable=false)</td></tr>
 <tr class="memitem:ae541da41bb4fcd9ef47ef0c541e1cfcc" id="r_ae541da41bb4fcd9ef47ef0c541e1cfcc"><td class="memItemLeft"><a id="ae541da41bb4fcd9ef47ef0c541e1cfcc" name="ae541da41bb4fcd9ef47ef0c541e1cfcc"></a>
 bool&#160;</td><td class="memItemRight"><b>Steam.CloseConnection</b> (int upperID, int lowerID)</td></tr>
 <tr class="memitem:a175020d6369c633196ab24754654c024" id="r_a175020d6369c633196ab24754654c024"><td class="memItemLeft"><a id="a175020d6369c633196ab24754654c024" name="a175020d6369c633196ab24754654c024"></a>
@@ -1240,8 +1256,6 @@ int&#160;</td><td class="memItemRight"><b>CB.TimerStopped</b></td></tr>
 int&#160;</td><td class="memItemRight"><b>CB.PlayTime</b></td></tr>
 <tr class="memitem:aa1237769b1664abec779f9e520f72890" id="r_aa1237769b1664abec779f9e520f72890"><td class="memItemLeft"><a id="aa1237769b1664abec779f9e520f72890" name="aa1237769b1664abec779f9e520f72890"></a>
 float&#160;</td><td class="memItemRight"><b>CB.Menu.Scale</b></td></tr>
-<tr class="memitem:a9e91c1aa7d11012bf099f94ed01a1bf5" id="r_a9e91c1aa7d11012bf099f94ed01a1bf5"><td class="memItemLeft"><a id="a9e91c1aa7d11012bf099f94ed01a1bf5" name="a9e91c1aa7d11012bf099f94ed01a1bf5"></a>
-float&#160;</td><td class="memItemRight"><b>CB.Menu.HUDScale</b></td></tr>
 <tr class="memitem:a0621011abdad78c0af6d1ab07eaa10c4" id="r_a0621011abdad78c0af6d1ab07eaa10c4"><td class="memItemLeft"><a id="a0621011abdad78c0af6d1ab07eaa10c4" name="a0621011abdad78c0af6d1ab07eaa10c4"></a>
 bool&#160;</td><td class="memItemRight"><b>CB.Menu.IsMainMenuOpen</b></td></tr>
 <tr class="memitem:a915b3e75b1debd1ae71ebd7198ebf412" id="r_a915b3e75b1debd1ae71ebd7198ebf412"><td class="memItemLeft"><a id="a915b3e75b1debd1ae71ebd7198ebf412" name="a915b3e75b1debd1ae71ebd7198ebf412"></a>
@@ -1250,6 +1264,16 @@ int&#160;</td><td class="memItemRight"><b>CB.Menu.MainMenuTab</b></td></tr>
 int&#160;</td><td class="memItemRight"><b>CB.Menu.CurrentOpen</b></td></tr>
 <tr class="memitem:a7473d49c9a451e2adb0109fd90d62765" id="r_a7473d49c9a451e2adb0109fd90d62765"><td class="memItemLeft"><a id="a7473d49c9a451e2adb0109fd90d62765" name="a7473d49c9a451e2adb0109fd90d62765"></a>
 float&#160;</td><td class="memItemRight"><b>CB.Menu.StopHidingTimer</b></td></tr>
+<tr class="memitem:a171d03ddf995e095d9ee51db7b6c9b6c" id="r_a171d03ddf995e095d9ee51db7b6c9b6c"><td class="memItemLeft"><a id="a171d03ddf995e095d9ee51db7b6c9b6c" name="a171d03ddf995e095d9ee51db7b6c9b6c"></a>
+float&#160;</td><td class="memItemRight"><b>CB.HUD.Scale</b></td></tr>
+<tr class="memitem:a29a8ceadedab055fc0a72b6f6c9f073b" id="r_a29a8ceadedab055fc0a72b6f6c9f073b"><td class="memItemLeft"><a id="a29a8ceadedab055fc0a72b6f6c9f073b" name="a29a8ceadedab055fc0a72b6f6c9f073b"></a>
+float&#160;</td><td class="memItemRight"><b>CB.HUD.StartX</b></td></tr>
+<tr class="memitem:ae1798baacbf8056f5e9ecf546b7174ff" id="r_ae1798baacbf8056f5e9ecf546b7174ff"><td class="memItemLeft"><a id="ae1798baacbf8056f5e9ecf546b7174ff" name="ae1798baacbf8056f5e9ecf546b7174ff"></a>
+float&#160;</td><td class="memItemRight"><b>CB.HUD.StartY</b></td></tr>
+<tr class="memitem:a25360ff907c702c16b5558f53602557c" id="r_a25360ff907c702c16b5558f53602557c"><td class="memItemLeft"><a id="a25360ff907c702c16b5558f53602557c" name="a25360ff907c702c16b5558f53602557c"></a>
+float&#160;</td><td class="memItemRight"><b>CB.HUD.EndX</b></td></tr>
+<tr class="memitem:ad61873cb221d369380c6df7438210310" id="r_ad61873cb221d369380c6df7438210310"><td class="memItemLeft"><a id="ad61873cb221d369380c6df7438210310" name="ad61873cb221d369380c6df7438210310"></a>
+float&#160;</td><td class="memItemRight"><b>CB.HUD.EndY</b></td></tr>
 <tr class="memitem:ad10216453088a4bf5c687837440ec72a" id="r_ad10216453088a4bf5c687837440ec72a"><td class="memItemLeft"><a id="ad10216453088a4bf5c687837440ec72a" name="ad10216453088a4bf5c687837440ec72a"></a>
 bool&#160;</td><td class="memItemRight"><b>CB.Options.SteamEnabled</b></td></tr>
 <tr class="memitem:a6f3bbc4889962e9e1448833d04af5cba" id="r_a6f3bbc4889962e9e1448833d04af5cba"><td class="memItemLeft"><a id="a6f3bbc4889962e9e1448833d04af5cba" name="a6f3bbc4889962e9e1448833d04af5cba"></a>
@@ -1350,6 +1374,8 @@ bool&#160;</td><td class="memItemRight"><b>CB.Options.ConsoleAutoOpen</b></td></
 bool&#160;</td><td class="memItemRight"><b>CB.Options.SpeedRunMode</b></td></tr>
 <tr class="memitem:a42ab4c1938d43e54301e4c04641c4f49" id="r_a42ab4c1938d43e54301e4c04641c4f49"><td class="memItemLeft"><a id="a42ab4c1938d43e54301e4c04641c4f49" name="a42ab4c1938d43e54301e4c04641c4f49"></a>
 bool&#160;</td><td class="memItemRight"><b>CB.Options.NumericSeeds</b></td></tr>
+<tr class="memitem:ab384d719da8f91ebda2b7944dca84754" id="r_ab384d719da8f91ebda2b7944dca84754"><td class="memItemLeft"><a id="ab384d719da8f91ebda2b7944dca84754" name="ab384d719da8f91ebda2b7944dca84754"></a>
+bool&#160;</td><td class="memItemRight"><b>CB.Options.KeepDuplicateSaveCount</b></td></tr>
 <tr class="memitem:a1f9ee92bb092f8088fa40055a23894b2" id="r_a1f9ee92bb092f8088fa40055a23894b2"><td class="memItemLeft"><a id="a1f9ee92bb092f8088fa40055a23894b2" name="a1f9ee92bb092f8088fa40055a23894b2"></a>
 bool&#160;</td><td class="memItemRight"><b>CB.Options.DebugMapGen</b></td></tr>
 <tr class="memitem:a2d6709df057b8e453c7e32369a3fa366" id="r_a2d6709df057b8e453c7e32369a3fa366"><td class="memItemLeft"><a id="a2d6709df057b8e453c7e32369a3fa366" name="a2d6709df057b8e453c7e32369a3fa366"></a>
@@ -1384,18 +1410,40 @@ bool&#160;</td><td class="memItemRight"><b>CB.Input.MouseUp1</b></td></tr>
 <a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Gamma</b></td></tr>
 <tr class="memitem:a16dbe40f14dba2e6fa59d2a6c92841da" id="r_a16dbe40f14dba2e6fa59d2a6c92841da"><td class="memItemLeft"><a id="a16dbe40f14dba2e6fa59d2a6c92841da" name="a16dbe40f14dba2e6fa59d2a6c92841da"></a>
 <a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>&#160;</td><td class="memItemRight"><b>CB.Effect.FXAA</b></td></tr>
-<tr class="memitem:a052410cbc605860eb3d26d6690e6402c" id="r_a052410cbc605860eb3d26d6690e6402c"><td class="memItemLeft"><a id="a052410cbc605860eb3d26d6690e6402c" name="a052410cbc605860eb3d26d6690e6402c"></a>
-<a class="el" href="classB3D_1_1Camera.html">B3D::Camera</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Camera</b></td></tr>
-<tr class="memitem:a9d874df6827ef164564e6a87a573aa0e" id="r_a9d874df6827ef164564e6a87a573aa0e"><td class="memItemLeft"><a id="a9d874df6827ef164564e6a87a573aa0e" name="a9d874df6827ef164564e6a87a573aa0e"></a>
-<a class="el" href="classB3D_1_1Sprite.html">B3D::Sprite</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Quad</b></td></tr>
-<tr class="memitem:a6af815d0cc89f61845fcb67fb43b6f63" id="r_a6af815d0cc89f61845fcb67fb43b6f63"><td class="memItemLeft"><a id="a6af815d0cc89f61845fcb67fb43b6f63" name="a6af815d0cc89f61845fcb67fb43b6f63"></a>
-<a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Active</b></td></tr>
-<tr class="memitem:a2ea9b150d152cce147c72a9aa23b7f47" id="r_a2ea9b150d152cce147c72a9aa23b7f47"><td class="memItemLeft"><a id="a2ea9b150d152cce147c72a9aa23b7f47" name="a2ea9b150d152cce147c72a9aa23b7f47"></a>
-<a class="el" href="classB3D_1_1Texture.html">B3D::Texture</a>&#160;</td><td class="memItemRight"><b>CB.Effect.ScreenTexture</b></td></tr>
-<tr class="memitem:ad4b24ae8211cda8deb1396b9a250acac" id="r_ad4b24ae8211cda8deb1396b9a250acac"><td class="memItemLeft"><a id="ad4b24ae8211cda8deb1396b9a250acac" name="ad4b24ae8211cda8deb1396b9a250acac"></a>
-int&#160;</td><td class="memItemRight"><b>CB.Effect.PixelWidth</b></td></tr>
-<tr class="memitem:ab70718da6e83aef1d7785ac40edb1544" id="r_ab70718da6e83aef1d7785ac40edb1544"><td class="memItemLeft"><a id="ab70718da6e83aef1d7785ac40edb1544" name="ab70718da6e83aef1d7785ac40edb1544"></a>
-int&#160;</td><td class="memItemRight"><b>CB.Effect.PixelHeight</b></td></tr>
+<tr class="memitem:a5f3f3c0c0b3dace9e3bd429518afbe86" id="r_a5f3f3c0c0b3dace9e3bd429518afbe86"><td class="memItemLeft"><a id="a5f3f3c0c0b3dace9e3bd429518afbe86" name="a5f3f3c0c0b3dace9e3bd429518afbe86"></a>
+<a class="el" href="classB3D_1_1Camera.html">B3D::Camera</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.Camera</b></td></tr>
+<tr class="memitem:a55fe8c829be39623a46bd43a69ac70c9" id="r_a55fe8c829be39623a46bd43a69ac70c9"><td class="memItemLeft"><a id="a55fe8c829be39623a46bd43a69ac70c9" name="a55fe8c829be39623a46bd43a69ac70c9"></a>
+<a class="el" href="classB3D_1_1Sprite.html">B3D::Sprite</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.Quad</b></td></tr>
+<tr class="memitem:ad0c318acb206e7596c5a26d1c984ae7a" id="r_ad0c318acb206e7596c5a26d1c984ae7a"><td class="memItemLeft"><a id="ad0c318acb206e7596c5a26d1c984ae7a" name="ad0c318acb206e7596c5a26d1c984ae7a"></a>
+<a class="el" href="classB3D_1_1Effect.html">B3D::Effect</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.Active</b></td></tr>
+<tr class="memitem:a3fa5af67373a9e05e8afb4179cf3ccb1" id="r_a3fa5af67373a9e05e8afb4179cf3ccb1"><td class="memItemLeft"><a id="a3fa5af67373a9e05e8afb4179cf3ccb1" name="a3fa5af67373a9e05e8afb4179cf3ccb1"></a>
+<a class="el" href="classB3D_1_1Texture.html">B3D::Texture</a>&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.ScreenTexture</b></td></tr>
+<tr class="memitem:a5a08ec54b2b44fc36e20aea78dddcd9c" id="r_a5a08ec54b2b44fc36e20aea78dddcd9c"><td class="memItemLeft"><a id="a5a08ec54b2b44fc36e20aea78dddcd9c" name="a5a08ec54b2b44fc36e20aea78dddcd9c"></a>
+int&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.PixelWidth</b></td></tr>
+<tr class="memitem:a2cc4960d7554a4280f6dc8ce924fed1f" id="r_a2cc4960d7554a4280f6dc8ce924fed1f"><td class="memItemLeft"><a id="a2cc4960d7554a4280f6dc8ce924fed1f" name="a2cc4960d7554a4280f6dc8ce924fed1f"></a>
+int&#160;</td><td class="memItemRight"><b>CB.Effect.Internal.PixelHeight</b></td></tr>
+<tr class="memitem:a7d92ac6f67bb0c32c7021cf51436855f" id="r_a7d92ac6f67bb0c32c7021cf51436855f"><td class="memItemLeft"><a id="a7d92ac6f67bb0c32c7021cf51436855f" name="a7d92ac6f67bb0c32c7021cf51436855f"></a>
+carray&lt; <a class="el" href="classCB_1_1ParticleTemplate.html">CB::ParticleTemplate</a>@&gt;&#160;</td><td class="memItemRight"><b>CB.Templates</b></td></tr>
+<tr class="memitem:a31ac1f0b76bd7d1ca0217179a983a8b6" id="r_a31ac1f0b76bd7d1ca0217179a983a8b6"><td class="memItemLeft"><a id="a31ac1f0b76bd7d1ca0217179a983a8b6" name="a31ac1f0b76bd7d1ca0217179a983a8b6"></a>
+<a class="el" href="classCB_1_1ParticleTemplate.html">CB::ParticleTemplate</a>&#160;</td><td class="memItemRight"><b>CB.Spark</b></td></tr>
+<tr class="memitem:afb470cd474becb39d2f62bdf425ca6d1" id="r_afb470cd474becb39d2f62bdf425ca6d1"><td class="memItemLeft"><a id="afb470cd474becb39d2f62bdf425ca6d1" name="afb470cd474becb39d2f62bdf425ca6d1"></a>
+<a class="el" href="classCB_1_1ParticleTemplate.html">CB::ParticleTemplate</a>&#160;</td><td class="memItemRight"><b>CB.VentSmoke</b></td></tr>
+<tr class="memitem:a0ff1b3827bae9fbbf6eaac638c3e4375" id="r_a0ff1b3827bae9fbbf6eaac638c3e4375"><td class="memItemLeft"><a id="a0ff1b3827bae9fbbf6eaac638c3e4375" name="a0ff1b3827bae9fbbf6eaac638c3e4375"></a>
+<a class="el" href="classCB_1_1ParticleTemplate.html">CB::ParticleTemplate</a>&#160;</td><td class="memItemRight"><b>CB.BigDoorSmashDust</b></td></tr>
+<tr class="memitem:a042896ad514570f83eb867d6608c2c18" id="r_a042896ad514570f83eb867d6608c2c18"><td class="memItemLeft"><a id="a042896ad514570f83eb867d6608c2c18" name="a042896ad514570f83eb867d6608c2c18"></a>
+<a class="el" href="classCB_1_1ParticleTemplate.html">CB::ParticleTemplate</a>&#160;</td><td class="memItemRight"><b>CB.ConfettiGreen</b></td></tr>
+<tr class="memitem:a617b424d2c5ff1e343f9e4d9d1bb3162" id="r_a617b424d2c5ff1e343f9e4d9d1bb3162"><td class="memItemLeft"><a id="a617b424d2c5ff1e343f9e4d9d1bb3162" name="a617b424d2c5ff1e343f9e4d9d1bb3162"></a>
+<a class="el" href="classCB_1_1ParticleTemplate.html">CB::ParticleTemplate</a>&#160;</td><td class="memItemRight"><b>CB.ConfettiRed</b></td></tr>
+<tr class="memitem:a74444be931af1b912bcb74290ad9a7f9" id="r_a74444be931af1b912bcb74290ad9a7f9"><td class="memItemLeft"><a id="a74444be931af1b912bcb74290ad9a7f9" name="a74444be931af1b912bcb74290ad9a7f9"></a>
+<a class="el" href="classCB_1_1ParticleTemplate.html">CB::ParticleTemplate</a>&#160;</td><td class="memItemRight"><b>CB.ConfettiPurple</b></td></tr>
+<tr class="memitem:a0c6815fdd270e32ec3a6377fd583024d" id="r_a0c6815fdd270e32ec3a6377fd583024d"><td class="memItemLeft"><a id="a0c6815fdd270e32ec3a6377fd583024d" name="a0c6815fdd270e32ec3a6377fd583024d"></a>
+<a class="el" href="classCB_1_1ParticleTemplate.html">CB::ParticleTemplate</a>&#160;</td><td class="memItemRight"><b>CB.ConfettiYellow</b></td></tr>
+<tr class="memitem:ad0f9c2b4b26e7914880a1db7efd99024" id="r_ad0f9c2b4b26e7914880a1db7efd99024"><td class="memItemLeft"><a id="ad0f9c2b4b26e7914880a1db7efd99024" name="ad0f9c2b4b26e7914880a1db7efd99024"></a>
+<a class="el" href="classCB_1_1ParticleTemplate.html">CB::ParticleTemplate</a>&#160;</td><td class="memItemRight"><b>CB.ConfettiBlue</b></td></tr>
+<tr class="memitem:abb2c17b39cf0800ea345d12fb41bdbe8" id="r_abb2c17b39cf0800ea345d12fb41bdbe8"><td class="memItemLeft"><a id="abb2c17b39cf0800ea345d12fb41bdbe8" name="abb2c17b39cf0800ea345d12fb41bdbe8"></a>
+<a class="el" href="classB3D_1_1Camera.html">B3D::Camera</a>&#160;</td><td class="memItemRight"><b>CB.Particles.Internal.Camera</b></td></tr>
+<tr class="memitem:ada689117c83681cddf083f56f938390a" id="r_ada689117c83681cddf083f56f938390a"><td class="memItemLeft"><a id="ada689117c83681cddf083f56f938390a" name="ada689117c83681cddf083f56f938390a"></a>
+<a class="el" href="classB3D_1_1Pivot.html">B3D::Pivot</a>&#160;</td><td class="memItemRight"><b>CB.Particles.Internal.Pivot</b></td></tr>
 <tr class="memitem:a93eb917d482e8f9e4a905af54eac202d" id="r_a93eb917d482e8f9e4a905af54eac202d"><td class="memItemLeft"><a id="a93eb917d482e8f9e4a905af54eac202d" name="a93eb917d482e8f9e4a905af54eac202d"></a>
 int&#160;</td><td class="memItemRight"><b>CB.Map.Width</b></td></tr>
 <tr class="memitem:a00144ba6f7d2c6fad6e110e6828b246c" id="r_a00144ba6f7d2c6fad6e110e6828b246c"><td class="memItemLeft"><a id="a00144ba6f7d2c6fad6e110e6828b246c" name="a00144ba6f7d2c6fad6e110e6828b246c"></a>

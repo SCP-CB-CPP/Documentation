@@ -27,6 +27,13 @@ var annotated_dup =
       [ "Timer", "classB3D_1_1Timer.html", null ]
     ] ],
     [ "CB", "namespaceCB.html", [
+      [ "Particles", "namespaceCB_1_1Particles.html", [
+        [ "Internal", "namespaceCB_1_1Particles_1_1Internal.html", [
+          [ "Template", "classCB_1_1Particles_1_1Internal_1_1Template.html", null ],
+          [ "Emitter", "classCB_1_1Particles_1_1Internal_1_1Emitter.html", null ],
+          [ "Particle", "classCB_1_1Particles_1_1Internal_1_1Particle.html", null ]
+        ] ]
+      ] ],
       [ "Console", "namespaceCB_1_1Console.html", [
         [ "Msg", "classCB_1_1Console_1_1Msg.html", null ]
       ] ],
