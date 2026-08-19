@@ -205,6 +205,15 @@ Called before adjacent rooms are connected to each other and the doors that conn
 
 Called before the events for a newly created save are initialized. Allows initializing custom events via @ref CB::Event::Create.
 
+Example:
+```cs
+bool Hook_InitializeEvents() {
+    Event::Create("guardspin", "room3pit", 0, 1);
+    Event::Create("914", "914", 0, 1);
+    return true;
+}
+```
+
 ## bool Hook_UpdateEvent(@ref CB::Event)
 
 Called for every event every frame. Used to add behavior to custom events or modify the behavior of existing events.
