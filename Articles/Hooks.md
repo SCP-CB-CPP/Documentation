@@ -138,6 +138,13 @@ Can be used to free certain mod-specific resources.
 > All entities, brushes and textures (so neither images nor sounds!) are cleared via @ref B3D::ClearWorld before this hook is called.
 > This means they do not have to be freed, but resetting a dangling reference held in a mod to null may be desirable.
 
+Example:
+```cs
+void Hook_NullGame() {
+    skybox = null;
+}
+```
+
 ## bool Hook_DrawLoading(int percentage, bool isShortLoading)
 
 Called every time the loading screen percentage is updated and the loading screen is drawn.
