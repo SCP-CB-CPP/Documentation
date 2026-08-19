@@ -105,6 +105,17 @@ Called before the player character would be killed. The player is not killed whe
 
 Called when a console command is being executed by the player. Used to implement custom console commands or modify the behavior of existing ones.
 
+Example:
+```cs
+bool Hook_ExecuteConsoleCommand(string cmd) {
+    if (cmd == "ping") {
+        Console::CreateMessage("Pong!");
+        return true;
+    }
+    return false;
+}
+```
+
 ## bool Hook_LoadEntities()
 
 Called when the game transitions from the main menu to loading a save. Can be both an existing or new save. Can be used to load static resources like textures, entities and brushes that are needed in-game.
