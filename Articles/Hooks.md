@@ -47,6 +47,21 @@ Called once per frame after the game has finished its processing and rendering, 
 
 Called before the HUD is drawn.
 
+Example:
+```cs
+bool Hook_DrawHUD() {
+    int width = 204 * HUD::Scale;
+    int x = HUD::StartX + 80 * HUD::Scale;
+    int y = HUD::EndY - 135 * HUD::Scale;
+    Menu::DrawBar(CustomMeter, x, y, width, (100.0 - Player::Bloodloss) / 100.0);
+    SetColor(255, 255, 255);
+    Rect(x - 50 * HUD::Scale - 1, y - 1, 30 * HUD::Scale + 2, 32 * HUD::Scale + 2, 0);
+    CustomIcon.Draw(x - 50 * HUD::Scale, y);
+
+    return false;
+}
+```
+
 ## bool Hook_IsAnyMenuOpen()
 
 Allows for implementing custom menus that automatically implement certain behaviors, like showing a mouse cursor and pausing the game.
