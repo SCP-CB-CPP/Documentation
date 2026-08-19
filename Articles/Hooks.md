@@ -109,6 +109,15 @@ Called when a console command is being executed by the player. Used to implement
 
 Called when the game transitions from the main menu to loading a save. Can be both an existing or new save. Can be used to load static resources like textures, entities and brushes that are needed in-game.
 
+Example:
+```cs
+Skybox skybox;
+
+void Hook_LoadEntities() {
+    skybox = Skybox::Create("GFX\\map\\sky\\sky");
+}
+```
+
 ## void Hook_NullGame()
 
 Called when the game quits to the main menu, after all vanilla resources have been freed.
