@@ -218,6 +218,16 @@ bool Hook_InitializeEvents() {
 
 Called for every event every frame. Used to add behavior to custom events or modify the behavior of existing events.
 
+Example:
+```cs
+bool Hook_UpdateEvent(CB::Event e) {
+    if (e.Name == "guardspin") {
+        e.Room.Objects[1].Turn(0, FPSFactor * 10, 0);
+    }
+    return false;
+}
+```
+
 ## bool Hook_FillRoom(@ref CB::Room)
 
 Called when a room is created, before it is filled with doors, items and other entities. Used to add entities to custom rooms or modify the entities found in existing rooms.
