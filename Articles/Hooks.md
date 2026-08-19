@@ -26,6 +26,24 @@ This is where custom image, font, shader and audio resources, as well as custom 
 > [!caution]
 > All entities, brushes and textures are freed when quitting to the main menu. Therefore, these should *NOT* be loaded here.
 
+Example:
+```cs
+Sound s;
+Music m;
+Achievement CustomAchv;
+Image CustomMeter, CustomIcon;
+
+void Hook_Initialize() {
+    // Load custom resources
+    s = Sound::Load("SFX\\Horror\\bx3d.ogg");
+    m = Music::RegisterCustom("SFX\\Radio\\scpradio0.ogg");
+    CustomAchv = Achievement::Create("CustomAchv", false);
+    CustomAchv.InsertBefore(Achievement::AchvConsole);
+    CustomMeter = LoadImageHUDScaled("GFX\\CustomMeter");
+    CustomIcon = LoadImageHUDScaled("GFX\\CustomIcon");
+}
+```
+
 ## void Hook_Shutdown()
 
 Called when your mod is unloaded.
