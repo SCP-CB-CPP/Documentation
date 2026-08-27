@@ -67,11 +67,22 @@ Called before the HUD is drawn.
 
 Example:
 ```cs
+Image CustomMeter;
+Image CustomIcon;
+
+// Images need to be loaded beforehand with Hook_Initialize
+void Hook_Initialize() {
+    CustomMeter = LoadImageHUDScaled("GFX\\CustomMeter");
+    CustomIcon = LoadImageHUDScaled("GFX\\CustomIcon");
+}
+
 bool Hook_DrawHUD() {
+    // Meter
     int width = 204 * HUD::Scale;
     int x = HUD::StartX + 80 * HUD::Scale;
     int y = HUD::EndY - 135 * HUD::Scale;
     Menu::DrawBar(CustomMeter, x, y, width, (100.0 - Player::Bloodloss) / 100.0);
+    // Icon
     SetColor(255, 255, 255);
     Rect(x - 50 * HUD::Scale - 1, y - 1, 30 * HUD::Scale + 2, 32 * HUD::Scale + 2, 0);
     CustomIcon.Draw(x - 50 * HUD::Scale, y);
@@ -140,6 +151,8 @@ Can be used to free certain mod-specific resources.
 
 Example:
 ```cs
+Skybox skybox;
+
 void Hook_NullGame() {
     skybox = null;
 }
