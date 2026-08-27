@@ -61,6 +61,28 @@ Called when the game's options are being serialized to the `options.ini` file, a
 
 Called once per frame after the game has finished its processing and rendering, but before the rendered image is displayed to the screen.
 
+Example:
+```cs
+bool tick;
+
+void Hook_Update() {
+    if (Menu::IsMainMenuOpen) {
+        // New Game tab
+        if (Menu::MainMenuTab == 1) {
+            // Draw a frame next to the New Game frame
+            float x = 745 * Menu::Scale;
+            float y = 367 * Menu::Scale;
+            float w = 520 * Menu::Scale;
+            float h = 411 * Menu::Scale;
+            Menu::DrawFrame(x, y, w, h);
+            Text(x+15 * Menu::Scale, y+15 * Menu::Scale, "Lorem ipsum dolor sit amet");
+            tick = Menu::DrawTick(x+15 * Menu::Scale, y+35 * Menu::Scale, tick)
+        }
+    }
+}
+
+```
+
 ## bool Hook_DrawHUD()
 
 Called before the HUD is drawn.
