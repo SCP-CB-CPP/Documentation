@@ -35,7 +35,7 @@ var NAVTREE =
       [ "bool Hook_IsAnyMenuOpen()", "md_Articles_2Hooks.html#autotoc_md7", null ],
       [ "bool Hook_IsPaused()", "md_Articles_2Hooks.html#autotoc_md8", null ],
       [ "bool Hook_MovePlayer()", "md_Articles_2Hooks.html#autotoc_md9", null ],
-      [ "bool Hook_MouseLook()", "md_Articles_2Hooks.html#autotoc_md10", null ],
+      [ "bool Hook_MouseLook(bool handleInput)", "md_Articles_2Hooks.html#autotoc_md10", null ],
       [ "bool Hook_KillPlayer()", "md_Articles_2Hooks.html#autotoc_md11", null ],
       [ "bool Hook_ExecuteConsoleCommand(<a class=\"el\" href=\"classstring.html\" title=\"string\">string</a> cmd)", "md_Articles_2Hooks.html#autotoc_md12", null ],
       [ "bool Hook_LoadEntities()", "md_Articles_2Hooks.html#autotoc_md13", null ],
@@ -107,7 +107,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"namespaceCB_1_1NPC.html"
+"namespaceCB_1_1Music.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
