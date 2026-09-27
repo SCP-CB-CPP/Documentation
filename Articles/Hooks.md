@@ -60,7 +60,7 @@ Allows for manually pausing the game.
 
 Called before the player character is moved according to the current game states and the player's inputs.
 
-## bool Hook_MouseLook()
+## bool Hook_MouseLook(bool handleInput)
 
 Called before the player's mouse input is translated to the player camera's pitch and yaw.
 
