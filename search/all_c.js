@@ -7,5 +7,6 @@ var searchData=
   ['pivot_4',['Pivot',['../classB3D_1_1Pivot.html',1,'B3D']]],
   ['plane_5',['Plane',['../classB3D_1_1Plane.html',1,'B3D']]],
   ['playable_6',['Playable',['../namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4',1,'CB::Player']]],
-  ['playsfx_7',['playSFX',['../md_Articles_2Hooks.html#autotoc_md53',1,'bool Hook_UseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)'],['../md_Articles_2Hooks.html#autotoc_md52',1,'int Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)']]]
+  ['playsfx_7',['playSFX',['../md_Articles_2Hooks.html#autotoc_md54',1,'bool Hook_UseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)'],['../md_Articles_2Hooks.html#autotoc_md53',1,'int Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)']]],
+  ['prevtextureid_8',['bool Hook_ChangeNPCTexture(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1NPC.html&quot; title=&quot;CB::NPC&quot;&gt;CB::NPC&lt;/a&gt;, int prevTextureID)',['../md_Articles_2Hooks.html#autotoc_md42',1,'']]]
 ];

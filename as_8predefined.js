@@ -75,6 +75,5 @@ var as_8predefined =
     [ "CB.Player.CurrentZone", "namespaceCB_1_1Player.html#a0d0fe2f973ca20596b9efcb1bab8b8b6", null ],
     [ "CB.Player.DeathTimer", "namespaceCB_1_1Player.html#af5b798dc256a40d63012f41731a10c33", null ],
     [ "CB.FPSFactor", "namespaceCB.html#a76153fe3957f7bfe46a9bbfc454520d6", null ],
-    [ "CB.Player.Injuries", "namespaceCB_1_1Player.html#af33496bc15124e0646807864f8027f42", null ],
     [ "CB.Player.Playable", "namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4", null ]
 ];

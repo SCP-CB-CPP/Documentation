@@ -5,7 +5,7 @@ var searchData=
   ['void_20hook_5finitialize_2',['void Hook_Initialize()',['../md_Articles_2Hooks.html#autotoc_md2',1,'']]],
   ['void_20hook_5finitializelauncher_3',['void Hook_InitializeLauncher()',['../md_Articles_2Hooks.html#autotoc_md1',1,'']]],
   ['void_20hook_5fnullgame_4',['void Hook_NullGame()',['../md_Articles_2Hooks.html#autotoc_md14',1,'']]],
-  ['void_20hook_5fpostcreatedoor_20cb_3a_3adoor_5',['void Hook_PostCreateDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md50',1,'']]],
+  ['void_20hook_5fpostcreatedoor_20cb_3a_3adoor_5',['void Hook_PostCreateDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md51',1,'']]],
   ['void_20hook_5fpostcreatenpc_20cb_3a_3anpc_6',['void Hook_PostCreateNPC(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1NPC.html&quot; title=&quot;CB::NPC&quot;&gt;CB::NPC&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md39',1,'']]],
   ['void_20hook_5fpostfillroom_20cb_3a_3aroom_7',['void Hook_PostFillRoom(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Room.html&quot; title=&quot;CB::Room&quot;&gt;CB::Room&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md28',1,'']]],
   ['void_20hook_5fpostload_8',['void Hook_PostLoad()',['../md_Articles_2Hooks.html#autotoc_md30',1,'']]],

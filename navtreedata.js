@@ -67,19 +67,20 @@ var NAVTREE =
       [ "void Hook_PostCreateNPC(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>)", "md_Articles_2Hooks.html#autotoc_md39", null ],
       [ "bool Hook_RemoveNPC(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>)", "md_Articles_2Hooks.html#autotoc_md40", null ],
       [ "bool Hook_UpdateNPC(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>)", "md_Articles_2Hooks.html#autotoc_md41", null ],
-      [ "CB::NPC::Type Hook_ConsoleNPCNameToType(<a class=\"el\" href=\"classstring.html\" title=\"string\">string</a> name)", "md_Articles_2Hooks.html#autotoc_md42", null ],
-      [ "string Hook_ConsoleNPCTypeToName(CB::NPC::Type type, bool isPlural)", "md_Articles_2Hooks.html#autotoc_md43", null ],
-      [ "int Hook_ConsoleSpawnNPC(CB::NPC::Type type)", "md_Articles_2Hooks.html#autotoc_md44", null ],
-      [ "int Hook_ConsoleCheckCanChangeNPCSpeed(CB::NPC::Type type)", "md_Articles_2Hooks.html#autotoc_md45", null ],
-      [ "int Hook_ConsoleCheckCanToggleNPC(CB::NPC::Type type)", "md_Articles_2Hooks.html#autotoc_md46", null ],
-      [ "bool Hook_EnableNPC(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>)", "md_Articles_2Hooks.html#autotoc_md47", null ],
-      [ "bool Hook_DisableNPC(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>)", "md_Articles_2Hooks.html#autotoc_md48", null ],
-      [ "bool Hook_CreateDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, float x, float y, float z, bool useCollisionMesh)", "md_Articles_2Hooks.html#autotoc_md49", null ],
-      [ "void Hook_PostCreateDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>)", "md_Articles_2Hooks.html#autotoc_md50", null ],
-      [ "bool Hook_UpdateDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>)", "md_Articles_2Hooks.html#autotoc_md51", null ],
-      [ "int Hook_CanUseDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, bool showMsg, bool playSFX)", "md_Articles_2Hooks.html#autotoc_md52", null ],
-      [ "bool Hook_UseDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, bool showMsg, bool playSFX)", "md_Articles_2Hooks.html#autotoc_md53", null ],
-      [ "bool Hook_Use914(<a class=\"el\" href=\"classCB_1_1Item.html\" title=\"CB::Item\">CB::Item</a>, CB::SCP914::Setting, float x, float y, float z)", "md_Articles_2Hooks.html#autotoc_md54", null ]
+      [ "bool Hook_ChangeNPCTexture(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>, int prevTextureID)", "md_Articles_2Hooks.html#autotoc_md42", null ],
+      [ "CB::NPC::Type Hook_ConsoleNPCNameToType(<a class=\"el\" href=\"classstring.html\" title=\"string\">string</a> name)", "md_Articles_2Hooks.html#autotoc_md43", null ],
+      [ "string Hook_ConsoleNPCTypeToName(CB::NPC::Type type, bool isPlural)", "md_Articles_2Hooks.html#autotoc_md44", null ],
+      [ "int Hook_ConsoleSpawnNPC(CB::NPC::Type type)", "md_Articles_2Hooks.html#autotoc_md45", null ],
+      [ "int Hook_ConsoleCheckCanChangeNPCSpeed(CB::NPC::Type type)", "md_Articles_2Hooks.html#autotoc_md46", null ],
+      [ "int Hook_ConsoleCheckCanToggleNPC(CB::NPC::Type type)", "md_Articles_2Hooks.html#autotoc_md47", null ],
+      [ "bool Hook_EnableNPC(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>)", "md_Articles_2Hooks.html#autotoc_md48", null ],
+      [ "bool Hook_DisableNPC(<a class=\"el\" href=\"classCB_1_1NPC.html\" title=\"CB::NPC\">CB::NPC</a>)", "md_Articles_2Hooks.html#autotoc_md49", null ],
+      [ "bool Hook_CreateDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, float x, float y, float z, bool useCollisionMesh)", "md_Articles_2Hooks.html#autotoc_md50", null ],
+      [ "void Hook_PostCreateDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>)", "md_Articles_2Hooks.html#autotoc_md51", null ],
+      [ "bool Hook_UpdateDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>)", "md_Articles_2Hooks.html#autotoc_md52", null ],
+      [ "int Hook_CanUseDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, bool showMsg, bool playSFX)", "md_Articles_2Hooks.html#autotoc_md53", null ],
+      [ "bool Hook_UseDoor(<a class=\"el\" href=\"classCB_1_1Door.html\" title=\"CB::Door\">CB::Door</a>, bool showMsg, bool playSFX)", "md_Articles_2Hooks.html#autotoc_md54", null ],
+      [ "bool Hook_Use914(<a class=\"el\" href=\"classCB_1_1Item.html\" title=\"CB::Item\">CB::Item</a>, CB::SCP914::Setting, float x, float y, float z)", "md_Articles_2Hooks.html#autotoc_md55", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -107,7 +108,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"namespaceCB_1_1Music.html"
+"namespaceCB_1_1Menu.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
