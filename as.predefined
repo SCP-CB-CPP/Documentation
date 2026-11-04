@@ -2477,7 +2477,8 @@ class NPC {
     void Animate(float startFrame, float endFrame, float speed, bool loop = true);
     void SetNPCFrame(float frame);
     void FinishWalking(float startFrame, float endFrame, float speed);
-    void ChangeNPCTexture(int textureID);
+    void ChangeTexture(int textureID);
+    bool CopyExistingObject();
     void ForceSetID(int newID);
     float Find860Angle(CB::Forest@);
     void EnableNPC();
@@ -3128,6 +3129,7 @@ class AchievementMessage {
 }
 //! The amount of seconds elapsed since the last frame multiplied by 70. Capped at a maximum value of 5.
 float FPSFactor;
+float TimeScale;
 bool HasNumericSeed;
 string RandomSeed;
 int RandomSeedNumeric;
@@ -3212,6 +3214,7 @@ bool ConsoleAutoOpen;
 bool SpeedRunMode;
 bool NumericSeeds;
 bool KeepDuplicateSaveCount;
+bool HideIncompatibleSaves;
 bool DebugMapGen;
 bool DebugForestGen;
 int ParticleAmount;
@@ -3238,6 +3241,7 @@ bool MouseUp1;
 namespace CB::Effect {
 B3D::Effect@ Gamma;
 B3D::Effect@ FXAA;
+B3D::Effect@ Instance;
 }
 
 namespace CB::Effect::Internal {
@@ -3342,11 +3346,16 @@ int WearingGasMask;
 int WearingHazmat;
 int WearingVest;
 int Wearing714;
+int WearingPumpkin;
 int WearingNightVision;
 float NVTimer;
 bool SuperMan;
 float SuperManTimer;
+<<<<<<< Documentation\as.predefined
 //! How injured the player character currently is, values above 1 incur bloodloss over time.
+=======
+bool LostHands;
+>>>>>>> Mods\as.predefined
 float Injuries;
 //! How much blood (from 0 to 100) the player character has lost.
 float Bloodloss;
@@ -3505,6 +3514,7 @@ enum Music {
     Ending,
     Credits,
     AfterCredits,
+    HalloweenFields,
     Invalid
 }
 }

@@ -236,6 +236,11 @@ Called before an NPC is about to be removed. Can be used to prevent an NPC from 
 
 Called for every NPC every frame. Used to add behavior to custom NPCs or modify the behavior of existing NPCs.
 
+## bool Hook_ChangeNPCTexture(@ref CB::NPC, int prevTextureID)
+
+Called in @ref CB::NPC::ChangeTexture. Used to apply custom skins to NPCs. @ref CB::NPC::TextureID contains the new texture ID. @ref CB::NPC::Object must be freed if it is not re-used.
+@ref CB::NPC::CopyExistingObject can be used to copy an already loaded model for the new texture ID.
+
 ## CB::NPC::Type Hook_ConsoleNPCNameToType(@ref string name)
 
 Called when an NPC's name is to be parsed from console input.
