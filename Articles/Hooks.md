@@ -26,6 +26,24 @@ This is where custom image, font, shader and audio resources, as well as custom 
 > [!caution]
 > All entities, brushes and textures are freed when quitting to the main menu. Therefore, these should *NOT* be loaded here.
 
+Example:
+```cs
+Sound s;
+Music m;
+Achievement CustomAchv;
+Image CustomMeter, CustomIcon;
+
+void Hook_Initialize() {
+    // Load custom resources
+    s = Sound::Load("SFX\\Horror\\bx3d.ogg");
+    m = Music::RegisterCustom("SFX\\Radio\\scpradio0.ogg");
+    CustomAchv = Achievement::Create("CustomAchv", false);
+    CustomAchv.InsertBefore(Achievement::AchvConsole);
+    CustomMeter = LoadImageHUDScaled("GFX\\CustomMeter");
+    CustomIcon = LoadImageHUDScaled("GFX\\CustomIcon");
+}
+```
+
 ## void Hook_Shutdown()
 
 Called when your mod is unloaded.
@@ -43,9 +61,57 @@ Called when the game's options are being serialized to the `options.ini` file, a
 
 Called once per frame after the game has finished its processing and rendering, but before the rendered image is displayed to the screen.
 
+Example:
+```cs
+bool tick;
+
+void Hook_Update() {
+    if (Menu::IsMainMenuOpen) {
+        // New Game tab
+        if (Menu::MainMenuTab == 1) {
+            // Draw a frame next to the New Game frame
+            float x = 745 * Menu::Scale;
+            float y = 367 * Menu::Scale;
+            float w = 520 * Menu::Scale;
+            float h = 411 * Menu::Scale;
+            Menu::DrawFrame(x, y, w, h);
+            Text(x+15 * Menu::Scale, y+15 * Menu::Scale, "Lorem ipsum dolor sit amet");
+            tick = Menu::DrawTick(x+15 * Menu::Scale, y+35 * Menu::Scale, tick)
+        }
+    }
+}
+
+```
+
 ## bool Hook_DrawHUD()
 
 Called before the HUD is drawn.
+
+Example:
+```cs
+Image CustomMeter;
+Image CustomIcon;
+
+// Images need to be loaded beforehand with Hook_Initialize
+void Hook_Initialize() {
+    CustomMeter = LoadImageHUDScaled("GFX\\CustomMeter");
+    CustomIcon = LoadImageHUDScaled("GFX\\CustomIcon");
+}
+
+bool Hook_DrawHUD() {
+    // Meter
+    int width = 204 * HUD::Scale;
+    int x = HUD::StartX + 80 * HUD::Scale;
+    int y = HUD::EndY - 135 * HUD::Scale;
+    Menu::DrawBar(CustomMeter, x, y, width, (100.0 - Player::Bloodloss) / 100.0);
+    // Icon
+    SetColor(255, 255, 255);
+    Rect(x - 50 * HUD::Scale - 1, y - 1, 30 * HUD::Scale + 2, 32 * HUD::Scale + 2, 0);
+    CustomIcon.Draw(x - 50 * HUD::Scale, y);
+
+    return false;
+}
+```
 
 ## bool Hook_IsAnyMenuOpen()
 
@@ -72,9 +138,29 @@ Called before the player character would be killed. The player is not killed whe
 
 Called when a console command is being executed by the player. Used to implement custom console commands or modify the behavior of existing ones.
 
+Example:
+```cs
+bool Hook_ExecuteConsoleCommand(string cmd) {
+    if (cmd == "ping") {
+        Console::CreateMessage("Pong!");
+        return true;
+    }
+    return false;
+}
+```
+
 ## bool Hook_LoadEntities()
 
 Called when the game transitions from the main menu to loading a save. Can be both an existing or new save. Can be used to load static resources like textures, entities and brushes that are needed in-game.
+
+Example:
+```cs
+Skybox skybox;
+
+void Hook_LoadEntities() {
+    skybox = Skybox::Create("GFX\\map\\sky\\sky");
+}
+```
 
 ## void Hook_NullGame()
 
@@ -84,6 +170,15 @@ Can be used to free certain mod-specific resources.
 > [!NOTE]
 > All entities, brushes and textures (so neither images nor sounds!) are cleared via @ref B3D::ClearWorld before this hook is called.
 > This means they do not have to be freed, but resetting a dangling reference held in a mod to null may be desirable.
+
+Example:
+```cs
+Skybox skybox;
+
+void Hook_NullGame() {
+    skybox = null;
+}
+```
 
 ## bool Hook_DrawLoading(int percentage, bool isShortLoading)
 
@@ -145,9 +240,28 @@ Called before adjacent rooms are connected to each other and the doors that conn
 
 Called before the events for a newly created save are initialized. Allows initializing custom events via @ref CB::Event::Create.
 
+Example:
+```cs
+bool Hook_InitializeEvents() {
+    Event::Create("guardspin", "room3pit", 0, 1);
+    Event::Create("914", "914", 0, 1);
+    return true;
+}
+```
+
 ## bool Hook_UpdateEvent(@ref CB::Event)
 
 Called for every event every frame. Used to add behavior to custom events or modify the behavior of existing events.
+
+Example:
+```cs
+bool Hook_UpdateEvent(CB::Event e) {
+    if (e.Name == "guardspin") {
+        e.Room.Objects[1].Turn(0, FPSFactor * 10, 0);
+    }
+    return false;
+}
+```
 
 ## bool Hook_FillRoom(@ref CB::Room)
 
