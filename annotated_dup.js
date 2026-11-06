@@ -57,7 +57,7 @@ var annotated_dup =
       [ "Decal", "classCB_1_1Decal.html", null ],
       [ "Skybox", "classCB_1_1Skybox.html", null ],
       [ "ItemTemplate", "classCB_1_1ItemTemplate.html", null ],
-      [ "Item", "classCB_1_1Item.html", null ],
+      [ "Item", "classCB_1_1Item.html", "classCB_1_1Item" ],
       [ "Inventory", "classCB_1_1Inventory.html", null ],
       [ "Difficulty", "classCB_1_1Difficulty.html", null ],
       [ "Event", "classCB_1_1Event.html", null ],

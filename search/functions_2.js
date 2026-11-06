@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['updateelevator_0',['UpdateElevator',['../namespaceCB_1_1Event.html#acae652de83551919330f2f0218a745f5',1,'CB::Event']]]
+  ['renderquad_0',['RenderQuad',['../namespaceCB_1_1Effect.html#a2f34d29c83122e152d5c04e50a8e2529',1,'CB::Effect']]]
 ];

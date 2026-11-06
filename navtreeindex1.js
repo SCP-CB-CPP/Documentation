@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"namespaceCB_1_1Localization.html":[1,0,1,38],
+"namespaceCB_1_1MaintenanceTunnel.html":[1,0,1,19],
+"namespaceCB_1_1Map.html":[1,0,1,20],
 "namespaceCB_1_1Menu.html":[1,0,1,0],
 "namespaceCB_1_1Music.html":[1,0,1,5],
 "namespaceCB_1_1NPC.html":[1,0,1,10],
@@ -14,7 +17,8 @@ var NAVTREEINDEX1 =
 "namespaceCB_1_1Player.html#a0d0fe2f973ca20596b9efcb1bab8b8b6":[1,0,1,26,2],
 "namespaceCB_1_1Player.html#a6eec4f4b57b941e3d6975ee316cc156f":[1,0,1,26,0],
 "namespaceCB_1_1Player.html#ab6b180720c958fc513ac7fe9513a537b":[1,0,1,26,1],
-"namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4":[1,0,1,26,4],
+"namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4":[1,0,1,26,5],
+"namespaceCB_1_1Player.html#af33496bc15124e0646807864f8027f42":[1,0,1,26,4],
 "namespaceCB_1_1Player.html#af5b798dc256a40d63012f41731a10c33":[1,0,1,26,3],
 "namespaceCB_1_1QueuedSubtitleMsg.html":[1,0,1,35],
 "namespaceCB_1_1Room.html":[1,0,1,11],

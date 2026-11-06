@@ -74,6 +74,8 @@ var NAVTREEINDEX0 =
 "classCB_1_1Inventory.html":[2,0,1,23],
 "classCB_1_1Item.html":[1,0,1,66],
 "classCB_1_1Item.html":[2,0,1,22],
+"classCB_1_1Item.html#a5f72b73eb488b149be50fd91d441052e":[1,0,1,66,0],
+"classCB_1_1Item.html#a5f72b73eb488b149be50fd91d441052e":[2,0,1,22,0],
 "classCB_1_1ItemTemplate.html":[1,0,1,65],
 "classCB_1_1ItemTemplate.html":[2,0,1,21],
 "classCB_1_1LoadingScreen.html":[1,0,1,46],
@@ -235,6 +237,7 @@ var NAVTREEINDEX0 =
 "namespaceCB_1_1Door.html":[1,0,1,12],
 "namespaceCB_1_1Dreamfilter.html":[1,0,1,28],
 "namespaceCB_1_1Effect.html":[1,0,1,6],
+"namespaceCB_1_1Effect.html#a2f34d29c83122e152d5c04e50a8e2529":[1,0,1,6,1],
 "namespaceCB_1_1Effect_1_1Internal.html":[1,0,1,6,0],
 "namespaceCB_1_1Ending.html":[1,0,1,45],
 "namespaceCB_1_1Event.html":[1,0,1,30],
@@ -246,8 +249,5 @@ var NAVTREEINDEX0 =
 "namespaceCB_1_1Inventory.html":[1,0,1,25],
 "namespaceCB_1_1Item.html":[1,0,1,24],
 "namespaceCB_1_1ItemTemplate.html":[1,0,1,23],
-"namespaceCB_1_1LoadingScreen.html":[1,0,1,1],
-"namespaceCB_1_1Localization.html":[1,0,1,38],
-"namespaceCB_1_1MaintenanceTunnel.html":[1,0,1,19],
-"namespaceCB_1_1Map.html":[1,0,1,20]
+"namespaceCB_1_1LoadingScreen.html":[1,0,1,1]
 };

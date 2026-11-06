@@ -31,6 +31,7 @@ var namespaceCB =
       [ "CurrentRoom", "namespaceCB_1_1Player.html#ab6b180720c958fc513ac7fe9513a537b", null ],
       [ "CurrentZone", "namespaceCB_1_1Player.html#a0d0fe2f973ca20596b9efcb1bab8b8b6", null ],
       [ "DeathTimer", "namespaceCB_1_1Player.html#af5b798dc256a40d63012f41731a10c33", null ],
+      [ "Injuries", "namespaceCB_1_1Player.html#af33496bc15124e0646807864f8027f42", null ],
       [ "Playable", "namespaceCB_1_1Player.html#acfde30e5ce6de55ce612742f801fa5f4", null ]
     ] ],
     [ "Difficulty", "namespaceCB_1_1Difficulty.html", null ],
@@ -75,7 +76,7 @@ var namespaceCB =
     [ "Decal", "classCB_1_1Decal.html", null ],
     [ "Skybox", "classCB_1_1Skybox.html", null ],
     [ "ItemTemplate", "classCB_1_1ItemTemplate.html", null ],
-    [ "Item", "classCB_1_1Item.html", null ],
+    [ "Item", "classCB_1_1Item.html", "classCB_1_1Item" ],
     [ "Inventory", "classCB_1_1Inventory.html", null ],
     [ "Difficulty", "classCB_1_1Difficulty.html", null ],
     [ "Event", "classCB_1_1Event.html", null ],
