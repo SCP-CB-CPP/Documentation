@@ -391,6 +391,7 @@ CB::Music RegisterCustom(string file);
 }
 
 namespace CB::Effect {
+//! Utility method to apply a post-process effect to the back buffer and render it into a buffer (which can also be the back buffer).
 void RenderQuad(B3D::Effect@ effect, B3D::Buffer@ buffer, string technique, int blend = 0);
 }
 
@@ -401,11 +402,6 @@ void ProcessGamma(float gamma);
 void ProcessFXAA();
 void SetQuadEffect(B3D::Effect@ effect);
 B3D::Sprite@ CreateFullscreenQuad(B3D::Entity@ parent = null);
-<<<<<<< Documentation\as.predefined
-//! Utility method to apply a post-process effect to the back buffer and render it into a buffer (which can also be the back buffer).
-void RenderQuad(B3D::Effect@ effect, B3D::Texture@ buffer, string technique, int blend = 0);
-=======
->>>>>>> Mods\as.predefined
 }
 
 namespace CB::Particles {
@@ -2913,6 +2909,7 @@ class Item {
     float Distance;
     float DistanceTimer;
     float State;
+    //! This property is not serialized in save files. Base game use cases include storing the selected radio channel.
     float State2;
     bool Picked;
     int Dropped;
@@ -3352,11 +3349,8 @@ int WearingNightVision;
 float NVTimer;
 bool SuperMan;
 float SuperManTimer;
-<<<<<<< Documentation\as.predefined
-//! How injured the player character currently is, values above 1 incur bloodloss over time.
-=======
 bool LostHands;
->>>>>>> Mods\as.predefined
+//! How injured the player character currently is, values above 1 incur bloodloss over time.
 float Injuries;
 //! How much blood (from 0 to 100) the player character has lost.
 float Bloodloss;
