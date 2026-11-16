@@ -989,6 +989,8 @@ void&#160;</td><td class="memItemRight"><b>CB.ItemTemplate.Initialize</b> ()</td
 <a class="el" href="classCB_1_1Item.html">CB::Item</a>&#160;</td><td class="memItemRight"><b>CB.Item.CreateCup</b> (<a class="el" href="classstring.html">string</a> drinkName, float x, float y, float z, int r, int g, int b, float a=1)</td></tr>
 <tr class="memitem:ab72ce9fe51f35ed8c441b9c619f6dc40" id="r_ab72ce9fe51f35ed8c441b9c619f6dc40"><td class="memItemLeft"><a id="ab72ce9fe51f35ed8c441b9c619f6dc40" name="ab72ce9fe51f35ed8c441b9c619f6dc40"></a>
 void&#160;</td><td class="memItemRight"><b>CB.Item.UpdateAll</b> ()</td></tr>
+<tr class="memitem:a29b68380f10fd9b839d12ae0587b2409" id="r_a29b68380f10fd9b839d12ae0587b2409"><td class="memItemLeft"><a id="a29b68380f10fd9b839d12ae0587b2409" name="a29b68380f10fd9b839d12ae0587b2409"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Player.SliceOffHands</b> ()</td></tr>
 <tr class="memitem:a2104c8c30f0dd0c6126bc5a2800d91da" id="r_a2104c8c30f0dd0c6126bc5a2800d91da"><td class="memItemLeft"><a id="a2104c8c30f0dd0c6126bc5a2800d91da" name="a2104c8c30f0dd0c6126bc5a2800d91da"></a>
 void&#160;</td><td class="memItemRight"><b>CB.Player.MoveToPocketDimension</b> ()</td></tr>
 <tr class="memitem:a680f5063814b011dcce19e1577470bf0" id="r_a680f5063814b011dcce19e1577470bf0"><td class="memItemLeft"><a id="a680f5063814b011dcce19e1577470bf0" name="a680f5063814b011dcce19e1577470bf0"></a>
@@ -1005,6 +1007,8 @@ void&#160;</td><td class="memItemRight"><b>CB.Dreamfilter.Update</b> (float powe
 <a class="el" href="classCB_1_1Console_1_1Msg.html">CB::Console::Msg</a>&#160;</td><td class="memItemRight"><b>CB.Console.Msg.get_First</b> () property</td></tr>
 <tr class="memitem:a1a4e874c147080e0ac8005bd85ba1146" id="r_a1a4e874c147080e0ac8005bd85ba1146"><td class="memItemLeft"><a id="a1a4e874c147080e0ac8005bd85ba1146" name="a1a4e874c147080e0ac8005bd85ba1146"></a>
 <a class="el" href="classCB_1_1Console_1_1Msg.html">CB::Console::Msg</a>&#160;</td><td class="memItemRight"><b>CB.Console.Msg.get_Last</b> () property</td></tr>
+<tr class="memitem:a920afcdc137b7332184886951088014f" id="r_a920afcdc137b7332184886951088014f"><td class="memItemLeft"><a id="a920afcdc137b7332184886951088014f" name="a920afcdc137b7332184886951088014f"></a>
+void&#160;</td><td class="memItemRight"><b>CB.Console.ExecuteCommand</b> (<a class="el" href="classstring.html">string</a> cmd, bool quiet=false)</td></tr>
 <tr class="memitem:ac85ce1c9e2b34f03d873594300e252a1" id="r_ac85ce1c9e2b34f03d873594300e252a1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespaceCB_1_1Console.html#ac85ce1c9e2b34f03d873594300e252a1">CB.Console.CreateMessage</a> (<a class="el" href="classstring.html">string</a> txt, int r=-1, int g=-1, int b=-1, bool isCommand=false)</td></tr>
 <tr class="memdesc:ac85ce1c9e2b34f03d873594300e252a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a message to the console.  <br /></td></tr>
 <tr class="memitem:a24608f72390f02c60b40d9bf0a829c1d" id="r_a24608f72390f02c60b40d9bf0a829c1d"><td class="memItemLeft"><a id="a24608f72390f02c60b40d9bf0a829c1d" name="a24608f72390f02c60b40d9bf0a829c1d"></a>
@@ -1033,8 +1037,10 @@ void&#160;</td><td class="memItemRight"><b>CB.Console.DisableNPC</b> (CB::NPC::T
 <a class="el" href="classCB_1_1Sound.html">CB::Sound</a>&#160;</td><td class="memItemRight"><b>CB.Event.LoadSound</b> (<a class="el" href="classCB_1_1Event.html">CB::Event</a>@ event, <a class="el" href="classstring.html">string</a> file, int num=0)</td></tr>
 <tr class="memitem:a516feb1e608fd80640c9b79d516b7bda" id="r_a516feb1e608fd80640c9b79d516b7bda"><td class="memItemLeft"><a class="el" href="classCB_1_1Event.html">CB::Event</a>&#160;</td><td class="memItemRight"><a class="el" href="namespaceCB_1_1Event.html#a516feb1e608fd80640c9b79d516b7bda">CB.Event.Create</a> (<a class="el" href="classstring.html">string</a> eventName, <a class="el" href="classstring.html">string</a> roomName, int id, float probability=0)</td></tr>
 <tr class="memdesc:a516feb1e608fd80640c9b79d516b7bda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an event.  <br /></td></tr>
-<tr class="memitem:acae652de83551919330f2f0218a745f5" id="r_acae652de83551919330f2f0218a745f5"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="namespaceCB_1_1Event.html#acae652de83551919330f2f0218a745f5">CB.Event.UpdateElevator</a> (float state, <a class="el" href="classCB_1_1Door.html">CB::Door</a>@ door1, <a class="el" href="classCB_1_1Door.html">CB::Door</a>@ door2, <a class="el" href="classB3D_1_1Entity.html">B3D::Entity</a>@ room1, <a class="el" href="classB3D_1_1Entity.html">B3D::Entity</a>@ room2, <a class="el" href="classCB_1_1Event.html">CB::Event</a>@ event, bool ignorerotation=true)</td></tr>
-<tr class="memdesc:acae652de83551919330f2f0218a745f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates an elevator.  <br /></td></tr>
+<tr class="memitem:aff085e57b2cdf86206a7d59f543ceca1" id="r_aff085e57b2cdf86206a7d59f543ceca1"><td class="memItemLeft"><a id="aff085e57b2cdf86206a7d59f543ceca1" name="aff085e57b2cdf86206a7d59f543ceca1"></a>
+<a class="el" href="classCB_1_1Event.html">CB::Event</a>&#160;</td><td class="memItemRight"><b>CB.Event.Find</b> (<a class="el" href="classstring.html">string</a> name)</td></tr>
+<tr class="memitem:ae9e49f66729d95fa41d4e4c32c1e22da" id="r_ae9e49f66729d95fa41d4e4c32c1e22da"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="namespaceCB_1_1Event.html#ae9e49f66729d95fa41d4e4c32c1e22da">CB.Event.UpdateElevator</a> (float state, <a class="el" href="classCB_1_1Door.html">CB::Door</a>@ door1, <a class="el" href="classCB_1_1Door.html">CB::Door</a>@ door2, <a class="el" href="classB3D_1_1Entity.html">B3D::Entity</a>@ room1, <a class="el" href="classB3D_1_1Entity.html">B3D::Entity</a>@ room2, <a class="el" href="classCB_1_1Event.html">CB::Event</a>@ event, bool ignoreRotation=true)</td></tr>
+<tr class="memdesc:ae9e49f66729d95fa41d4e4c32c1e22da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates an elevator.  <br /></td></tr>
 <tr class="memitem:abb259104d1469e65a72b4bf7a15bc98a" id="r_abb259104d1469e65a72b4bf7a15bc98a"><td class="memItemLeft"><a id="abb259104d1469e65a72b4bf7a15bc98a" name="abb259104d1469e65a72b4bf7a15bc98a"></a>
 void&#160;</td><td class="memItemRight"><b>CB.Event.UpdateAll</b> ()</td></tr>
 <tr class="memitem:aecf593a027cff20e1dd32fd5075646d2" id="r_aecf593a027cff20e1dd32fd5075646d2"><td class="memItemLeft"><a id="aecf593a027cff20e1dd32fd5075646d2" name="aecf593a027cff20e1dd32fd5075646d2"></a>
@@ -1687,6 +1693,8 @@ int&#160;</td><td class="memItemRight"><b>CB.Console.R</b></td></tr>
 int&#160;</td><td class="memItemRight"><b>CB.Console.G</b></td></tr>
 <tr class="memitem:acb7da2280327dcb8223bef6c7298e727" id="r_acb7da2280327dcb8223bef6c7298e727"><td class="memItemLeft"><a id="acb7da2280327dcb8223bef6c7298e727" name="acb7da2280327dcb8223bef6c7298e727"></a>
 int&#160;</td><td class="memItemRight"><b>CB.Console.B</b></td></tr>
+<tr class="memitem:a2740885bb4bb6db6e5592fb850d2d918" id="r_a2740885bb4bb6db6e5592fb850d2d918"><td class="memItemLeft"><a id="a2740885bb4bb6db6e5592fb850d2d918" name="a2740885bb4bb6db6e5592fb850d2d918"></a>
+bool&#160;</td><td class="memItemRight"><b>CB.Console.IsQuiet</b></td></tr>
 <tr class="memitem:ab141325952f4cf555c8a0e97a8e98854" id="r_ab141325952f4cf555c8a0e97a8e98854"><td class="memItemLeft"><a id="ab141325952f4cf555c8a0e97a8e98854" name="ab141325952f4cf555c8a0e97a8e98854"></a>
 float&#160;</td><td class="memItemRight"><b>CB.Subtitles.TextHeight</b></td></tr>
 <tr class="memitem:a1fa4eee36c278b5f7afef1a5dbd1d7bf" id="r_a1fa4eee36c278b5f7afef1a5dbd1d7bf"><td class="memItemLeft"><a id="a1fa4eee36c278b5f7afef1a5dbd1d7bf" name="a1fa4eee36c278b5f7afef1a5dbd1d7bf"></a>

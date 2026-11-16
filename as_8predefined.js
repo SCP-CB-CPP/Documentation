@@ -70,7 +70,7 @@ var as_8predefined =
     [ "CB.Event.Create", "namespaceCB_1_1Event.html#a516feb1e608fd80640c9b79d516b7bda", null ],
     [ "CB.Console.CreateMessage", "namespaceCB_1_1Console.html#ac85ce1c9e2b34f03d873594300e252a1", null ],
     [ "CB.Effect.RenderQuad", "namespaceCB_1_1Effect.html#a2f34d29c83122e152d5c04e50a8e2529", null ],
-    [ "CB.Event.UpdateElevator", "namespaceCB_1_1Event.html#acae652de83551919330f2f0218a745f5", null ],
+    [ "CB.Event.UpdateElevator", "namespaceCB_1_1Event.html#ae9e49f66729d95fa41d4e4c32c1e22da", null ],
     [ "CB.Player.Bloodloss", "namespaceCB_1_1Player.html#a6eec4f4b57b941e3d6975ee316cc156f", null ],
     [ "CB.Player.CurrentRoom", "namespaceCB_1_1Player.html#ab6b180720c958fc513ac7fe9513a537b", null ],
     [ "CB.Player.CurrentZone", "namespaceCB_1_1Player.html#a0d0fe2f973ca20596b9efcb1bab8b8b6", null ],

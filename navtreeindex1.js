@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"namespaceCB_1_1LoadingScreen.html":[1,0,1,1],
 "namespaceCB_1_1Localization.html":[1,0,1,38],
 "namespaceCB_1_1MaintenanceTunnel.html":[1,0,1,19],
 "namespaceCB_1_1Map.html":[1,0,1,20],

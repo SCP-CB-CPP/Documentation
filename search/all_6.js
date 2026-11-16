@@ -1,7 +1,7 @@
 var searchData=
 [
   ['handleinput_0',['bool Hook_MouseLook(bool handleInput)',['../md_Articles_2Hooks.html#autotoc_md10',1,'']]],
-  ['hook_5fcanusedoor_20cb_3a_3adoor_20bool_20showmsg_20bool_20playsfx_1',['int Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)',['../md_Articles_2Hooks.html#autotoc_md53',1,'']]],
+  ['hook_5fcanusedoor_20cb_3a_3adoor_20bool_20showmsg_20bool_20playsfx_1',['int Hook_CanUseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)',['../md_Articles_2Hooks.html#autotoc_md54',1,'']]],
   ['hook_5fchangenpctexture_20cb_3a_3anpc_20int_20prevtextureid_2',['bool Hook_ChangeNPCTexture(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1NPC.html&quot; title=&quot;CB::NPC&quot;&gt;CB::NPC&lt;/a&gt;, int prevTextureID)',['../md_Articles_2Hooks.html#autotoc_md42',1,'']]],
   ['hook_5fcombineitems_20cb_3a_3aitem_20draggeditem_20cb_3a_3aitem_20draggedontoitem_3',['void Hook_CombineItems(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Item.html&quot; title=&quot;CB::Item&quot;&gt;CB::Item&lt;/a&gt; draggedItem, &lt;a class=&quot;el&quot; href=&quot;classCB_1_1Item.html&quot; title=&quot;CB::Item&quot;&gt;CB::Item&lt;/a&gt; draggedOntoItem)',['../md_Articles_2Hooks.html#autotoc_md37',1,'']]],
   ['hook_5fconsolecheckcanchangenpcspeed_20cb_3a_3anpc_3a_3atype_20type_4',['int Hook_ConsoleCheckCanChangeNPCSpeed(CB::NPC::Type type)',['../md_Articles_2Hooks.html#autotoc_md46',1,'']]],
@@ -9,7 +9,7 @@ var searchData=
   ['hook_5fconsolenpcnametotype_20string_20name_6',['CB::NPC::Type Hook_ConsoleNPCNameToType(&lt;a class=&quot;el&quot; href=&quot;classstring.html&quot; title=&quot;string&quot;&gt;string&lt;/a&gt; name)',['../md_Articles_2Hooks.html#autotoc_md43',1,'']]],
   ['hook_5fconsolenpctypetoname_20cb_3a_3anpc_3a_3atype_20type_20bool_20isplural_7',['string Hook_ConsoleNPCTypeToName(CB::NPC::Type type, bool isPlural)',['../md_Articles_2Hooks.html#autotoc_md44',1,'']]],
   ['hook_5fconsolespawnnpc_20cb_3a_3anpc_3a_3atype_20type_8',['int Hook_ConsoleSpawnNPC(CB::NPC::Type type)',['../md_Articles_2Hooks.html#autotoc_md45',1,'']]],
-  ['hook_5fcreatedoor_20cb_3a_3adoor_20float_20x_20float_20y_20float_20z_20bool_20usecollisionmesh_9',['bool Hook_CreateDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, float x, float y, float z, bool useCollisionMesh)',['../md_Articles_2Hooks.html#autotoc_md50',1,'']]],
+  ['hook_5fcreatedoor_20cb_3a_3adoor_20float_20x_20float_20y_20float_20z_20bool_20usecollisionmesh_9',['bool Hook_CreateDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, float x, float y, float z, bool useCollisionMesh)',['../md_Articles_2Hooks.html#autotoc_md51',1,'']]],
   ['hook_5fcreateitem_20cb_3a_3aitem_10',['bool Hook_CreateItem(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Item.html&quot; title=&quot;CB::Item&quot;&gt;CB::Item&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md31',1,'']]],
   ['hook_5fcreatenpc_20cb_3a_3anpc_11',['void Hook_CreateNPC(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1NPC.html&quot; title=&quot;CB::NPC&quot;&gt;CB::NPC&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md38',1,'']]],
   ['hook_5fdisablenpc_20cb_3a_3anpc_12',['bool Hook_DisableNPC(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1NPC.html&quot; title=&quot;CB::NPC&quot;&gt;CB::NPC&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md49',1,'']]],
@@ -39,7 +39,7 @@ var searchData=
   ['hook_5fmoveplayer_36',['bool Hook_MovePlayer()',['../md_Articles_2Hooks.html#autotoc_md9',1,'']]],
   ['hook_5fnullgame_37',['void Hook_NullGame()',['../md_Articles_2Hooks.html#autotoc_md14',1,'']]],
   ['hook_5fpickitem_20cb_3a_3aitem_38',['bool Hook_PickItem(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Item.html&quot; title=&quot;CB::Item&quot;&gt;CB::Item&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md34',1,'']]],
-  ['hook_5fpostcreatedoor_20cb_3a_3adoor_39',['void Hook_PostCreateDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md51',1,'']]],
+  ['hook_5fpostcreatedoor_20cb_3a_3adoor_39',['void Hook_PostCreateDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md52',1,'']]],
   ['hook_5fpostcreatenpc_20cb_3a_3anpc_40',['void Hook_PostCreateNPC(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1NPC.html&quot; title=&quot;CB::NPC&quot;&gt;CB::NPC&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md39',1,'']]],
   ['hook_5fpostfillroom_20cb_3a_3aroom_41',['void Hook_PostFillRoom(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Room.html&quot; title=&quot;CB::Room&quot;&gt;CB::Room&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md28',1,'']]],
   ['hook_5fpostload_42',['void Hook_PostLoad()',['../md_Articles_2Hooks.html#autotoc_md30',1,'']]],
@@ -49,12 +49,13 @@ var searchData=
   ['hook_5fselectitem_20cb_3a_3aitem_46',['void Hook_SelectItem(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Item.html&quot; title=&quot;CB::Item&quot;&gt;CB::Item&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md36',1,'']]],
   ['hook_5fshutdown_47',['void Hook_Shutdown()',['../md_Articles_2Hooks.html#autotoc_md3',1,'']]],
   ['hook_5fupdate_48',['void Hook_Update()',['../md_Articles_2Hooks.html#autotoc_md5',1,'']]],
-  ['hook_5fupdatedoor_20cb_3a_3adoor_49',['bool Hook_UpdateDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md52',1,'']]],
+  ['hook_5fupdatedoor_20cb_3a_3adoor_49',['bool Hook_UpdateDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md53',1,'']]],
   ['hook_5fupdateevent_20cb_3a_3aevent_50',['bool Hook_UpdateEvent(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Event.html&quot; title=&quot;CB::Event&quot;&gt;CB::Event&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md26',1,'']]],
   ['hook_5fupdateitem_20cb_3a_3aitem_51',['bool Hook_UpdateItem(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Item.html&quot; title=&quot;CB::Item&quot;&gt;CB::Item&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md32',1,'']]],
   ['hook_5fupdatemusic_52',['bool Hook_UpdateMusic()',['../md_Articles_2Hooks.html#autotoc_md16',1,'']]],
   ['hook_5fupdatenpc_20cb_3a_3anpc_53',['bool Hook_UpdateNPC(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1NPC.html&quot; title=&quot;CB::NPC&quot;&gt;CB::NPC&lt;/a&gt;)',['../md_Articles_2Hooks.html#autotoc_md41',1,'']]],
-  ['hook_5fuse914_20cb_3a_3aitem_20cb_3a_3ascp914_3a_3asetting_20float_20x_20float_20y_20float_20z_54',['bool Hook_Use914(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Item.html&quot; title=&quot;CB::Item&quot;&gt;CB::Item&lt;/a&gt;, CB::SCP914::Setting, float x, float y, float z)',['../md_Articles_2Hooks.html#autotoc_md55',1,'']]],
-  ['hook_5fusedoor_20cb_3a_3adoor_20bool_20showmsg_20bool_20playsfx_55',['bool Hook_UseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)',['../md_Articles_2Hooks.html#autotoc_md54',1,'']]],
-  ['hooks_56',['Hooks',['../md_Articles_2Hooks.html',1,'']]]
+  ['hook_5fupgradenpc914_20cb_3a_3anpc_20cb_3a_3ascp914_3a_3asetting_20float_20x_20float_20y_20float_20z_54',['bool Hook_UpgradeNPC914(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1NPC.html&quot; title=&quot;CB::NPC&quot;&gt;CB::NPC&lt;/a&gt;, CB::SCP914::Setting, float x, float y, float z)',['../md_Articles_2Hooks.html#autotoc_md50',1,'']]],
+  ['hook_5fuse914_20cb_3a_3aitem_20cb_3a_3ascp914_3a_3asetting_20float_20x_20float_20y_20float_20z_55',['bool Hook_Use914(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Item.html&quot; title=&quot;CB::Item&quot;&gt;CB::Item&lt;/a&gt;, CB::SCP914::Setting, float x, float y, float z)',['../md_Articles_2Hooks.html#autotoc_md56',1,'']]],
+  ['hook_5fusedoor_20cb_3a_3adoor_20bool_20showmsg_20bool_20playsfx_56',['bool Hook_UseDoor(&lt;a class=&quot;el&quot; href=&quot;classCB_1_1Door.html&quot; title=&quot;CB::Door&quot;&gt;CB::Door&lt;/a&gt;, bool showMsg, bool playSFX)',['../md_Articles_2Hooks.html#autotoc_md55',1,'']]],
+  ['hooks_57',['Hooks',['../md_Articles_2Hooks.html',1,'']]]
 ];

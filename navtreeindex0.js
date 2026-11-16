@@ -203,6 +203,7 @@ var NAVTREEINDEX0 =
 "md_Articles_2Hooks.html#autotoc_md53":[0,52],
 "md_Articles_2Hooks.html#autotoc_md54":[0,53],
 "md_Articles_2Hooks.html#autotoc_md55":[0,54],
+"md_Articles_2Hooks.html#autotoc_md56":[0,55],
 "md_Articles_2Hooks.html#autotoc_md6":[0,5],
 "md_Articles_2Hooks.html#autotoc_md7":[0,6],
 "md_Articles_2Hooks.html#autotoc_md8":[0,7],
@@ -242,12 +243,11 @@ var NAVTREEINDEX0 =
 "namespaceCB_1_1Ending.html":[1,0,1,45],
 "namespaceCB_1_1Event.html":[1,0,1,30],
 "namespaceCB_1_1Event.html#a516feb1e608fd80640c9b79d516b7bda":[1,0,1,30,0],
-"namespaceCB_1_1Event.html#acae652de83551919330f2f0218a745f5":[1,0,1,30,1],
+"namespaceCB_1_1Event.html#ae9e49f66729d95fa41d4e4c32c1e22da":[1,0,1,30,1],
 "namespaceCB_1_1Forest.html":[1,0,1,9],
 "namespaceCB_1_1HUD.html":[1,0,1,43],
 "namespaceCB_1_1Input.html":[1,0,1,44],
 "namespaceCB_1_1Inventory.html":[1,0,1,25],
 "namespaceCB_1_1Item.html":[1,0,1,24],
-"namespaceCB_1_1ItemTemplate.html":[1,0,1,23],
-"namespaceCB_1_1LoadingScreen.html":[1,0,1,1]
+"namespaceCB_1_1ItemTemplate.html":[1,0,1,23]
 };

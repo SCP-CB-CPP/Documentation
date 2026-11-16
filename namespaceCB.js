@@ -39,7 +39,7 @@ var namespaceCB =
     [ "Console", "namespaceCB_1_1Console.html", "namespaceCB_1_1Console" ],
     [ "Event", "namespaceCB_1_1Event.html", [
       [ "Create", "namespaceCB_1_1Event.html#a516feb1e608fd80640c9b79d516b7bda", null ],
-      [ "UpdateElevator", "namespaceCB_1_1Event.html#acae652de83551919330f2f0218a745f5", null ]
+      [ "UpdateElevator", "namespaceCB_1_1Event.html#ae9e49f66729d95fa41d4e4c32c1e22da", null ]
     ] ],
     [ "SubtitleBox", "namespaceCB_1_1SubtitleBox.html", null ],
     [ "SubtitleColor", "namespaceCB_1_1SubtitleColor.html", null ],
