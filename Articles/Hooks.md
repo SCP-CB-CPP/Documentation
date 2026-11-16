@@ -298,6 +298,11 @@ Called when an NPC is to be disabled.
 > `Hook_ConsoleCheckCanToggleNPC` must be overridden to allow for this hook to be called.
 > `Hook_EnableNPC` must also be overridden to undo the disabling.
 
+## bool Hook_UpgradeNPC914(@ref CB::NPC, @ref CB::SCP914::Setting, float x, float y, float z)
+
+Called when an NPC is being refined via SCP-914.
+The coordinates x, y and z specify the world position at which the resulting object should be spawned.
+
 ## bool Hook_CreateDoor(@ref CB::Door, float x, float y, float z, bool useCollisionMesh)
 
 Called before a door is created, after the object's data fields have been initialized.

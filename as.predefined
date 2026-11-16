@@ -567,6 +567,7 @@ void UpdateAll();
 }
 
 namespace CB::Player {
+void SliceOffHands();
 void MoveToPocketDimension();
 bool IsInReachableRoom(bool is049ChamberReachable = false);
 }
@@ -587,6 +588,7 @@ CB::Console::Msg@ get_Last() property;
 }
 
 namespace CB::Console {
+void ExecuteCommand(string cmd, bool quiet = false);
 //! Sends a message to the console.
 /*!
     \param txt The text to send.
@@ -621,6 +623,7 @@ CB::Sound@ LoadSound(CB::Event@ event, string file, int num = 0);
     \returns The created event;
 */
 CB::Event@ Create(string eventName, string roomName, int id, float probability = 0);
+CB::Event@ Find(string name);
 //! Updates an elevator.
 /*!
     \param state The room state to serve as the previous elevator state.
@@ -635,7 +638,7 @@ CB::Event@ Create(string eventName, string roomName, int id, float probability =
     \returns The next elevator state.
     \attention The caller is responsible for maintaining the elevator's state. It is recommended to call this function from \ref Hook_UpdateEvent and store it via one of the event's states.
 */
-float UpdateElevator(float state, CB::Door@ door1, CB::Door@ door2, B3D::Entity@ room1, B3D::Entity@ room2, CB::Event@ event, bool ignorerotation = true);
+float UpdateElevator(float state, CB::Door@ door1, CB::Door@ door2, B3D::Entity@ room1, B3D::Entity@ room2, CB::Event@ event, bool ignoreRotation = true);
 void UpdateAll();
 void UpdateDimension1499();
 void UpdateEndings();
@@ -2462,7 +2465,7 @@ class NPC {
     void GoToElevator();
     bool SeesNPC(CB::NPC@ other);
     bool SeesPlayer(bool disableSoundOnCrouch = false);
-    bool PlayerSees096Face();
+    bool PlayerSees096Face(bool isSitting = false);
     void PlayMTFSound(CB::Sound@);
     //! Animates an NPC.
     /*!
@@ -3414,6 +3417,7 @@ CB::Console::Msg@ Reissue;
 int R;
 int G;
 int B;
+bool IsQuiet;
 }
 
 namespace CB::Subtitles {
